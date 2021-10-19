@@ -9,8 +9,7 @@ import MicIcon from "@mui/icons-material/Mic";
 import StopIcon from "@mui/icons-material/Stop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-// import tmpJson from "./data/tmp.json"
-
+import sampleJson from "./data/sample.json"
 
 const IsProcessingContext = createContext(false);
 
@@ -19,7 +18,7 @@ const StartStopButton = (): JSX.Element => {
   const { status, startRecording, stopRecording, mediaBlobUrl } =
     useReactMediaRecorder({ audio: true });
 
-	return (
+  return (
     <IconButton
       onClick={status == "recording" ? stopRecording : startRecording}
       disabled={isProcessing}
@@ -77,11 +76,11 @@ const AudioForm = () => {
       <RecordTable />
     </>
   );
-}
+};
 
 const App = () => {
-  // console.log(tmpJson);
+  console.log(sampleJson);
   return <AudioForm />;
-}
+};
 
 export default App;
