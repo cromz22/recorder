@@ -1,15 +1,15 @@
 import React from "react";
 import { createContext, useContext } from "react";
 import { useReactMediaRecorder } from "react-media-recorder";
-import Form from "react-bootstrap/Form";
+// import Form from "react-bootstrap/Form";
 import Table from "react-bootstrap/Table";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import IconButton from "@mui/material/IconButton";
 import MicIcon from "@mui/icons-material/Mic";
 import StopIcon from "@mui/icons-material/Stop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import sampleJson from "./data/sample.json"
+import sampleJson from "./data/sample.json";
 
 const IsProcessingContext = createContext(false);
 
@@ -20,12 +20,12 @@ const StartStopButton = (): JSX.Element => {
 
   return (
     <IconButton
-      onClick={status == "recording" ? stopRecording : startRecording}
+      onClick={status === "recording" ? stopRecording : startRecording}
       disabled={isProcessing}
     >
       {isProcessing ? (
         <MicIcon color="disabled" />
-      ) : status == "recording" ? (
+      ) : status === "recording" ? (
         <StopIcon color="error" />
       ) : (
         <MicIcon color="primary" />
@@ -34,17 +34,31 @@ const StartStopButton = (): JSX.Element => {
   );
 };
 
-const RecordTable = () => {
-  const utts = [
-    "This is utterance 1.",
-    "This is utterance 2.",
-    "This is utterance 3.",
-    "This is utterance 4.",
-    "This is utterance 5.",
-    "This is utterance 6.",
-    "This is utterance 7.",
-  ];
+const RecordTableRow = (props: any) => {
+  return (
+    <tr>
+      <td className="align-middle">{props.value}</td>
+      <td className="align-middle">
+        <StartStopButton />
+      </td>
+    </tr>
+  );
+};
 
+const RecordTableRows = () => {
+  const dialog = sampleJson[0];
+
+  const tableRows = dialog.conversation.map((uttjson) => (
+    <RecordTableRow
+      key={dialog.id + "_" + uttjson.no.toString()}
+      value={uttjson.en_sentence}
+    />
+  ));
+
+  return <>{tableRows}</>;
+};
+
+const RecordTable = () => {
   return (
     <Table>
       <thead>
@@ -55,14 +69,7 @@ const RecordTable = () => {
       </thead>
 
       <tbody>
-        {utts.map((utt) => (
-          <tr key="{utt}">
-            <td className="align-middle">{utt}</td>
-            <td className="align-middle">
-              <StartStopButton />
-            </td>
-          </tr>
-        ))}
+        <RecordTableRows />
       </tbody>
     </Table>
   );
@@ -79,7 +86,7 @@ const AudioForm = () => {
 };
 
 const App = () => {
-  console.log(sampleJson);
+  console.log(sampleJson[0]);
   return <AudioForm />;
 };
 
