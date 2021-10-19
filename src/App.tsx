@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import { createContext, useContext } from "react";
-import { useReactMediaRecorder } from "react-media-recorder";
+import { useReactMediaRecorder } from "./ReactMediaRecorder";
 // import Form from "react-bootstrap/Form";
 import Table from "react-bootstrap/Table";
 // import Button from "react-bootstrap/Button";
@@ -13,19 +13,19 @@ import sampleJson from "./data/sample.json";
 
 const IsProcessingContext = createContext(false);
 
-const StartStopButton = (): JSX.Element => {
-  const isProcessing = useContext(IsProcessingContext);
-  const { status, startRecording, stopRecording, mediaBlobUrl } =
-    useReactMediaRecorder({ audio: true });
-
+const StartStopButton = (props: any): JSX.Element => {
   return (
     <IconButton
-      onClick={status === "recording" ? stopRecording : startRecording}
-      disabled={isProcessing}
+      onClick={
+        props.status === "recording"
+          ? props.stopRecording
+          : props.startRecording
+      }
+      disabled={props.isProcessing}
     >
-      {isProcessing ? (
+      {props.isProcessing ? (
         <MicIcon color="disabled" />
-      ) : status === "recording" ? (
+      ) : props.status === "recording" ? (
         <StopIcon color="error" />
       ) : (
         <MicIcon color="primary" />
@@ -35,18 +35,30 @@ const StartStopButton = (): JSX.Element => {
 };
 
 const RecordTableRow = (props: any) => {
+  const isProcessing = useContext(IsProcessingContext);
+  const { status, startRecording, stopRecording, mediaBlobUrl } =
+    useReactMediaRecorder({ audio: true });
+
   return (
     <tr>
-      <td className="align-middle">{props.value}</td>
-      <td className="align-middle">
-        <StartStopButton />
+      <td>{props.value}</td>
+      <td>
+        <StartStopButton
+          isProcessing={isProcessing}
+          status={status}
+          startRecording={startRecording}
+          stopRecording={stopRecording}
+        />
+      </td>
+      <td>
+        <audio src={mediaBlobUrl} controls />
       </td>
     </tr>
   );
 };
 
 const RecordTableRows = () => {
-  const dialog = sampleJson[0];
+  const dialog = sampleJson[1];
 
   const tableRows = dialog.conversation.map((uttjson) => (
     <RecordTableRow
@@ -64,10 +76,10 @@ const RecordTable = () => {
       <thead>
         <tr>
           <td>Sentences to record</td>
-          <td>Record/Stop</td>
+          <td>Record / Stop</td>
+          <td>Check the audio</td>
         </tr>
       </thead>
-
       <tbody>
         <RecordTableRows />
       </tbody>
@@ -75,19 +87,14 @@ const RecordTable = () => {
   );
 };
 
-const AudioForm = () => {
+const App = () => {
   return (
-    <>
+    <div className="App">
       <h1>Audio Recording</h1>
       <p>Please read aloud the displayed sentences.</p>
       <RecordTable />
-    </>
+    </div>
   );
-};
-
-const App = () => {
-  console.log(sampleJson[0]);
-  return <AudioForm />;
 };
 
 export default App;
