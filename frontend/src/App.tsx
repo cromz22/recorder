@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import Container from 'react-bootstrap/Container';
 import {
   BrowserRouter as Router,
-  Redirect,
+  // Redirect,
   Route,
   Switch,
 } from "react-router-dom";
@@ -13,8 +13,8 @@ import Finished from "./Finished";
 const App = () => {
   const [taskId, setTaskId] = useState("12345");
 
-  console.log(window.location);
-  console.log(process.env);
+  // console.log(window.location);
+  // console.log(process.env);
 
   // TODO: 404 handling
   return (

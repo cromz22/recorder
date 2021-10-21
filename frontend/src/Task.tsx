@@ -89,88 +89,41 @@ const RecordTable = () => {
   );
 };
 
-// const App = () => {
-//   const [post, setPost] = React.useState(null);
-//   const baseURL = "http://localhost:5000";
-//   interface samplePostType {
-//     title: string;
-//     body: string;
-//   }
-//   const samplePost: samplePostType = {
-//     title: "Hello world!",
-//     body: "This is a new post.",
-//   };
-//
-//   React.useEffect(() => {
-//     axios.get(`${baseURL}/1`).then((response: any) => {
-//       setPost(response.data);
-//     });
-//   }, []);
-//
-//   function createPost() {
-//     axios.post(baseURL, samplePost).then((response: any) => {
-//       setPost(response.data);
-//     });
-//   }
-//
-//   if (!post) return "No post!";
-//
-//   return (
-//     <div>
-//       <h1>{post.title}</h1>
-//       <p>{post.body}</p>
-//       <button onClick={createPost}>Create Post</button>
-//     </div>
-//   );
-// };
-
-// class PersonList extends React.Component {
-//   state = {
-//     name: "",
-//   };
-//
-//   handleChange = (event: any) => {
-//     this.setState({ name: event.target.value });
-//   };
-//
-//   handleSubmit = (event: any) => {
-//     event.preventDefault();
-//
-//     const user = {
-//       name: this.state.name,
-//     };
-//
-//     axios
-//       .post(`https://jsonplaceholder.typicode.com/users`, { user })
-//       .then((res) => {
-//         console.log(res);
-//         console.log(res.data);
-//       });
-//   };
-//
-//   render() {
-//     return (
-//       <div>
-//         <form onSubmit={this.handleSubmit}>
-//           <label>
-//             Person Name:
-//             <input type="text" name="name" onChange={this.handleChange} />
-//           </label>
-//           <button type="submit">Add</button>
-//         </form>
-//       </div>
-//     );
-//   }
-// }
 
 const Task = () => {
+  const backendUrl = "http://localhost:8000/save-audio";
+
+  const sampleJsonToBackend = {
+    taskid: "task1",
+    utterances: [
+      {
+        uttid: "uttid1",
+        text: "text1",
+      },
+      {
+        uttid: "uttid2",
+        text: "text2",
+      },
+    ]
+  };
+
+  const handleSubmit = () => {
+    fetch(backendUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(sampleJsonToBackend),
+    })
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+  };
+
   return (
     <div className="App">
       <h1>Audio Recording</h1>
       <p>Please read aloud the displayed sentences.</p>
       <RecordTable />
       <Link to="/finished">
-        <Button type="submit" variant="outline-primary">
+        <Button type="submit" variant="outline-primary" onClick={handleSubmit}>
           Submit all recordings
         </Button>
       </Link>
