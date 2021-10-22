@@ -7,8 +7,8 @@ import {
   Switch,
 } from "react-router-dom";
 
-import Task from "./Task";
-import Finished from "./Finished";
+import Task from "./components/Task";
+import Finished from "./components/Finished";
 
 const App = () => {
   const [taskId, setTaskId] = useState("12345");

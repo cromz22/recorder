@@ -1,6 +1,6 @@
 import React from "react";
 import { createContext, useContext } from "react";
-import { useReactMediaRecorder } from "./ReactMediaRecorder";
+import { useReactMediaRecorder } from "../utils/ReactMediaRecorder";
 // import Form from "react-bootstrap/Form";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
@@ -8,9 +8,8 @@ import IconButton from "@mui/material/IconButton";
 import MicIcon from "@mui/icons-material/Mic";
 import StopIcon from "@mui/icons-material/Stop";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import sampleJson from "./data/sample.json";
-// import axios from "axios";
+import "./Task.css";
+import sampleJson from "../data/sample.json";
 import { Link } from "react-router-dom";
 
 const IsProcessingContext = createContext(false);
@@ -60,7 +59,7 @@ const RecordTableRow = (props: any) => {
 };
 
 const RecordTableRows = () => {
-  const dialog = sampleJson[1];
+  const dialog = sampleJson[1]; // TODO: fetch from backend?
 
   const tableRows = dialog.conversation.map((uttjson) => (
     <RecordTableRow
@@ -72,6 +71,7 @@ const RecordTableRows = () => {
   return <>{tableRows}</>;
 };
 
+// TODO: move the components to another file
 const RecordTable = () => {
   return (
     <Table>
@@ -89,10 +89,10 @@ const RecordTable = () => {
   );
 };
 
-
 const Task = () => {
   const backendUrl = "http://localhost:8000/save-audio";
 
+  // TODO: use json including audio
   const sampleJsonToBackend = {
     taskid: "task1",
     utterances: [
@@ -104,7 +104,7 @@ const Task = () => {
         uttid: "uttid2",
         text: "text2",
       },
-    ]
+    ],
   };
 
   const handleSubmit = () => {
@@ -118,12 +118,16 @@ const Task = () => {
   };
 
   return (
-    <div className="App">
+    <div className="Task">
       <h1>Audio Recording</h1>
       <p>Please read aloud the displayed sentences.</p>
       <RecordTable />
       <Link to="/finished">
+        {" "}
+        {/* TODO: redirect after ack from backend */}
         <Button type="submit" variant="outline-primary" onClick={handleSubmit}>
+          {" "}
+          {/* TODO: submit only if all mediaBlobUrl is set */}
           Submit all recordings
         </Button>
       </Link>
