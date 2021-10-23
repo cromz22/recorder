@@ -1,7 +1,7 @@
 import React from "react";
-import { createContext, useContext } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { useReactMediaRecorder } from "../utils/ReactMediaRecorder";
-// import Form from "react-bootstrap/Form";
+import Form from "react-bootstrap/Form";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import IconButton from "@mui/material/IconButton";
@@ -89,6 +89,65 @@ const RecordTable = () => {
   );
 };
 
+const AudioForm = (): JSX.Element => {
+  interface allBlobsType {
+    blobs: string[];
+  }
+
+  const initialAllBlobs: allBlobsType = { blobs: [] };
+
+  const [allBlob, setAllBlob] = useState(initialAllBlobs);
+
+  const { status, startRecording, stopRecording, mediaBlobUrl } =
+    useReactMediaRecorder({ audio: true });
+  const isProcessing = useContext(IsProcessingContext);
+
+  useEffect(() => {
+    if (mediaBlobUrl) {
+      void (async () => {
+        const blob = await fetch(mediaBlobUrl).then((r) => r.blob());
+        const reader = new FileReader();
+        reader.onload = () => {
+          if (reader.result) {
+            // const encoded = reader.result.toString().replace(/data:.*\/.*;base64,/, '');
+            const encoded = reader.result.toString();
+            console.log(encoded);
+            setAllBlob({ blobs: [...allBlob.blobs, encoded] });
+            console.log(allBlob.blobs);
+          }
+        };
+        reader.readAsDataURL(blob);
+      })();
+    }
+  }, [mediaBlobUrl, setAllBlob]);
+
+  return (
+    <Form>
+      <div className="d-flex justify-content-center">
+        <IconButton
+          onClick={status == "recording" ? stopRecording : startRecording}
+          disabled={isProcessing}
+        >
+          {isProcessing ? (
+            <MicIcon color="disabled" />
+          ) : status == "recording" ? (
+            <StopIcon color="error" />
+          ) : (
+            <MicIcon color="primary" />
+          )}
+        </IconButton>
+      </div>
+      <div className="d-flex justify-content-center">
+        {isProcessing
+          ? "Processing..."
+          : status == "recording"
+          ? "Recording..."
+          : "Ready."}
+      </div>
+    </Form>
+  );
+};
+
 const Task = () => {
   const backendUrl = "http://localhost:8000/save-audio";
 
@@ -131,6 +190,7 @@ const Task = () => {
           Submit all recordings
         </Button>
       </Link>
+      <AudioForm />
     </div>
   );
 };
