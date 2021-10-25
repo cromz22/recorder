@@ -1,7 +1,6 @@
 import React from "react";
 import { createContext, useContext, useEffect, useState } from "react";
 import { useReactMediaRecorder } from "../utils/ReactMediaRecorder";
-import Form from "react-bootstrap/Form";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import IconButton from "@mui/material/IconButton";
@@ -10,7 +9,7 @@ import StopIcon from "@mui/icons-material/Stop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Task.css";
 import sampleJson from "../data/sample.json";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const IsProcessingContext = createContext(false);
 
@@ -40,6 +39,25 @@ const RecordTableRow = (props: any) => {
   const { status, startRecording, stopRecording, mediaBlobUrl } =
     useReactMediaRecorder({ audio: true });
 
+  useEffect(() => {
+    if (mediaBlobUrl) {
+      void (async () => {
+        const blob = await fetch(mediaBlobUrl).then((r) => r.blob());
+        const reader = new FileReader();
+        reader.onload = () => {
+          if (reader.result) {
+            // const encoded = reader.result.toString().replace(/data:.*\/.*;base64,/, '');
+            const encoded = reader.result.toString();
+            console.log(encoded);
+            props.setAllBlobs({ blobs: [...props.allBlobs.blobs, encoded] });
+            console.log(props.allBlobs.blobs);
+          }
+        };
+        reader.readAsDataURL(blob);
+      })();
+    }
+  }, [mediaBlobUrl, props.setAllBlobs]);
+
   return (
     <tr>
       <td>{props.value}</td>
@@ -58,21 +76,21 @@ const RecordTableRow = (props: any) => {
   );
 };
 
-const RecordTableRows = () => {
-  const dialog = sampleJson[1]; // TODO: fetch from backend?
-
-  const tableRows = dialog.conversation.map((uttjson) => (
+const RecordTableRows = (props: any) => {
+  const tableRows = props.dialog.conversation.map((uttjson: any) => (
     <RecordTableRow
-      key={dialog.id + "_" + uttjson.no.toString()}
+      key={props.dialog.id + "_" + uttjson.no.toString()}
       value={uttjson.en_sentence}
+      allBlobs={props.allBlobs}
+      setAllBlobs={props.setAllBlobs}
     />
   ));
 
   return <>{tableRows}</>;
 };
 
-// TODO: move the components to another file
-const RecordTable = () => {
+// TODO: move the components to another file?
+const RecordTable = (props: any) => {
   return (
     <Table>
       <thead>
@@ -83,114 +101,64 @@ const RecordTable = () => {
         </tr>
       </thead>
       <tbody>
-        <RecordTableRows />
+        <RecordTableRows
+          dialog={props.dialog}
+          allBlobs={props.allBlobs}
+          setAllBlobs={props.setAllBlobs}
+        />
       </tbody>
     </Table>
-  );
-};
-
-const AudioForm = (): JSX.Element => {
-  interface allBlobsType {
-    blobs: string[];
-  }
-
-  const initialAllBlobs: allBlobsType = { blobs: [] };
-
-  const [allBlob, setAllBlob] = useState(initialAllBlobs);
-
-  const { status, startRecording, stopRecording, mediaBlobUrl } =
-    useReactMediaRecorder({ audio: true });
-  const isProcessing = useContext(IsProcessingContext);
-
-  useEffect(() => {
-    if (mediaBlobUrl) {
-      void (async () => {
-        const blob = await fetch(mediaBlobUrl).then((r) => r.blob());
-        const reader = new FileReader();
-        reader.onload = () => {
-          if (reader.result) {
-            // const encoded = reader.result.toString().replace(/data:.*\/.*;base64,/, '');
-            const encoded = reader.result.toString();
-            console.log(encoded);
-            setAllBlob({ blobs: [...allBlob.blobs, encoded] });
-            console.log(allBlob.blobs);
-          }
-        };
-        reader.readAsDataURL(blob);
-      })();
-    }
-  }, [mediaBlobUrl, setAllBlob]);
-
-  return (
-    <Form>
-      <div className="d-flex justify-content-center">
-        <IconButton
-          onClick={status == "recording" ? stopRecording : startRecording}
-          disabled={isProcessing}
-        >
-          {isProcessing ? (
-            <MicIcon color="disabled" />
-          ) : status == "recording" ? (
-            <StopIcon color="error" />
-          ) : (
-            <MicIcon color="primary" />
-          )}
-        </IconButton>
-      </div>
-      <div className="d-flex justify-content-center">
-        {isProcessing
-          ? "Processing..."
-          : status == "recording"
-          ? "Recording..."
-          : "Ready."}
-      </div>
-    </Form>
   );
 };
 
 const Task = () => {
   const backendUrl = "http://localhost:8000/save-audio";
 
-  // TODO: use json including audio
-  const sampleJsonToBackend = {
-    taskid: "task1",
-    utterances: [
-      {
-        uttid: "uttid1",
-        text: "text1",
-      },
-      {
-        uttid: "uttid2",
-        text: "text2",
-      },
-    ],
-  };
+  const dialog = sampleJson[1]; // TODO: fetch from backend?
+
+  interface allBlobsType {
+    blobs: string[];
+  }
+
+  const initialAllBlobs: allBlobsType = { blobs: [] }; // TODO: change the data structure so that each utterance has a unique blob (to enable re-recording)
+
+  const [allBlobs, setAllBlobs] = useState(initialAllBlobs);
+
+  let history = useHistory();
 
   const handleSubmit = () => {
+    if (allBlobs.blobs.length !== dialog.conversation.length) {
+      alert("Please record all the utterances before you submit.");
+    }
+    console.log(allBlobs.blobs.length);
+    console.log(dialog.conversation.length);
+
     fetch(backendUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(sampleJsonToBackend),
+      body: JSON.stringify(allBlobs),
     })
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      .then((data) => {
+        if (data.blobs.length === 4) {
+          history.push("/finished"); // redirect
+        }
+        return console.log(data);
+      });
   };
 
   return (
     <div className="Task">
       <h1>Audio Recording</h1>
       <p>Please read aloud the displayed sentences.</p>
-      <RecordTable />
-      <Link to="/finished">
-        {" "}
-        {/* TODO: redirect after ack from backend */}
-        <Button type="submit" variant="outline-primary" onClick={handleSubmit}>
-          {" "}
-          {/* TODO: submit only if all mediaBlobUrl is set */}
-          Submit all recordings
-        </Button>
-      </Link>
-      <AudioForm />
+      <RecordTable
+        dialog={dialog}
+        allBlobs={allBlobs}
+        setAllBlobs={setAllBlobs}
+      />
+      <Button type="submit" variant="outline-primary" onClick={handleSubmit}>
+        Submit all recordings
+      </Button>
     </div>
   );
 };

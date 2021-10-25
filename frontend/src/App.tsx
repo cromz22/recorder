@@ -12,6 +12,7 @@ import Finished from "./components/Finished";
 
 const App = () => {
   const [taskId, setTaskId] = useState("12345");
+  // const [isProcessing, setIsProcessing] = useState(false);
 
   // console.log(window.location);
   // console.log(process.env);

@@ -22,4 +22,4 @@ async def read_root() -> dict:
 @app.post("/save-audio")
 async def save_audio(taskjson: dict) -> dict:
     print(taskjson)
-    return {"message": "data recieved"}
+    return taskjson
