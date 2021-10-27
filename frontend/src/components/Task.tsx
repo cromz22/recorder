@@ -46,11 +46,23 @@ const RecordTableRow = (props: any) => {
         const reader = new FileReader();
         reader.onload = () => {
           if (reader.result) {
-            // const encoded = reader.result.toString().replace(/data:.*\/.*;base64,/, '');
-            const encoded = reader.result.toString();
-            console.log(encoded);
-            props.setAllBlobs({ blobs: [...props.allBlobs.blobs, encoded] });
-            console.log(props.allBlobs.blobs);
+            const encoded = reader.result
+              .toString()
+              .replace(/data:.*\/.*;base64,/, "");
+
+            const current_utterances = props.allBlobs.utterances;
+            const new_utterances = current_utterances.map((utt: any) => {
+              if (props.uttid == utt.uttid) {
+                utt.audio = encoded;
+                utt.recorded = true;
+              }
+              return utt;
+            });
+
+            props.setAllBlobs({
+              taskid: props.taskid,
+              utterances: new_utterances,
+            });
           }
         };
         reader.readAsDataURL(blob);
@@ -60,7 +72,7 @@ const RecordTableRow = (props: any) => {
 
   return (
     <tr>
-      <td>{props.value}</td>
+      <td>{props.text}</td>
       <td>
         <StartStopButton
           isProcessing={isProcessing}
@@ -80,7 +92,8 @@ const RecordTableRows = (props: any) => {
   const tableRows = props.dialog.conversation.map((uttjson: any) => (
     <RecordTableRow
       key={props.dialog.id + "_" + uttjson.no.toString()}
-      value={uttjson.en_sentence}
+      uttid={props.dialog.id + "_" + uttjson.no.toString()}
+      text={uttjson.en_sentence} // or ja_sentence
       allBlobs={props.allBlobs}
       setAllBlobs={props.setAllBlobs}
     />
@@ -116,22 +129,46 @@ const Task = () => {
 
   const dialog = sampleJson[1]; // TODO: fetch from backend?
 
-  interface allBlobsType {
-    blobs: string[];
+  interface utterance {
+    uttid: string;
+    text: string;
+    audio: string; // blob
+    recorded: boolean;
   }
 
-  const initialAllBlobs: allBlobsType = { blobs: [] }; // TODO: change the data structure so that each utterance has a unique blob (to enable re-recording)
+  interface allBlobsType {
+    taskid: string;
+    utterances: utterance[];
+  }
+
+  const utterances = dialog.conversation.map((uttjson: any) => {
+    return {
+      uttid: dialog.id + "_" + uttjson.no.toString(),
+      text: uttjson.en_sentence,
+      audio: "",
+      recorded: false,
+    };
+  });
+
+  const initialAllBlobs: allBlobsType = {
+    taskid: dialog.id,
+    utterances: utterances,
+  };
 
   const [allBlobs, setAllBlobs] = useState(initialAllBlobs);
 
   let history = useHistory();
 
   const handleSubmit = () => {
-    if (allBlobs.blobs.length !== dialog.conversation.length) {
+    const isRecordedArray = allBlobs.utterances.map(
+      (utterance) => utterance.recorded
+    );
+    const isAllRecorded = isRecordedArray.every(
+      (isRecorded) => isRecorded === true
+    );
+    if (!isAllRecorded) {
       alert("Please record all the utterances before you submit.");
     }
-    console.log(allBlobs.blobs.length);
-    console.log(dialog.conversation.length);
 
     fetch(backendUrl, {
       method: "POST",
@@ -140,7 +177,7 @@ const Task = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        if (data.blobs.length === 4) {
+        if (isAllRecorded) {
           history.push("/finished"); // redirect
         }
         return console.log(data);
@@ -156,6 +193,8 @@ const Task = () => {
         allBlobs={allBlobs}
         setAllBlobs={setAllBlobs}
       />
+      <p>I checked the utterances are properly recorded.</p>{" "}
+      {/* TODO: checkbox */}
       <Button type="submit" variant="outline-primary" onClick={handleSubmit}>
         Submit all recordings
       </Button>
