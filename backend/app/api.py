@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import json
 import base64
+import subprocess
 
 app = FastAPI()
 
@@ -22,13 +22,16 @@ async def read_root() -> dict:
 
 @app.post("/save-audio")
 async def save_audio(taskjson: dict) -> dict:
-    # print(taskjson)
-    # print(type(taskjson))
-    for elem in taskjson:
-        blobs = taskjson[elem]
-        for blob in blobs:
-            print(blob)
-            with open("tmp.wav", "wb") as f:
-                f.write(base64.b64decode(blob))
+    for utt in taskjson["utterances"]:
+        uttid = utt["uttid"]
+        blob = utt["audio"]
+
+        with open(f"audio/orig/{uttid}.webm", "wb") as f:
+            f.write(base64.b64decode(blob))
+
+        # convert to wav
+        input_file = f"audio/orig/{uttid}.webm"
+        output_file = f"audio/wav/{uttid}.wav"
+        subprocess.call(["ffmpeg", "-i", input_file, "-c:a", "pcm_s16le", output_file])
+
     return taskjson
-    # return {"message": "connected to backend"}

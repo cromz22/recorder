@@ -23,3 +23,5 @@ frontend/node_modules
 # yarn-error.log*
 
 backend/venv
+backend/audio
+*.wav
