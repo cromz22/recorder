@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-// import Container from 'react-bootstrap/Container';
 import {
   BrowserRouter as Router,
-  // Redirect,
   Route,
   Switch,
 } from "react-router-dom";
@@ -12,10 +10,6 @@ import Finished from "./components/Finished";
 
 const App = () => {
   const [taskId, setTaskId] = useState("12345");
-  // const [isProcessing, setIsProcessing] = useState(false);
-
-  // console.log(window.location);
-  // console.log(process.env);
 
   // TODO: 404 handling
   return (

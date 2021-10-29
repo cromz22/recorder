@@ -40,27 +40,6 @@ const RecordTableRow = (props: any) => {
     useReactMediaRecorder({ audio: true });
 
   useEffect(() => {
-    /*
-    if (mediaBlob) {
-      const current_utterances = props.allBlobs.utterances;
-      const new_utterances = current_utterances.map((utt: any) => {
-        if (props.uttid === utt.uttid) {
-          utt.audio = mediaBlob;
-          utt.recorded = true;
-        }
-        return utt;
-      });
-      console.log(new_utterances);
-
-      props.setAllBlobs({
-        taskid: props.allBlobs.taskid,
-        utterances: new_utterances,
-      });
-      console.log(props.allBlobs);
-    }
-	*/
-
-    // /*
     if (mediaBlobUrl) {
       void (async () => {
         const response = await fetch(mediaBlobUrl);
@@ -72,13 +51,6 @@ const RecordTableRow = (props: any) => {
             const encoded = reader.result
               .toString()
               .replace(/data:.*\/.*;base64,/, "");
-            // const bin = atob(encoded);
-            // const buf = new Uint8Array(bin.length);
-            // for (let i=0; i<bin.length; i++) {
-            // 	buf[i] = bin.charCodeAt(i);
-            // }
-            // console.log(buf);
-            // const blobAgain = new Blob([buf], {type: "audio/wav"});
 
             const current_utterances = props.allBlobs.utterances;
             const new_utterances = current_utterances.map((utt: any) => {
@@ -98,9 +70,7 @@ const RecordTableRow = (props: any) => {
         reader.readAsDataURL(blob);
       })();
     }
-    // */
 
-    // }, [mediaBlob, props.setAllBlobs]);
   }, [mediaBlobUrl, props.setAllBlobs]);
 
   return (
@@ -165,7 +135,6 @@ const Task = () => {
   interface utterance {
     uttid: string;
     text: string;
-    // audio: Blob;
     audio: string;
     recorded: boolean;
   }
@@ -179,7 +148,6 @@ const Task = () => {
     return {
       uttid: dialog.id + "_" + uttjson.no.toString(),
       text: uttjson.en_sentence,
-      // audio: new Blob(),
       audio: "",
       recorded: false,
     };
@@ -205,29 +173,16 @@ const Task = () => {
       alert("Please record all the utterances before you submit.");
     }
 
-    // let formData = new FormData();
-    // formData.append("taskid", allBlobs.taskid);
-    // console.log(allBlobs.utterances);
-    //
-    // for (let utt of allBlobs.utterances) {
-    //   formData.append(utt.uttid, utt.audio);
-    // }
-    //
-    // for (let value of formData.values()) {
-    //   console.log(value);
-    // }
-
     fetch(backendUrl, {
       method: "POST",
-      // body: formData,
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(allBlobs),
     })
       .then((response) => response.json())
       .then((data) => {
-        // if (isAllRecorded) {
-        //   history.push("/finished"); // redirect
-        // }
+        if (isAllRecorded) {
+          history.push("/finished"); // redirect
+        }
         return console.log(data);
       });
   };
