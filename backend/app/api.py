@@ -32,6 +32,6 @@ async def save_audio(taskjson: dict) -> dict:
         # convert to wav
         input_file = f"audio/orig/{uttid}.webm"
         output_file = f"audio/wav/{uttid}.wav"
-        subprocess.call(["ffmpeg", "-i", input_file, "-c:a", "pcm_s16le", output_file])
+        subprocess.call(["ffmpeg", "-i", input_file, "-c:a", "pcm_s16le", output_file, "-y"])
 
     return taskjson
