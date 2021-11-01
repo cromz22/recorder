@@ -8,7 +8,7 @@ import MicIcon from "@mui/icons-material/Mic";
 import StopIcon from "@mui/icons-material/Stop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Task.css";
-import sampleJson from "../data/sample.json";
+import sampleJson from "../data/2utt.json";
 import { useHistory } from "react-router-dom";
 
 const IsProcessingContext = createContext(false);
@@ -54,7 +54,7 @@ const RecordTableRow = (props: any) => {
 
             const current_utterances = props.allBlobs.utterances;
             const new_utterances = current_utterances.map((utt: any) => {
-              if (props.uttid == utt.uttid) {
+              if (props.uttid === utt.uttid) {
                 utt.audio = encoded;
                 utt.recorded = true;
               }
@@ -75,7 +75,7 @@ const RecordTableRow = (props: any) => {
 
   return (
     <tr>
-      <td>{props.text}</td>
+      <td width="60%" >{props.text}</td>
       <td>
         <StartStopButton
           isProcessing={isProcessing}
@@ -94,8 +94,8 @@ const RecordTableRow = (props: any) => {
 const RecordTableRows = (props: any) => {
   const tableRows = props.dialog.conversation.map((uttjson: any) => (
     <RecordTableRow
-      key={props.dialog.id + "_" + uttjson.no.toString()}
-      uttid={props.dialog.id + "_" + uttjson.no.toString()}
+      key={props.dialog.uttid}
+      uttid={props.dialog.uttid}
       text={uttjson.en_sentence} // or ja_sentence
       allBlobs={props.allBlobs}
       setAllBlobs={props.setAllBlobs}
@@ -130,7 +130,7 @@ const RecordTable = (props: any) => {
 const Task = () => {
   const backendUrl = "http://localhost:8000/save-audio";
 
-  const dialog = sampleJson[1]; // TODO: fetch from backend?
+  const dialog = sampleJson[0]; // TODO: fetch from backend?
 
   interface utterance {
     uttid: string;
@@ -146,7 +146,7 @@ const Task = () => {
 
   const utterances = dialog.conversation.map((uttjson: any) => {
     return {
-      uttid: dialog.id + "_" + uttjson.no.toString(),
+      uttid: uttjson.uttid,
       text: uttjson.en_sentence,
       audio: "",
       recorded: false,
@@ -154,7 +154,7 @@ const Task = () => {
   });
 
   const initialAllBlobs: allBlobsType = {
-    taskid: dialog.id,
+    taskid: dialog.task_id,
     utterances: utterances,
   };
 
