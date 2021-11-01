@@ -8,8 +8,7 @@ import MicIcon from "@mui/icons-material/Mic";
 import StopIcon from "@mui/icons-material/Stop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Task.css";
-import sampleJson from "../data/2utt.json";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 
 const IsProcessingContext = createContext(false);
 
@@ -70,12 +69,11 @@ const RecordTableRow = (props: any) => {
         reader.readAsDataURL(blob);
       })();
     }
-
   }, [mediaBlobUrl, props.setAllBlobs]);
 
   return (
     <tr>
-      <td width="60%" >{props.text}</td>
+      <td width="60%">{props.text}</td>
       <td>
         <StartStopButton
           isProcessing={isProcessing}
@@ -128,9 +126,21 @@ const RecordTable = (props: any) => {
 };
 
 const Task = () => {
-  const backendUrl = "http://localhost:8000/save-audio";
+  interface taskUtterance {
+    no: number;
+    ja_speaker: string;
+    en_speaker: string;
+    ja_sentence: string;
+    en_sentence: string;
+    spkid: string;
+    uttid: string;
+  }
 
-  const dialog = sampleJson[0]; // TODO: fetch from backend?
+  interface taskJson {
+    task_id: string;
+    set: string;
+    conversation: taskUtterance[];
+  }
 
   interface utterance {
     uttid: string;
@@ -144,7 +154,61 @@ const Task = () => {
     utterances: utterance[];
   }
 
-  const utterances = dialog.conversation.map((uttjson: any) => {
+  const initialAllBlobs: allBlobsType = {
+    // taskid: dialog.task_id,
+    // utterances: utterances,
+    taskid: "",
+    utterances: [
+      {
+        uttid: "",
+        text: "",
+        audio: "",
+        recorded: false,
+      },
+    ],
+  };
+
+  const initialTaskJson: taskJson = {
+    task_id: "",
+    set: "",
+    conversation: [
+      {
+        no: 0,
+        ja_speaker: "",
+        en_speaker: "",
+        ja_sentence: "",
+        en_sentence: "",
+        spkid: "",
+        uttid: "",
+      },
+    ],
+  };
+
+  let { nutt } = useParams<{ nutt: string }>();
+  let { taskId } = useParams<{ taskId: string }>();
+  const [dialog, setDialog] = useState(initialTaskJson);
+  const [allBlobs, setAllBlobs] = useState(initialAllBlobs);
+  let history = useHistory();
+
+  const getJsonUrl = "http://localhost:8000/get-task-json";
+  const saveAudioUrl = "http://localhost:8000/save-audio";
+
+  useEffect(() => {
+    const getJsonUrlNuttTaskid = `${getJsonUrl}/${nutt}/${taskId}`;
+    fetch(getJsonUrlNuttTaskid)
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+		setDialog(data);
+      });
+  }, []);
+
+  if (dialog.task_id === "") {
+    return <></>;
+  }
+
+  const utterances = dialog.conversation.map((uttjson: taskUtterance) => {
     return {
       uttid: uttjson.uttid,
       text: uttjson.en_sentence,
@@ -153,14 +217,6 @@ const Task = () => {
     };
   });
 
-  const initialAllBlobs: allBlobsType = {
-    taskid: dialog.task_id,
-    utterances: utterances,
-  };
-
-  const [allBlobs, setAllBlobs] = useState(initialAllBlobs);
-
-  let history = useHistory();
 
   const handleSubmit = () => {
     const isRecordedArray = allBlobs.utterances.map(
@@ -173,7 +229,7 @@ const Task = () => {
       alert("Please record all the utterances before you submit.");
     }
 
-    fetch(backendUrl, {
+    fetch(saveAudioUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(allBlobs),

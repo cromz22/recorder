@@ -1,17 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Route,
   Switch,
+  useLocation,
 } from "react-router-dom";
 
 import Task from "./components/Task";
 import Finished from "./components/Finished";
 
-const App = () => {
-  const [taskId, setTaskId] = useState("12345");
+const NoMatch = () => {
+  let location = useLocation();
 
-  // TODO: 404 handling
+  return (
+    <div>
+      <h3>
+        No match for <code>{location.pathname}</code>
+      </h3>
+    </div>
+  );
+};
+
+const App = () => {
   return (
     <Router
       basename={
@@ -19,14 +29,14 @@ const App = () => {
       }
     >
       <Switch>
-        <Route exact path="/">
-          root
-        </Route>
         <Route exact path="/finished">
-          <Finished taskId={taskId} />
+          <Finished />
         </Route>
-        <Route exact path="/task">
+        <Route exact path="/task/:nutt/:taskId">
           <Task />
+        </Route>
+        <Route path="*">
+          <NoMatch />
         </Route>
       </Switch>
     </Router>

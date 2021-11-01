@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import base64
 import subprocess
+import json
 
 app = FastAPI()
 
@@ -20,6 +21,22 @@ app.add_middleware(
 async def read_root() -> dict:
     return {"message": "connected to backend"}
 
+@app.get("/get-task-json/{nutt}/{task_id}")
+async def get_task_json(nutt, task_id):
+    print(nutt)
+    print(task_id)
+
+    with open(f"task_json/{nutt}.json") as f:
+        json_list = json.load(f)
+
+    value = {}
+    for j in json_list:
+        if j["task_id"] == task_id:
+            value = j
+            break
+
+    return value
+
 @app.post("/save-audio")
 async def save_audio(taskjson: dict) -> dict:
     for utt in taskjson["utterances"]:
@@ -35,3 +52,5 @@ async def save_audio(taskjson: dict) -> dict:
         subprocess.call(["ffmpeg", "-i", input_file, "-c:a", "pcm_s16le", output_file, "-y"])
 
     return taskjson
+
+# TODO: error handling

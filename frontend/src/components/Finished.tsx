@@ -2,7 +2,6 @@ import Container from "react-bootstrap/Container";
 // import { useParams } from "react-router-dom";
 
 const Finished = (props: any) => {
-
   // let { taskId } = useParams();
 
   return (
