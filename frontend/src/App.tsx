@@ -29,7 +29,7 @@ const App = () => {
       }
     >
       <Switch>
-        <Route exact path="/finished">
+        <Route exact path="/finished/:nutt/:taskId">
           <Finished />
         </Route>
         <Route exact path="/task/:nutt/:taskId">

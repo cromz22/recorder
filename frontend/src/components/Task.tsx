@@ -9,6 +9,10 @@ import StopIcon from "@mui/icons-material/Stop";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Task.css";
 import { useHistory, useParams } from "react-router-dom";
+import {
+  taskJson,
+  allBlobsType,
+} from "../types/taskType";
 
 const IsProcessingContext = createContext(false);
 
@@ -38,8 +42,18 @@ const RecordTableRow = (props: any) => {
   const { status, startRecording, stopRecording, mediaBlobUrl } =
     useReactMediaRecorder({ audio: true });
 
+  const currentUtterances = props.allBlobs.utterances;
+  const props_uttid = props.uttid;
+  const setAllBlobs = props.setAllBlobs
+  const props_taskid = props.allBlobs.taskid;
+  console.log(currentUtterances);
+  console.log(props_uttid);
+  console.log(props.allBlobs);
+
   useEffect(() => {
+    console.log("useEffect called");
     if (mediaBlobUrl) {
+	  // console.log(mediaBlobUrl);
       void (async () => {
         const response = await fetch(mediaBlobUrl);
         const blob = await response.blob();
@@ -47,29 +61,38 @@ const RecordTableRow = (props: any) => {
         const reader = new FileReader();
         reader.onload = () => {
           if (reader.result) {
+		    // get base64 string (in e.g. webm format)
             const encoded = reader.result
               .toString()
               .replace(/data:.*\/.*;base64,/, "");
 
-            const current_utterances = props.allBlobs.utterances;
-            const new_utterances = current_utterances.map((utt: any) => {
-              if (props.uttid === utt.uttid) {
+			// update utterances
+            // const current_utterances = props.allBlobs.utterances;
+            const newUtterances = currentUtterances.map((utt: any) => {
+              if (props_uttid === utt.uttid) {
                 utt.audio = encoded;
                 utt.recorded = true;
               }
               return utt;
             });
+			console.log("currentUtterances", currentUtterances);
+			console.log(currentUtterances[0].uttid)  // これが初期化されてない
+			console.log(props_uttid)
+			console.log("newUtterances", newUtterances);
 
-            props.setAllBlobs({
-              taskid: props.allBlobs.taskid,
-              utterances: new_utterances,
+            setAllBlobs({
+              taskid: props_taskid,
+              utterances: newUtterances,
             });
           }
         };
         reader.readAsDataURL(blob);
       })();
     }
-  }, [mediaBlobUrl, props.setAllBlobs]);
+  // }, [mediaBlobUrl, current_utterances, props_uttid, setAllBlobs, props_taskid]);
+  }, [mediaBlobUrl]);
+
+  // console.log(status);
 
   return (
     <tr>
@@ -90,15 +113,17 @@ const RecordTableRow = (props: any) => {
 };
 
 const RecordTableRows = (props: any) => {
-  const tableRows = props.dialog.conversation.map((uttjson: any) => (
-    <RecordTableRow
-      key={props.dialog.uttid}
-      uttid={props.dialog.uttid}
-      text={uttjson.en_sentence} // or ja_sentence
-      allBlobs={props.allBlobs}
-      setAllBlobs={props.setAllBlobs}
-    />
-  ));
+  const tableRows = props.dialog.conversation.map((uttjson: any) => {
+    return (
+      <RecordTableRow
+        key={uttjson.uttid}
+        uttid={uttjson.uttid}
+        text={uttjson.en_sentence} // or ja_sentence
+        allBlobs={props.allBlobs}
+        setAllBlobs={props.setAllBlobs}
+      />
+    );
+  });
 
   return <>{tableRows}</>;
 };
@@ -126,37 +151,7 @@ const RecordTable = (props: any) => {
 };
 
 const Task = () => {
-  interface taskUtterance {
-    no: number;
-    ja_speaker: string;
-    en_speaker: string;
-    ja_sentence: string;
-    en_sentence: string;
-    spkid: string;
-    uttid: string;
-  }
-
-  interface taskJson {
-    task_id: string;
-    set: string;
-    conversation: taskUtterance[];
-  }
-
-  interface utterance {
-    uttid: string;
-    text: string;
-    audio: string;
-    recorded: boolean;
-  }
-
-  interface allBlobsType {
-    taskid: string;
-    utterances: utterance[];
-  }
-
   const initialAllBlobs: allBlobsType = {
-    // taskid: dialog.task_id,
-    // utterances: utterances,
     taskid: "",
     utterances: [
       {
@@ -200,31 +195,22 @@ const Task = () => {
         return response.json();
       })
       .then((data) => {
-		setDialog(data);
+        setDialog(data);
       });
-  }, []);
-
-  if (dialog.task_id === "") {
-    return <></>;
-  }
-
-  const utterances = dialog.conversation.map((uttjson: taskUtterance) => {
-    return {
-      uttid: uttjson.uttid,
-      text: uttjson.en_sentence,
-      audio: "",
-      recorded: false,
-    };
-  });
+  }, [nutt, taskId]);
 
 
   const handleSubmit = () => {
-    const isRecordedArray = allBlobs.utterances.map(
-      (utterance) => utterance.recorded
+    // const isRecordedArray = allBlobs.utterances.map(
+    //   (utterance) => utterance.recorded
+    // );
+    // const isAllRecorded = isRecordedArray.every(
+    //   (isRecorded) => isRecorded === true
+    // );
+    const isAllRecorded = allBlobs.utterances.every(
+      (utterance) => utterance.recorded === true
     );
-    const isAllRecorded = isRecordedArray.every(
-      (isRecorded) => isRecorded === true
-    );
+
     if (!isAllRecorded) {
       alert("Please record all the utterances before you submit.");
     }
@@ -237,7 +223,7 @@ const Task = () => {
       .then((response) => response.json())
       .then((data) => {
         if (isAllRecorded) {
-          history.push("/finished"); // redirect
+          history.push(`/finished/${nutt}/${taskId}`); // redirect
         }
         return console.log(data);
       });
