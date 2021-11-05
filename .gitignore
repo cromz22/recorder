@@ -24,4 +24,5 @@ frontend/node_modules
 
 backend/venv
 backend/audio
+backend/task_json
 *.wav
