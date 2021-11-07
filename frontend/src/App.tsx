@@ -10,7 +10,6 @@ import {
 import Task from "./components/Task";
 import Finished from "./components/Finished";
 
-
 const NoMatch = () => {
   let location = useLocation();
 

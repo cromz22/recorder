@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Task.css";
 import sampleJson from "../data/2utt.json";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import RecordTable from "./RecordTable";
 import { inputJsonType, inputUtteranceType, outputJsonType } from "./types";
@@ -29,6 +29,7 @@ const Task = () => {
   };
 
   const [outputJson, setOutputJson] = useState(initialOutputJson);
+  const { nutt, taskId } = useParams<{ nutt: string; taskId: string }>();
 
   let history = useHistory();
 
@@ -51,7 +52,7 @@ const Task = () => {
       .then((response) => response.json())
       .then((data) => {
         if (isAllRecorded) {
-          history.push("/finished"); // redirect
+          history.push(`/finished/${nutt}/${taskId}`); // redirect
         }
         return console.log(data);
       });
