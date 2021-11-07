@@ -1,35 +1,78 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Task.css";
-import sampleJson from "../data/2utt.json";
+// import sampleJson from "../data/2utt.json";
 import { useHistory, useParams } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import RecordTable from "./RecordTable";
 import { inputJsonType, inputUtteranceType, outputJsonType } from "./types";
 
 const Task = () => {
-  const backendUrl = "http://localhost:8000/save-audio";
+  const getJsonUrl = "http://localhost:8000/get-input-json";
+  const saveAudioUrl = "http://localhost:8000/save-audio";
 
-  const inputJson: inputJsonType = sampleJson[0]; // TODO: fetch from backend?
+  const { nutt, taskId } = useParams<{ nutt: string; taskId: string }>();
 
-  const utterances = inputJson.conversation.map(
-    (inputUtterance: inputUtteranceType) => {
-      return {
-        uttid: inputUtterance.uttid,
-        text: inputUtterance.en_sentence,
-        audio: "",
-        recorded: false,
-      };
-    }
-  );
-
-  const initialOutputJson: outputJsonType = {
-    taskid: inputJson.task_id,
-    utterances: utterances,
+  const initialInputJson: inputJsonType = {
+    task_id: "",
+    set: "",
+    conversation: [
+      {
+        no: 0,
+        ja_speaker: "",
+        en_speaker: "",
+        ja_sentence: "",
+        en_sentence: "",
+        spkid: "",
+        uttid: "",
+      },
+    ],
   };
 
-  const [outputJson, setOutputJson] = useState(initialOutputJson);
-  const { nutt, taskId } = useParams<{ nutt: string; taskId: string }>();
+  // TODO: inputと形式を合わせる
+  const initOutputJson: outputJsonType = {
+    taskid: "",
+    utterances: [
+      {
+        uttid: "",
+        text: "",
+        audio: "",
+        recorded: false,
+      },
+    ],
+  };
+
+  const [inputJson, setInputJson] = useState(initialInputJson);
+  const [outputJson, setOutputJson] = useState(initOutputJson);
+
+  useEffect(() => {
+    const getJsonUrlNuttTaskid = `${getJsonUrl}/${nutt}/${taskId}`;
+    fetch(getJsonUrlNuttTaskid)
+      .then((response) => {
+        return response.json();
+      })
+      .then((inputJson) => {
+        setInputJson(() => inputJson);
+
+        const outputUtterances = inputJson.conversation.map(
+          (inputUtterance: inputUtteranceType) => {
+            return {
+              uttid: inputUtterance.uttid,
+              text: inputUtterance.en_sentence,
+              audio: "",
+              recorded: false,
+            };
+          }
+        );
+
+        const initialOutputJson: outputJsonType = {
+          taskid: inputJson.task_id,
+          utterances: outputUtterances,
+        };
+
+        setOutputJson(() => initialOutputJson);
+      });
+  }, [nutt, taskId]);
 
   let history = useHistory();
 
@@ -44,7 +87,7 @@ const Task = () => {
       alert("Please record all the utterances before you submit.");
     }
 
-    fetch(backendUrl, {
+    fetch(saveAudioUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(outputJson),

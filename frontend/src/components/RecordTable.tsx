@@ -63,7 +63,7 @@ const RecordTableRow = (props: any) => {
         reader.readAsDataURL(blob);
       })();
     }
-  }, [mediaBlobUrl, props.setOutputJson]);
+  }, [mediaBlobUrl, props.setOutputJson]);  // TODO: ここでpropsを書くのはあまりよくない
 
   return (
     <tr>

@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import base64
 import subprocess
+import json
 
 app = FastAPI()
 
@@ -19,6 +20,24 @@ app.add_middleware(
 @app.get("/", tags=["root"])
 async def read_root() -> dict:
     return {"message": "connected to backend"}
+
+
+@app.get("/get-input-json/{nutt}/{task_id}")
+async def get_input_json(nutt, task_id):
+    print(nutt)
+    print(task_id)
+
+    with open(f"task_json/{nutt}.json") as f:
+        json_list = json.load(f)
+
+    value = {}
+    for j in json_list:
+        if j["task_id"] == task_id:
+            value = j
+            break
+
+    return value
+
 
 @app.post("/save-audio")
 async def save_audio(taskjson: dict) -> dict:
