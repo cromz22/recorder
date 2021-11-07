@@ -83,8 +83,8 @@ const RecordTableRow = (props: any) => {
 const RecordTableRows = (props: any) => {
   const tableRows = props.dialog.conversation.map((uttjson: any) => (
     <RecordTableRow
-      key={props.dialog.id + "_" + uttjson.no.toString()}
-      uttid={props.dialog.id + "_" + uttjson.no.toString()}
+      key={uttjson.uttid}
+      uttid={uttjson.uttid}
       text={uttjson.en_sentence} // or ja_sentence
       allBlobs={props.allBlobs}
       setAllBlobs={props.setAllBlobs}

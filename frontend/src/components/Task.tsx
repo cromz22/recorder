@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "./Task.css";
-import sampleJson from "../data/sample.json";
+// import sampleJson from "../data/sample.json";
+import sampleJson from "../data/2utt.json";
 import { useHistory } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import RecordTable from "./RecordTable";
@@ -10,7 +11,7 @@ import RecordTable from "./RecordTable";
 const Task = () => {
   const backendUrl = "http://localhost:8000/save-audio";
 
-  const dialog = sampleJson[1]; // TODO: fetch from backend?
+  const dialog = sampleJson[0]; // TODO: fetch from backend?
 
   interface utterance {
     uttid: string;
@@ -26,7 +27,7 @@ const Task = () => {
 
   const utterances = dialog.conversation.map((uttjson: any) => {
     return {
-      uttid: dialog.id + "_" + uttjson.no.toString(),
+      uttid: uttjson.uttid,
       text: uttjson.en_sentence,
       audio: "",
       recorded: false,
@@ -34,7 +35,7 @@ const Task = () => {
   });
 
   const initialAllBlobs: allBlobsType = {
-    taskid: dialog.id,
+    taskid: dialog.task_id,
     utterances: utterances,
   };
 
