@@ -1,50 +1,39 @@
 import React from "react";
 import { useState } from "react";
 import "./Task.css";
-// import sampleJson from "../data/sample.json";
 import sampleJson from "../data/2utt.json";
 import { useHistory } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import RecordTable from "./RecordTable";
-
+import { inputJsonType, inputUtteranceType, outputJsonType } from "./types";
 
 const Task = () => {
   const backendUrl = "http://localhost:8000/save-audio";
 
-  const dialog = sampleJson[0]; // TODO: fetch from backend?
+  const inputJson: inputJsonType = sampleJson[0]; // TODO: fetch from backend?
 
-  interface utterance {
-    uttid: string;
-    text: string;
-    audio: string;
-    recorded: boolean;
-  }
+  const utterances = inputJson.conversation.map(
+    (inputUtterance: inputUtteranceType) => {
+      return {
+        uttid: inputUtterance.uttid,
+        text: inputUtterance.en_sentence,
+        audio: "",
+        recorded: false,
+      };
+    }
+  );
 
-  interface allBlobsType {
-    taskid: string;
-    utterances: utterance[];
-  }
-
-  const utterances = dialog.conversation.map((uttjson: any) => {
-    return {
-      uttid: uttjson.uttid,
-      text: uttjson.en_sentence,
-      audio: "",
-      recorded: false,
-    };
-  });
-
-  const initialAllBlobs: allBlobsType = {
-    taskid: dialog.task_id,
+  const initialOutputJson: outputJsonType = {
+    taskid: inputJson.task_id,
     utterances: utterances,
   };
 
-  const [allBlobs, setAllBlobs] = useState(initialAllBlobs);
+  const [outputJson, setOutputJson] = useState(initialOutputJson);
 
   let history = useHistory();
 
   const handleSubmit = () => {
-    const isRecordedArray = allBlobs.utterances.map(
+    const isRecordedArray = outputJson.utterances.map(
       (utterance) => utterance.recorded
     );
     const isAllRecorded = isRecordedArray.every(
@@ -57,7 +46,7 @@ const Task = () => {
     fetch(backendUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(allBlobs),
+      body: JSON.stringify(outputJson),
     })
       .then((response) => response.json())
       .then((data) => {
@@ -73,9 +62,9 @@ const Task = () => {
       <h1>Audio Recording</h1>
       <p>Please read aloud the displayed sentences.</p>
       <RecordTable
-        dialog={dialog}
-        allBlobs={allBlobs}
-        setAllBlobs={setAllBlobs}
+        inputJson={inputJson}
+        outputJson={outputJson}
+        setOutputJson={setOutputJson}
       />
       {/* TODO: checkbox */}
       <Button type="submit" variant="outline-primary" onClick={handleSubmit}>

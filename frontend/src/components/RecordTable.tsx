@@ -5,8 +5,9 @@ import StopIcon from "@mui/icons-material/Stop";
 import { useReactMediaRecorder } from "../utils/ReactMediaRecorder";
 import { useEffect } from "react";
 import Table from "react-bootstrap/Table";
+import { inputUtteranceType, outputUtteranceType } from "./types";
 
-const StartStopButton = (props: any): JSX.Element => {
+const StartStopButton = (props: any) => {
   return (
     <IconButton
       onClick={
@@ -16,7 +17,7 @@ const StartStopButton = (props: any): JSX.Element => {
       }
       disabled={props.isProcessing}
     >
-	  { props.status === "recording" ? (
+      {props.status === "recording" ? (
         <StopIcon color="error" />
       ) : (
         <MicIcon color="primary" />
@@ -42,26 +43,27 @@ const RecordTableRow = (props: any) => {
               .toString()
               .replace(/data:.*\/.*;base64,/, "");
 
-            const current_utterances = props.allBlobs.utterances;
-            const new_utterances = current_utterances.map((utt: any) => {
-              if (props.uttid == utt.uttid) {
-                utt.audio = encoded;
-                utt.recorded = true;
+            const currentOutputUtterances = props.outputJson.utterances;
+            const newOutputUtterances = currentOutputUtterances.map(
+              (utt: outputUtteranceType) => {
+                if (props.uttid === utt.uttid) {
+                  utt.audio = encoded;
+                  utt.recorded = true;
+                }
+                return utt;
               }
-              return utt;
-            });
+            );
 
-            props.setAllBlobs({
-              taskid: props.allBlobs.taskid,
-              utterances: new_utterances,
+            props.setOutputJson({
+              taskid: props.outputJson.taskid,
+              utterances: newOutputUtterances,
             });
           }
         };
         reader.readAsDataURL(blob);
       })();
     }
-
-  }, [mediaBlobUrl, props.setAllBlobs]);
+  }, [mediaBlobUrl, props.setOutputJson]);
 
   return (
     <tr>
@@ -81,15 +83,17 @@ const RecordTableRow = (props: any) => {
 };
 
 const RecordTableRows = (props: any) => {
-  const tableRows = props.dialog.conversation.map((uttjson: any) => (
-    <RecordTableRow
-      key={uttjson.uttid}
-      uttid={uttjson.uttid}
-      text={uttjson.en_sentence} // or ja_sentence
-      allBlobs={props.allBlobs}
-      setAllBlobs={props.setAllBlobs}
-    />
-  ));
+  const tableRows = props.inputJson.conversation.map(
+    (utt: inputUtteranceType) => (
+      <RecordTableRow
+        key={utt.uttid}
+        uttid={utt.uttid}
+        text={utt.en_sentence} // or ja_sentence
+        outputJson={props.outputJson}
+        setOutputJson={props.setOutputJson}
+      />
+    )
+  );
 
   return <>{tableRows}</>;
 };
@@ -106,9 +110,9 @@ const RecordTable = (props: any) => {
       </thead>
       <tbody>
         <RecordTableRows
-          dialog={props.dialog}
-          allBlobs={props.allBlobs}
-          setAllBlobs={props.setAllBlobs}
+          inputJson={props.inputJson}
+          outputJson={props.outputJson}
+          setOutputJson={props.setOutputJson}
         />
       </tbody>
     </Table>
