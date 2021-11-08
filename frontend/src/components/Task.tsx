@@ -4,14 +4,17 @@ import "./Task.css";
 // import sampleJson from "../data/2utt.json";
 import { useHistory, useParams } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
 import RecordTable from "./RecordTable";
-import { inputJsonType, inputUtteranceType, outputJsonType } from "./types";
+import Description from "./Description";
+import { inputJsonType, inputUtteranceType, outputJsonType } from "./Types";
 
 const Task = () => {
   const getJsonUrl = "http://localhost:8000/get-input-json";
   const saveAudioUrl = "http://localhost:8000/save-audio";
 
-  const { nutt, taskId } = useParams<{ nutt: string; taskId: string }>();
+  const { lang, nutt, taskId } =
+    useParams<{ lang: string; nutt: string; taskId: string }>();
 
   const initialInputJson: inputJsonType = {
     task_id: "",
@@ -56,12 +59,21 @@ const Task = () => {
 
         const outputUtterances = inputJson.conversation.map(
           (inputUtterance: inputUtteranceType) => {
-            return {
+            let outputUtterance = {
               uttid: inputUtterance.uttid,
               text: inputUtterance.en_sentence,
               audio: "",
               recorded: false,
             };
+            if (lang === "ja") {
+              outputUtterance = {
+                uttid: inputUtterance.uttid,
+                text: inputUtterance.ja_sentence,
+                audio: "",
+                recorded: false,
+              };
+            }
+            return outputUtterance;
           }
         );
 
@@ -72,7 +84,7 @@ const Task = () => {
 
         setOutputJson(() => initialOutputJson);
       });
-  }, [nutt, taskId]);
+  }, [lang, nutt, taskId]);
 
   let history = useHistory();
 
@@ -95,25 +107,50 @@ const Task = () => {
       .then((response) => response.json())
       .then((data) => {
         if (isAllRecorded) {
-          history.push(`/finished/${nutt}/${taskId}`); // redirect
+          history.push(`/finished/${lang}/${nutt}/${taskId}`); // redirect
         }
         return console.log(data);
       });
   };
 
-  return (
-    <div className="Task">
-      <h1>Audio Recording</h1>
-      <p>Please read aloud the displayed sentences.</p>
-      <RecordTable
-        inputJson={inputJson}
-        outputJson={outputJson}
-        setOutputJson={setOutputJson}
-      />
-      {/* TODO: checkbox */}
-      <Button type="submit" variant="outline-primary" onClick={handleSubmit}>
+  const SubmitButton = () => {
+    let sb = (
+      <Button
+        type="submit"
+        variant="outline-primary"
+        onClick={handleSubmit}
+        className="btn my-4"
+      >
         Submit all recordings
       </Button>
+    );
+    if (lang === "ja") {
+      sb = (
+        <Button
+          type="submit"
+          variant="outline-primary"
+          onClick={handleSubmit}
+          className="btn my-4"
+        >
+          全ての録音を提出
+        </Button>
+      );
+    }
+    return sb;
+  };
+
+  return (
+    <div className="Task">
+      <Container className="my-5">
+        <Description />
+        <RecordTable
+          inputJson={inputJson}
+          outputJson={outputJson}
+          setOutputJson={setOutputJson}
+        />
+        {/* TODO: checkbox */}
+        <SubmitButton />
+      </Container>
     </div>
   );
 };

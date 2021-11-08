@@ -5,7 +5,9 @@ import StopIcon from "@mui/icons-material/Stop";
 import { useReactMediaRecorder } from "../utils/ReactMediaRecorder";
 import { useEffect } from "react";
 import Table from "react-bootstrap/Table";
-import { inputUtteranceType, outputUtteranceType } from "./types";
+import { inputUtteranceType, outputUtteranceType } from "./Types";
+import { useParams } from "react-router-dom";
+import "./RecordTable.css";
 
 const StartStopButton = (props: any) => {
   return (
@@ -18,9 +20,9 @@ const StartStopButton = (props: any) => {
       disabled={props.isProcessing}
     >
       {props.status === "recording" ? (
-        <StopIcon color="error" />
+        <StopIcon color="error" className="micstop" />
       ) : (
-        <MicIcon color="primary" />
+        <MicIcon color="primary" className="micstop" />
       )}
     </IconButton>
   );
@@ -63,7 +65,7 @@ const RecordTableRow = (props: any) => {
         reader.readAsDataURL(blob);
       })();
     }
-  }, [mediaBlobUrl, props.setOutputJson]);  // TODO: ここでpropsを書くのはあまりよくない
+  }, [mediaBlobUrl, props.setOutputJson]); // TODO: ここでpropsを書くのはあまりよくない
 
   return (
     <tr>
@@ -83,31 +85,67 @@ const RecordTableRow = (props: any) => {
 };
 
 const RecordTableRows = (props: any) => {
+  const { lang } = useParams<{ lang: string }>();
   const tableRows = props.inputJson.conversation.map(
-    (utt: inputUtteranceType) => (
-      <RecordTableRow
-        key={utt.uttid}
-        uttid={utt.uttid}
-        text={utt.en_sentence} // or ja_sentence
-        outputJson={props.outputJson}
-        setOutputJson={props.setOutputJson}
-      />
-    )
+    (utt: inputUtteranceType) => {
+      let rtr = (
+        <RecordTableRow
+          key={utt.uttid}
+          uttid={utt.uttid}
+          text={utt.en_sentence} // or ja_sentence
+          outputJson={props.outputJson}
+          setOutputJson={props.setOutputJson}
+        />
+      );
+
+      if (lang === "ja") {
+        rtr = (
+          <RecordTableRow
+            key={utt.uttid}
+            uttid={utt.uttid}
+            text={utt.ja_sentence} // or ja_sentence
+            outputJson={props.outputJson}
+            setOutputJson={props.setOutputJson}
+          />
+        );
+      }
+
+      return rtr;
+    }
   );
 
   return <>{tableRows}</>;
 };
 
+const RecordTableHeader = () => {
+  const { lang } = useParams<{ lang: string }>();
+  let th = (
+    <thead>
+      <tr>
+        <td>Sentences to record</td>
+        <td>Record / Stop</td>
+        <td>Check the audio</td>
+      </tr>
+    </thead>
+  );
+  if (lang === "ja") {
+    th = (
+      <thead>
+        <tr>
+          <td>録音する文</td>
+          <td>録音/停止</td>
+          <td>録音した音声の確認</td>
+        </tr>
+      </thead>
+    );
+  }
+  return th;
+};
+
 const RecordTable = (props: any) => {
   return (
     <Table>
-      <thead>
-        <tr>
-          <td>Sentences to record</td>
-          <td>Record / Stop</td>
-          <td>Check the audio</td>
-        </tr>
-      </thead>
+      <RecordTableHeader />
       <tbody>
         <RecordTableRows
           inputJson={props.inputJson}

@@ -30,10 +30,10 @@ const App = () => {
       }
     >
       <Switch>
-        <Route exact path="/finished/:nutt/:taskId">
+        <Route exact path="/finished/:lang/:nutt/:taskId">
           <Finished />
         </Route>
-        <Route exact path="/task/:nutt/:taskId">
+        <Route exact path="/task/:lang/:nutt/:taskId">
           <Task />
         </Route>
         <Route path="*">

@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-.table > tbody > tr > td,
-.table > thead > tr > td {
-  text-align: center;
-  vertical-align: middle;
+.btn {
+  font-size: 1.5em;
 }

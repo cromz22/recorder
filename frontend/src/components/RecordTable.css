@@ -1,0 +1,43 @@
+tbody > tr:nth-child(2n + 1) {
+  /* background-color: #f0f8ff; */
+  background-color: white;
+}
+
+tbody > tr:nth-child(2n) {
+  background-color: white;
+}
+
+tbody > tr {
+  height: 4em;
+  font-size: 1.5em;
+}
+
+.table > tbody > tr > td,
+.table > thead > tr > td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table > tbody > tr > td:first-child {
+  text-align: left;
+  width: 60%;
+}
+
+.table > tbody > tr > td:nth-child(2) {
+  width: 20%;
+}
+
+thead {
+  /* background-color: #e0e0e0; */
+  /* background-color: #efefef; */
+  background-color: white;
+}
+
+thead > tr {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.micstop {
+  transform: scale(1.5);
+}
