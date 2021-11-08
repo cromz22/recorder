@@ -44,13 +44,14 @@ async def save_audio(taskjson: dict) -> dict:
     for utt in taskjson["utterances"]:
         uttid = utt["uttid"]
         blob = utt["audio"]
+        lang = utt["lang"]
 
-        with open(f"audio/orig/{uttid}.webm", "wb") as f:
+        input_file = f"audio/orig/{uttid}_{lang}.webm"
+        with open(input_file, "wb") as f:
             f.write(base64.b64decode(blob))
 
         # convert to wav
-        input_file = f"audio/orig/{uttid}.webm"
-        output_file = f"audio/wav/{uttid}.wav"
+        output_file = f"audio/wav/{uttid}_{lang}.wav"
         subprocess.call(["ffmpeg", "-i", input_file, "-c:a", "pcm_s16le", output_file, "-y"])
 
     return taskjson

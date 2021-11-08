@@ -18,6 +18,7 @@ export interface outputUtteranceType {
   uttid: string;
   text: string;
   audio: string;
+  lang: string;
   recorded: boolean;
 }
 

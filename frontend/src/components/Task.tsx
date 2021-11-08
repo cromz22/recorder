@@ -40,6 +40,7 @@ const Task = () => {
         uttid: "",
         text: "",
         audio: "",
+        lang: "",
         recorded: false,
       },
     ],
@@ -63,6 +64,7 @@ const Task = () => {
               uttid: inputUtterance.uttid,
               text: inputUtterance.en_sentence,
               audio: "",
+              lang: "en",
               recorded: false,
             };
             if (lang === "ja") {
@@ -70,6 +72,7 @@ const Task = () => {
                 uttid: inputUtterance.uttid,
                 text: inputUtterance.ja_sentence,
                 audio: "",
+                lang: "ja",
                 recorded: false,
               };
             }

@@ -92,7 +92,7 @@ const RecordTableRows = (props: any) => {
         <RecordTableRow
           key={utt.uttid}
           uttid={utt.uttid}
-          text={utt.en_sentence} // or ja_sentence
+          text={utt.en_sentence}
           outputJson={props.outputJson}
           setOutputJson={props.setOutputJson}
         />
@@ -103,7 +103,7 @@ const RecordTableRows = (props: any) => {
           <RecordTableRow
             key={utt.uttid}
             uttid={utt.uttid}
-            text={utt.ja_sentence} // or ja_sentence
+            text={utt.ja_sentence}
             outputJson={props.outputJson}
             setOutputJson={props.setOutputJson}
           />

@@ -1,20 +1,18 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
 import "./Description.css";
 
 const Description = () => {
   const { lang } = useParams<{ lang: string }>();
   let dsc = (
     <Container>
-      <h1>Audio Recording for Crowdsourcing</h1>
+      <h1>Crowdsourcing Audio Recordings</h1>
       <h5>Please read aloud the displayed sentences.</h5>
-      <Card style={{ width: "60%" }} border="danger" className="mx-auto my-5">
+      <Card style={{ width: "70%" }} border="danger" className="mx-auto my-5">
         <Card.Header as="h5">Notes</Card.Header>
-        <Card.Text className="mx-auto mt-3 px-2">
+        <div className="mx-auto mt-3 px-2">
           <ul>
             <li>
               Please record in a <span className="red">quiet</span> environment.
@@ -35,7 +33,7 @@ const Description = () => {
               the future.
             </li>
           </ul>
-        </Card.Text>
+        </div>
       </Card>
     </Container>
   );
@@ -47,7 +45,7 @@ const Description = () => {
         <h5>表示された文を音読し録音してください。</h5>
         <Card style={{ width: "70%" }} border="danger" className="mx-auto my-5">
           <Card.Header as="h5">注意点</Card.Header>
-          <Card.Text className="mx-auto mt-3 px-2">
+          <div className="mx-auto mt-3 px-2">
             <ul>
               <li>
                 できるだけ<span className="red">静かな環境</span>
@@ -70,7 +68,7 @@ const Description = () => {
                 録音された音声はデータセットとして公開される予定ですので、ご了承ください。
               </li>
             </ul>
-          </Card.Text>
+          </div>
         </Card>
       </Container>
     );
