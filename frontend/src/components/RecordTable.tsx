@@ -8,17 +8,19 @@ import Table from "react-bootstrap/Table";
 import { inputUtteranceType, outputUtteranceType } from "./Types";
 import { useParams } from "react-router-dom";
 import "./RecordTable.css";
-// useEffect(() => {
-//  if (props.status === "recording") {
-// props.setIsProcessing(true);
-// console.log(props.status);
-// console.log(props.isProcessing);
-//  }
-// }, [props.status]);
-//
-// disabled={props.isProcessing}
 
 const StartStopButton = (props: any) => {
+  useEffect(() => {
+    if (props.status === "recording") {
+      props.setIsRecordingSomewhere(true);
+      console.log(props.status);
+      console.log(props.isRecordingSomewhere);
+    }
+    if (props.status === "stopped") {
+      props.setIsRecordingSomewhere(false);
+    }
+  }, [props.status]);
+
   return (
     <IconButton
       onClick={
@@ -26,8 +28,11 @@ const StartStopButton = (props: any) => {
           ? props.stopRecording
           : props.startRecording
       }
+      disabled={props.isRecordingSomewhere && props.status !== "recording"}
     >
-      {props.status === "recording" ? (
+      {props.isRecordingSomewhere && props.status !== "recording" ? (
+        <MicIcon color="disabled" className="micstop" />
+      ) : props.status === "recording" ? (
         <StopIcon color="error" className="micstop" />
       ) : (
         <MicIcon color="primary" className="micstop" />
@@ -35,13 +40,6 @@ const StartStopButton = (props: any) => {
     </IconButton>
   );
 };
-// {props.isProcessing ? (
-//   <MicIcon color='disabled' className="micstop" />
-// ) : props.status == 'recording' ? (
-//   <StopIcon color='error' className="micstop" />
-// ) : (
-//   <MicIcon color='primary' className="micstop" />
-// )}
 
 const RecordTableRow = (props: any) => {
   const { status, startRecording, stopRecording, mediaBlobUrl } =
@@ -90,8 +88,8 @@ const RecordTableRow = (props: any) => {
           status={status}
           startRecording={startRecording}
           stopRecording={stopRecording}
-          isProcessing={props.isProcessing}
-          setIsProcessing={props.setIsProcessing}
+          isRecordingSomewhere={props.isRecordingSomewhere}
+          setIsRecordingSomewhere={props.setIsRecordingSomewhere}
         />
       </td>
       <td>
@@ -103,37 +101,22 @@ const RecordTableRow = (props: any) => {
 
 const RecordTableRows = (props: any) => {
   const { lang } = useParams<{ lang: string }>();
-  const [isProcessing, setIsProcessing] = useState<boolean>(false);
+  const [isRecordingSomewhere, setIsRecordingSomewhere] =
+    useState<boolean>(false);
 
   const tableRows = props.inputJson.conversation.map(
     (utt: inputUtteranceType) => {
-      let rtr = (
+      return (
         <RecordTableRow
           key={utt.uttid}
           uttid={utt.uttid}
-          text={utt.en_sentence}
+          text={lang === "en" ? utt.en_sentence : utt.ja_sentence}
           outputJson={props.outputJson}
           setOutputJson={props.setOutputJson}
-          isProcessing={isProcessing}
-          setIsProcessing={setIsProcessing}
+          isRecordingSomewhere={isRecordingSomewhere}
+          setIsRecordingSomewhere={setIsRecordingSomewhere}
         />
       );
-
-      if (lang === "ja") {
-        rtr = (
-          <RecordTableRow
-            key={utt.uttid}
-            uttid={utt.uttid}
-            text={utt.ja_sentence}
-            outputJson={props.outputJson}
-            setOutputJson={props.setOutputJson}
-            isProcessing={isProcessing}
-            setIsProcessing={setIsProcessing}
-          />
-        );
-      }
-
-      return rtr;
     }
   );
 
