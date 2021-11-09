@@ -1,20 +1,20 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import "./Task.css";
-// import sampleJson from "../data/2utt.json";
+import React, { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
 import RecordTable from "./RecordTable";
 import Description from "./Description";
 import { inputJsonType, inputUtteranceType, outputJsonType } from "./Types";
 
 const Task = () => {
-  const getJsonUrl = "http://localhost:8000/get-input-json";
-  const saveAudioUrl = "http://localhost:8000/save-audio";
-
+  const [agreed, setAgreed] = useState(false);
+  const [checkedRecordings, setCheckedRecordings] = useState(false);
   const { lang, nutt, taskId } =
     useParams<{ lang: string; nutt: string; taskId: string }>();
+
+  const getJsonUrl = "http://localhost:8000/get-input-json";
+  const saveAudioUrl = "http://localhost:8000/save-audio";
 
   const initialInputJson: inputJsonType = {
     task_id: "",
@@ -98,8 +98,16 @@ const Task = () => {
     const isAllRecorded = isRecordedArray.every(
       (isRecorded) => isRecorded === true
     );
+    if (!agreed) {
+      alert(
+        "Please agree that your voice will be released as a part of a dataset."
+      );
+    }
     if (!isAllRecorded) {
       alert("Please record all the utterances before you submit.");
+    }
+    if (!checkedRecordings) {
+      alert("Please check that all the utterances are properly recorded.");
     }
 
     fetch(saveAudioUrl, {
@@ -109,7 +117,7 @@ const Task = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        if (isAllRecorded) {
+        if (agreed && isAllRecorded && checkedRecordings) {
           history.push(`/finished/${lang}/${nutt}/${taskId}`); // redirect
         }
         return console.log(data);
@@ -117,44 +125,54 @@ const Task = () => {
   };
 
   const SubmitButton = () => {
-    let sb = (
+    return (
       <Button
         type="submit"
         variant="outline-primary"
         onClick={handleSubmit}
-        className="btn my-4"
+        className="fs-4 fw-bold my-4"
       >
-        Submit all recordings
+        {lang === "en" ? "Submit all recordings" : "全ての録音を提出する"}
       </Button>
     );
-    if (lang === "ja") {
-      sb = (
-        <Button
-          type="submit"
-          variant="outline-primary"
-          onClick={handleSubmit}
-          className="btn my-4"
-        >
-          全ての録音を提出
-        </Button>
-      );
-    }
-    return sb;
   };
 
   return (
     <div className="Task">
-      <Container className="my-5">
-        <Description />
+      <Container className="my-5 text-center">
+        <Description setAgreed={setAgreed} />
         <RecordTable
           inputJson={inputJson}
           outputJson={outputJson}
           setOutputJson={setOutputJson}
         />
-        {/* TODO: checkbox */}
+        <RecordedCheckbox
+          setCheckedRecordings={setCheckedRecordings}
+          checkedLabel={
+            lang === "en"
+              ? "I checked all the utterances are properly recorded."
+              : "全ての音声が正常に録音されていることを確認しました。"
+          }
+        />
         <SubmitButton />
       </Container>
     </div>
+  );
+};
+
+const RecordedCheckbox = (props: any) => {
+  return (
+    <Form className="mt-5 fs-4 fw-bold">
+      <Form.Check
+        inline
+        label={props.checkedLabel}
+        onChange={(e) => {
+          e.target.checked
+            ? props.setCheckedRecordings(true)
+            : props.setCheckedRecordings(false);
+        }}
+      />
+    </Form>
   );
 };
 
