@@ -2,9 +2,16 @@ import Card from "react-bootstrap/Card";
 import { useParams } from "react-router-dom";
 
 const Finished = () => {
-  let { lang } = useParams<{ lang: string }>();
-  let { nutt } = useParams<{ nutt: string }>();
-  let { taskId } = useParams<{ taskId: string }>();
+  let { lang, nutt, taskId } =
+    useParams<{ lang: string; nutt: string; taskId: string }>();
+
+  const hashCode = (s: string) => {
+    let h = 0;
+    for (let i = 0; i < s.length; i++)
+      h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+
+    return h;
+  };
 
   let ctn = (
     <Card
@@ -16,13 +23,9 @@ const Finished = () => {
         <Card.Title>The audio files were successfully uploaded.</Card.Title>
         <Card.Text>
           Please go back to the AMT crowdsourcing page and copy the folowing
-          task id to the textbox.
+          Task ID to the textbox.
           <br />
-          lang: {lang}
-          <br />
-          nutt: {nutt}
-          <br />
-          Task ID: {taskId}
+          Task ID: {`${lang}_${nutt}_${taskId}_${hashCode(taskId)}`}
         </Card.Text>
       </Card.Body>
     </Card>
@@ -38,13 +41,9 @@ const Finished = () => {
         <Card.Body>
           <Card.Title>音声ファイルは正常にアップロードされました。</Card.Title>
           <Card.Text>
-            Yahoo!クラウドソーシングのページに戻り、以下のidを入力してください。
+            Yahoo!クラウドソーシングのページに戻り、以下のタスクIDを入力してください。
             <br />
-            lang: {lang}
-            <br />
-            nutt: {nutt}
-            <br />
-            Task ID: {taskId}
+            タスクID: {`${lang}_${nutt}_${taskId}_${hashCode(taskId)}`}
           </Card.Text>
         </Card.Body>
       </Card>

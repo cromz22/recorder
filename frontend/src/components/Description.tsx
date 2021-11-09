@@ -34,20 +34,23 @@ const Description = (props: any) => {
       >
         <Card.Header as="h5">Notes</Card.Header>
         <div className="mx-auto my-3 px-2 fs-5">
-		<ul className="text-start">
+          <ul className="text-start">
             <li>
-              Please record in a <span className="text-danger">quiet</span> environment.
+              Please record in a <span className="text-danger">quiet</span>{" "}
+              environment.
             </li>
             <li>
-              Please speak as <span className="text-danger">clearly</span> as possible.
-              If you make a mistake, you can rerecord.
+              Please speak as <span className="text-danger">clearly</span> as
+              possible. If you make a mistake, you can rerecord.
             </li>
             <li>
-              Please use a <span className="text-danger">microphone</span> if possible.
+              Please use a <span className="text-danger">microphone</span> if
+              possible.
             </li>
             <li>
               Please make sure that the audio is{" "}
-              <span className="text-danger">actually recorded</span> before submission.
+              <span className="text-danger">actually recorded</span> before
+              submission.
             </li>
             <li>
               Please note that the recorded voice will be released as a dataset
@@ -89,7 +92,8 @@ const Description = (props: any) => {
               </li>
               <li>
                 録音した音声がきちんと録音されているかどうか
-                <span className="text-danger">確認してから提出</span>してください。
+                <span className="text-danger">確認してから提出</span>
+                してください。
               </li>
               <li>
                 録音された音声はデータセットとして公開される予定ですので、ご了承ください。
