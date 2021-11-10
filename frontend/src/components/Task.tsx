@@ -35,6 +35,7 @@ const Task = () => {
   // TODO: inputと形式を合わせる
   const initOutputJson: outputJsonType = {
     taskid: "",
+    set: "",
     utterances: [
       {
         uttid: "",
@@ -82,6 +83,7 @@ const Task = () => {
 
         const initialOutputJson: outputJsonType = {
           taskid: inputJson.task_id,
+          set: inputJson.set,
           utterances: outputUtterances,
         };
 
@@ -100,14 +102,24 @@ const Task = () => {
     );
     if (!agreed) {
       alert(
-        "Please agree that your voice will be released as a part of a dataset."
+        lang === "en"
+          ? "Please agree that your voice will be released as a part of a dataset."
+          : "録音された音声がデータセットの一部として公開されることにご同意ください。"
       );
     }
     if (!isAllRecorded) {
-      alert("Please record all the utterances before you submit.");
+      alert(
+        lang === "en"
+          ? "Please record all the utterances before you submit."
+          : "全ての音声を録音してから提出してください。"
+      );
     }
     if (!checkedRecordings) {
-      alert("Please check that all the utterances are properly recorded.");
+      alert(
+        lang === "en"
+          ? "Please check that all the utterances are properly recorded."
+          : "全ての音声が正常に録音されていることを確認してください。"
+      );
     }
 
     fetch(saveAudioUrl, {

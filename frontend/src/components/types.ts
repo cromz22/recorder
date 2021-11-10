@@ -24,5 +24,6 @@ export interface outputUtteranceType {
 
 export interface outputJsonType {
   taskid: string;
+  set: string;
   utterances: outputUtteranceType[];
 }

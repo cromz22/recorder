@@ -13,13 +13,11 @@ const StartStopButton = (props: any) => {
   useEffect(() => {
     if (props.status === "recording") {
       props.setIsRecordingSomewhere(true);
-      console.log(props.status);
-      console.log(props.isRecordingSomewhere);
     }
     if (props.status === "stopped") {
       props.setIsRecordingSomewhere(false);
     }
-  }, [props.status]);
+  }, [props.status]); // TODO: purge props
 
   return (
     <IconButton
@@ -71,6 +69,7 @@ const RecordTableRow = (props: any) => {
 
             props.setOutputJson({
               taskid: props.outputJson.taskid,
+              set: props.outputJson.set,
               utterances: newOutputUtterances,
             });
           }

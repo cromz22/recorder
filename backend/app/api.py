@@ -30,7 +30,22 @@ async def get_input_json(nutt, task_id):
     with open(f"task_json/{nutt}.json") as f:
         json_list = json.load(f)
 
-    value = {}
+    value = {
+        "task_id": "",
+        "set": "",
+        "conversation": [
+            {
+                "no": 0,
+                "ja_speaker": "",
+                "en_speaker": "",
+                "ja_sentence": "",
+                "en_sentence": "",
+                "spkid": "",
+                "uttid": "",
+            }
+        ],
+    }
+
     for j in json_list:
         if j["task_id"] == task_id:
             value = j
@@ -40,18 +55,22 @@ async def get_input_json(nutt, task_id):
 
 
 @app.post("/save-audio")
-async def save_audio(taskjson: dict) -> dict:
-    for utt in taskjson["utterances"]:
+async def save_audio(output_json: dict) -> dict:
+    train_dev_test = output_json["set"]
+
+    for utt in output_json["utterances"]:
         uttid = utt["uttid"]
         blob = utt["audio"]
         lang = utt["lang"]
 
-        input_file = f"audio/orig/{uttid}_{lang}.webm"
+        input_file = f"audio/orig/{train_dev_test}/{uttid}_{lang}.webm"
         with open(input_file, "wb") as f:
             f.write(base64.b64decode(blob))
 
         # convert to wav
-        output_file = f"audio/wav/{uttid}_{lang}.wav"
-        subprocess.call(["ffmpeg", "-i", input_file, "-c:a", "pcm_s16le", output_file, "-y"])
+        output_file = f"audio/wav/{train_dev_test}/{uttid}_{lang}.wav"
+        subprocess.call(
+            ["ffmpeg", "-i", input_file, "-c:a", "pcm_s16le", output_file, "-y"]
+        )
 
-    return taskjson
+    return output_json

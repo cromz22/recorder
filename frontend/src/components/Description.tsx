@@ -64,7 +64,8 @@ const Description = (props: any) => {
   );
 
   if (lang === "ja") {
-    agreeLabel = "録音した音声がデータセットとして公開されることに同意します。";
+    agreeLabel =
+      "録音した音声がデータセットの一部として公開されることに同意します。";
     dsc = (
       <Container>
         <h1>クラウドソーシング 音声録音ページ</h1>
