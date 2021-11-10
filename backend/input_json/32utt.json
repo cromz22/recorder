@@ -1,0 +1,590 @@
+[
+    {
+        "task_id": "190315_J011_19_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "次は研修申請手順の説明です。",
+                "en_sentence": "Now, let me show you the training application procedure.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "研修管理システム「Performance Supporter」アイコンをクリックし、管理者IDでログインします。",
+                "en_sentence": "Click the training management system ”Performance Supporter\" icon and login with your Manager ID.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "先ずは、所属社員の要望と自分の考えを纏め「人材育成ゴール」を設定します。",
+                "en_sentence": "First of all, set \"Human Resource Growth Goal\" by putting together your thoughts and your team's requests.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "今はこのグラフに社員アンケート結果が反映されており、彼らが不足と感じているスキルを確認できます。",
+                "en_sentence": "Currently, the employee survey results are reflected on this graph, and you can check what skills they feel lacking.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no4"
+            },
+            {
+                "no": 5,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "システム稼働後は、全社員が入力可能となる「必要スキル」や「研修提案書」を確認できる様になります。",
+                "en_sentence": "After the launch of the system, you'll be able to see \"necessary skills\" and \"training proposals\" which all employees are going to be able to input.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no5"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "自分のチームが何をいつまでに習得する必要があるのか、こちらの「ゴール」画面に入力します。",
+                "en_sentence": "On this \"Goal\" page here, enter what and by when you want your team to acquire.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no6"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "このゴールが90日間更新されないと更新するまでセクション全体が研修申請ができなくなりますので、更新は定期的にお願いします。",
+                "en_sentence": "If this goal is not updated for 90 days, your entire section won't be able to apply training until you update it, so please update regularly.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no7"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "次に、研修を選択します。",
+                "en_sentence": "Next, choose a training.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no8"
+            },
+            {
+                "no": 9,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "研修１件ごとに申請が必要です。",
+                "en_sentence": "You'll need one application per training.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no9"
+            },
+            {
+                "no": 10,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "「研修種別」を選択してください。",
+                "en_sentence": "Select a \"training category\".",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no10"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "必要な研修がリストに無い場合「新規研修提案」を選択、入力画面に行きます。",
+                "en_sentence": "If you cannot find a training you need on the list, click \"New Training Proposal,\" then you'll go to the input page.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no13"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "「研修内容」「目的」を記入、「研修形式」を選択して「入力」を押すと前の画面に戻ります。",
+                "en_sentence": "Fill in \"training content,\" \"purpose,\" and select a \"training style,\" then click \"ENTER,\" it'll go back to the previous page.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no14"
+            },
+            {
+                "no": 15,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "最後に「最大参加人数」や「開催予定日時」等を記入、「申請」をクリックします。",
+                "en_sentence": "Lastly, enter the \"maximum number of participants,\" \"scheduled date and time,\" and so on, then click \"APPLY.\"",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no15"
+            },
+            {
+                "no": 16,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "20人以上の研修は部門長がこの枠にチェックを入れるまで申請できません。",
+                "en_sentence": "If it's a training with more than 20 people, you won't be able to apply until your department head checks this box.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no16"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "人事で承認された研修はリストに掲載、他の部の管理職も申請可能となります。",
+                "en_sentence": "A training that is approved by HR will be on the list, and managers in other departments will also be able to apply as well.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no17"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "尚、全ての研修で、事後アンケートが必須です。",
+                "en_sentence": "In addition, you must do a post-training survey after every training.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no18"
+            },
+            {
+                "no": 19,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "参加者とその所属セクション責任者でこちらのフォームに入力します。",
+                "en_sentence": "Participants and the relevant section head are going to fill in the form here.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no19"
+            },
+            {
+                "no": 20,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "研修で弱点は補えたか、現場で実践できているか等々、です。",
+                "en_sentence": "If the training has eliminated weaknesses, if the skills are actually being useful on the job, and so on and so forth.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no20"
+            },
+            {
+                "no": 21,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "研修関係者全員のアンケート記入で研修のステータスが「完了」となります。",
+                "en_sentence": "When all relevant people for training answer the questionnaire, the status of training will be \"completed.\"",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no21"
+            },
+            {
+                "no": 22,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "何か質問はありますか？",
+                "en_sentence": "Any questions?",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no22"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "予算効率、業務上の必要性、その他希望者数などを考慮します。",
+                "en_sentence": "Budgetary efficiency, business necessity, and other aspects such as number of participants are to be considered.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no24"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "はい、「新規研修提案」から「既存研修参照」をクリック、内容に編集を加えて新規として申請します。",
+                "en_sentence": "Yes, click \"Refer to Existing Training\" on \"New Training Proposal\" page, edit the content and apply it as a new one.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no26"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "既存研修は一週間以内で承認、新規研修の承認は内容によります。",
+                "en_sentence": "An existing training will be approved within one week, approval for a new training will depend on its content.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no28"
+            },
+            {
+                "no": 30,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "はい、承認後「外部研修」にリストされます。",
+                "en_sentence": "Sure, they will be listed under \"External Training\" once it is approved.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no30"
+            },
+            {
+                "no": 32,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "各所で精査し人事で承認可能であれば、研修はどの様な形式で行っても構いません。",
+                "en_sentence": "Training can be carried out in any form as long as it's examined in each section and approvable by the HR.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no32"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "はい、外部委託で取扱い終了の研修は「申請不可研修」として残ります。",
+                "en_sentence": "Yes, an external training that is not available will be left as an \"unavailable training.\"",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no34"
+            },
+            {
+                "no": 35,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "その他は全て「申請可能」として残り、「完了」または再び申請・承認され「開催予定」や「開催中」と表示されます。",
+                "en_sentence": "All other trainings are going to be \"application acceptable,\" marked as \"completed,\" or \"to be held\" and \"on going\" for the trainings which have been applied and approved again.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no35"
+            },
+            {
+                "no": 36,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "アンケート結果を含め全ての研修データを蓄積します。",
+                "en_sentence": "We're storing all the training data including survey results.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no36"
+            },
+            {
+                "no": 37,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "他ご質問、宜しいでしょうか？",
+                "en_sentence": "Any other questions?",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no37"
+            },
+            {
+                "no": 38,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "では、先程お伝えしましたが、今月末までのテスト期間中は皆さんのご協力をお願いします。",
+                "en_sentence": "Okay then, as I mentioned earlier, could you cooperate with us during the test period until the end of the month?",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no38"
+            },
+            {
+                "no": 39,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "システムについてお気づきの点、ご提案がありましたら、人事津村までご連絡ください。",
+                "en_sentence": "And please contact me at HR if you have any suggestions or things you notice about the system.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no39"
+            },
+            {
+                "no": 40,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "ローンチは５月の長期休暇明けとなります。",
+                "en_sentence": "It will be launched right after the long holiday in May.",
+                "spkid": "190315_J011_19_spk0",
+                "uttid": "190315_J011_19_spk0_no40"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E03_08_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Welcome to the 2019 launch of Product B by Tech Company A.",
+                "ja_sentence": "テックA社の2019年製品B発表会へようこそ。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no1"
+            },
+            {
+                "no": 2,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Product B gives your students options.",
+                "ja_sentence": "製品Bを使っていただくことによって、生徒さん達に選択肢が生まれます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no2"
+            },
+            {
+                "no": 3,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Allow your students to participate in class using laptops, mobile devices, or Product B hardware remotes.",
+                "ja_sentence": "生徒さん達はラップトップ、携帯デバイスまたは製品Bハードウェアのリモコンを使って授業に参加していただくことが出来ます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no3"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Reliably track student attendance.",
+                "ja_sentence": "出欠を正確に追跡していただくことも可能であります。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no4"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Use GPS technology to ensure that students are attending class.",
+                "ja_sentence": "GPSの技術を使って、生徒さん達が授業に出席していらっしゃるかどうかを確認していただくことが出来ます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no5"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "With Product B, professors now have flexible tools for an active classroom.",
+                "ja_sentence": "教授の皆さんにとって製品Bは、教育現場においての変幻自在なツールでございます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no6"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Ask polling questions on the fly.",
+                "ja_sentence": "その場で質問を選択投票をしていただく事も可能です。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no7"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Facilitate active learning activities.",
+                "ja_sentence": "積極的な学習環境を提供いたします。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no8"
+            },
+            {
+                "no": 9,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Complete quizzes with mobile devices or Product B and grade in minutes.",
+                "ja_sentence": "携帯デバイスか製品B上でテストを行い、数分後には採点まで完了していただく事も可能です。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no9"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Help your students study.",
+                "ja_sentence": "生徒さん達の学習の手助けをいたします。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no10"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Students leave class with every question you ask to be used as a study guide.",
+                "ja_sentence": "生徒さん達は先生方が出した問題を全て持ち帰って教材として使用することが出来ます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no11"
+            },
+            {
+                "no": 12,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "You can also choose to provide students with the correct answers and control when students receive the study guide.",
+                "ja_sentence": "教材をお渡しいただく際に、回答を付けるかどうかを選択していただくことも出来ます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no12"
+            },
+            {
+                "no": 13,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Set up only takes minutes.",
+                "ja_sentence": "数分でセットアップ可能です。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no13"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Product B can be set up in under 5 minutes and work with your existing content.",
+                "ja_sentence": "製品Bは5分以下でセットアップでき、既存のコンテンツとも動作いたします。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no14"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Does anyone have any questions so far?",
+                "ja_sentence": "ここまでで、どなたかご質問は？",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no15"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Students can download our app, or buy the Product B hardware.",
+                "ja_sentence": "生徒さん達にアプリをダウンロードしていただくか、製品Bのハードウェアを購入していただくことになります。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no17"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "The professor then has their desktop projected on the screen.",
+                "ja_sentence": "それから、教授の皆さんのデスクトップをプロジェクターに映していただくようになります。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no18"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "When the professor asks a multiple choice question, the students can pick using the Product B and it will show what percent of students chose which answer.",
+                "ja_sentence": "選択問題に答えていただく場合、生徒さん達に製品Bを使用していただくと、どの生徒さんがどの回答を選ばれたのか、パーセンテージで表示されます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "It's a very engaging tool, and makes learning like a game.",
+                "ja_sentence": "とても魅了的なツールで、ゲーム感覚で学んでいただけます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no20"
+            },
+            {
+                "no": 22,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "A one semester subscription costs the student 9 dollars 99 cents.",
+                "ja_sentence": "生徒さんお一人につき、一学期ごと9ドル99セントの定期使用料になります。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no22"
+            },
+            {
+                "no": 23,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "A one year subscription costs 15 dollars 99 cents.",
+                "ja_sentence": "年間使用量は15ドル99セントです。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no23"
+            },
+            {
+                "no": 25,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "The university can certainly rent them as well if they would like to.",
+                "ja_sentence": "ご希望でしたら大学側でレンタルしていただく事も可能です。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no25"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Yes, it's compatible with any presentation application.",
+                "ja_sentence": "はい、どのプレゼン用アプリにも対応しております。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no28"
+            },
+            {
+                "no": 30,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "If a Product B base station is in close proximity to another, they can interfere with each other.",
+                "ja_sentence": "製品Bの基地局が近接している場合は干渉し合いますね。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no30"
+            },
+            {
+                "no": 31,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "These stations, however, can be set to any of 16 different sub-frequencies to prevent such interference.",
+                "ja_sentence": "ですが、基地局の副周波数は16ありますので、それぞれ違うものに設定していただければ干渉は防げます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no31"
+            },
+            {
+                "no": 32,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Students will then need to reset their own remotes’ frequency to match the base station’s new frequency.",
+                "ja_sentence": "生徒さん達にはリモコンの周波数を基地局の新しい副周波数に合わせてリセットしていただく必要があります。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no32"
+            },
+            {
+                "no": 34,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "You can decide when and if voting results are displayed to the class.",
+                "ja_sentence": "投票結果が表示されるタイミングも選んでいただくことが出来ますし、結果を教室で表示するかどうかも選んでいただけます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no34"
+            },
+            {
+                "no": 35,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "As the instructor, you can privately view results on the LCD screen on your base station.",
+                "ja_sentence": "インストラクター側では基地局のLCDスクリーンで個人的に結果を見ていただくことが出来ます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no35"
+            },
+            {
+                "no": 36,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "If you want to display the vote results to the entire class, click the graph icon on the toolbar or press the “B” key on the instructor remote.",
+                "ja_sentence": "投票結果を教室全体に公表なさる場合はツールバーでグラフアイコンをクリックしていただくか、インストラクター側のリモコンでBキーを押していただきます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no36"
+            },
+            {
+                "no": 38,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "Each session is saved in a file, named according to the date and time the session was held.",
+                "ja_sentence": "それぞれのセッションは、セッション日時のファイル名の付いたファイルに保存されます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no38"
+            },
+            {
+                "no": 39,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "These files are then presented in an easy-to-view gradebook.",
+                "ja_sentence": "それらのファイルは「見やすい成績表」内に表示されます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no39"
+            },
+            {
+                "no": 40,
+                "en_speaker": "Howard",
+                "ja_speaker": "ハワード",
+                "en_sentence": "The gradebook includes options to export the data to a large variety of formats.",
+                "ja_sentence": "成績表内にはデータを色々なフォーマットにエクスポートするオプションがございます。",
+                "spkid": "190329_E03_08_spk0",
+                "uttid": "190329_E03_08_spk0_no40"
+            }
+        ]
+    }
+]

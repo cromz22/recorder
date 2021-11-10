@@ -27,7 +27,7 @@ async def get_input_json(nutt, task_id):
     print(nutt)
     print(task_id)
 
-    with open(f"task_json/{nutt}.json") as f:
+    with open(f"input_json/{nutt}.json") as f:
         json_list = json.load(f)
 
     value = {

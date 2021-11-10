@@ -1,0 +1,269 @@
+[
+    {
+        "task_id": "190329_J04_16_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "営業として配属された君たちには明日から飛び込み営業に出てもらいます。",
+                "en_sentence": "You all have been assigned to the sales department and will start cold-calling starting tomorrow.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "これまでの研修ですでに当社の商品についての知識は十分身についているはずです。",
+                "en_sentence": "From what you have been learning, you should have enough knowledge on our products by now.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "後はその知識をもってお客さんのところに行って説明してくるだけです。",
+                "en_sentence": "All you have to do from now on is take your knowledge to our customers.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "ただリフォームの受注というのは待っているだけではなかなか来ません。",
+                "en_sentence": "But you can't just sit and wait expecting for a renovation order to come.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no4"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "家を買いたいと思ったら不動産屋に行きますね。",
+                "en_sentence": "If you want to purchase a house, you go to a realtor.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no6"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "それと違い家が傷んでると思ってもすぐには壊れないのでなかなか着手しません。",
+                "en_sentence": "Unlike that, if a house needs fixing, one typically won't get to it right away thinking it will not do immediate damage.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no7"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "なのでこちらから動いて提案していくのが一番良い方法なんです。",
+                "en_sentence": "So the best way is we take action and make a suggestion.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no8"
+            },
+            {
+                "no": 9,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "まずはみなさん明日は作業着で出勤してください。",
+                "en_sentence": "I need you guys to come to work in your work clothes tomorrow.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no9"
+            },
+            {
+                "no": 11,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "そうです、飛び込み営業は作業着で行きます。",
+                "en_sentence": "Yes, you will be cold-calling in your work clothes.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no11"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "お客さまの同情を買って契約をもらうための演出です。",
+                "en_sentence": "It is just an act to get customers to sign contracts by making them sympathetic towards you.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no14"
+            },
+            {
+                "no": 16,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "作業着の方がお客さまも安心してくれるんですよ。",
+                "en_sentence": "Customers tend to feel more comfortable with you in your work clothes.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no16"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "もし井岡さんの家にいきなり約束もせずに営業マンが来たとします。",
+                "en_sentence": "Imagine a sales person drops by your house out of the blue.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no17"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "その営業マンがピシッとスーツを着てピカピカの靴だったらどんな気分ですか？",
+                "en_sentence": "How would you feel so see this sales person wearing a sharp suit with shiny shoes on?",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no18"
+            },
+            {
+                "no": 20,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "そうですよね、では汗水たらして汚れた作業着の営業マンならどうでしょうか？",
+                "en_sentence": "That's right, how about a sweaty worker wearing dirty work clothes?",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no20"
+            },
+            {
+                "no": 22,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "そうですよね、なので必ず作業着を着て飛び込みします。",
+                "en_sentence": "Exactly, that's why we need to do this in your work clothes.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no22"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "それと新人だけ使える特権があります。",
+                "en_sentence": "You also have an advantage as a newcomer.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no24"
+            },
+            {
+                "no": 25,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "昨日までの研修で基礎知識は蓄えたといってもまだまだ基本部分にすぎません。",
+                "en_sentence": "Even though you guys had been learning the basic knowledge up 'til yesterday, it is just the basic.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no25"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "お客様の中には君たちよりリフォームに関しての知識が多い方もいらっしゃいます。",
+                "en_sentence": "You might come across customers who are more knowledgeable about renovations than you are.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no26"
+            },
+            {
+                "no": 27,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "もしわからないことがあった時には、正直にわからないと言って構いません。",
+                "en_sentence": "You are allowed to be honest and say you do not know if there is anything you are not sure about.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no27"
+            },
+            {
+                "no": 29,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "正直に新人なのでわかりません、調べてきますと回答してください。",
+                "en_sentence": "Be honest and tell them you are a newbie and will do some research.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no29"
+            },
+            {
+                "no": 30,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "大概の営業先家庭は60代後半、つまり君たちのおじいちゃん世代が多いです。",
+                "en_sentence": "Most of the targeted customers are in their late 60s, meaning they are probably your grandfather's age.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no30"
+            },
+            {
+                "no": 31,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "そんな人たちが孫世代の君たちに怒ることは滅多にありません。",
+                "en_sentence": "Those people will rarely get mad at you who are their grandchildren's age.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no31"
+            },
+            {
+                "no": 32,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "しっかり調べて後日回答する、これで信頼関係を築いていってください。",
+                "en_sentence": "Try to build trust by telling them you will do thorough research and get back to them.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no32"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "去年入社した君たちの先輩に、「わかりません調べてきます」ばかりの子がいました。",
+                "en_sentence": "One of the new employees last year had nothing to say but \"I don't know.\"",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no34"
+            },
+            {
+                "no": 35,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "彼はそれでも持ち前の素直さで可愛がられ営業成績は同期の中でトップでした。",
+                "en_sentence": "However, he was well liked because of his honesty and became the top sales person among the new employees.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no35"
+            },
+            {
+                "no": 36,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "もちろんわかることは答えてもらって結構です。",
+                "en_sentence": "Of course you can go ahead and respond to questions you know the answers to.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no36"
+            },
+            {
+                "no": 37,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "ただあやふやであったり不明なことは、「調べてきます」で乗り切ってください。",
+                "en_sentence": "But if you aren't 100 percent certain or do not know the answer, say \"I will do some research.\"",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no37"
+            },
+            {
+                "no": 39,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "それでは明日は8時半に事務所に集合して出発します。",
+                "en_sentence": "Ok, we will meet at the office and leave at eight thirty tomorrow.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no39"
+            },
+            {
+                "no": 40,
+                "ja_speaker": "山岡さん",
+                "en_speaker": "Yamaoka-san",
+                "ja_sentence": "スーツではなく作業着で出勤をお願いします。",
+                "en_sentence": "Make sure to wear your work clothes not your suit.",
+                "spkid": "190329_J04_16_spk0",
+                "uttid": "190329_J04_16_spk0_no40"
+            }
+        ]
+    }
+]

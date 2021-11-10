@@ -1,0 +1,1034 @@
+[
+    {
+        "task_id": "190315_J011_11_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "では皆さん、本題に移りましょう。",
+                "en_sentence": "Now everyone, let's get down to business.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "本日は「カスタマージャーニー」について見てまいります。",
+                "en_sentence": "We'll learn about \"customer journey\" today.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "お送りした資料から、概略は把握されているかと思います。",
+                "en_sentence": "I believe you've all got an outline from the materials I've sent.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ご質問のある方は、いつでも挙手してください。",
+                "en_sentence": "You can always raise your hands if you have any questions.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no4"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "簡単に言いますと、あらゆるタッチポイントでの消費者行動を「見える化」するもの、です。",
+                "en_sentence": "To make it short, it's something that enables us to \"visualize\" consumer behaviors at any and all touchpoints.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no7"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ペルソナを使ったカスタマージャーニーをマッピングする事で、顧客が何らかの形で我社に接した際、商品やサービスに関してどの様に感じるのか、「見る」事が出来るようになります。",
+                "en_sentence": "By mapping persona-based customer journey, we'll be able to \"see\" how our customers would feel about our products and services when interacting with our company in any way.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no8"
+            },
+            {
+                "no": 10,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ペルソナは当社商品の理想的なユーザ像です。",
+                "en_sentence": "A persona represents an ideal user for our products.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no10"
+            },
+            {
+                "no": 12,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "それに関しては、後ほど実践すればご理解いただけると思います。",
+                "en_sentence": "As for that, I think you'll get better ideas from hands-on activities later.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no12"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "皆さんにもいくつかのペルソナを考えていただきますので、その場で学べますよ。",
+                "en_sentence": "I'll have you create some personas so you can learn on the fly.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no13"
+            },
+            {
+                "no": 15,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "顧客層はグルーピングされた人々ですが、ペルソナは詳細プロフィールを基に作られる個人です。",
+                "en_sentence": "Customer segments are made by grouping people, but personas are individuals made based on profiles with details.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no15"
+            },
+            {
+                "no": 16,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "例えば、従来の「技術職40代独身男性」といった顧客層データでは条件に合う様々な人々を連想するでしょう。",
+                "en_sentence": "For example, with conventional customer segmentation data such as \"a single male engineer in his 40's,\" you'll probably imagine different types of people who are included in this category.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no16"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "しかしペルソナは、一人の架空人物を具体的に思い描くことができるんです。",
+                "en_sentence": "However, a persona let you visualize one fictitious character specifically.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no17"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "年齢や職業は勿論のこと、性格などの細かい情報も設定されています。",
+                "en_sentence": "Not to mention age and job, but also small details like personality is defined.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no18"
+            },
+            {
+                "no": 20,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "できるだけ細かい方が良いのですよ、大野さん。",
+                "en_sentence": "It should be as detailed as possible, Mamoru.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no20"
+            },
+            {
+                "no": 22,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "そうですね、ではちょっと皆さんに目を閉じていただきましょう。",
+                "en_sentence": "Well then, I'd like everybody to close your eyes now.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no22"
+            },
+            {
+                "no": 23,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "いいですか、「都市部在住、技術職の40代独身男性」を想像してください。",
+                "en_sentence": "Okay, please imagine \"a single male engineer in his 40's who lives in a city area.\"",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no23"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "皆さん、もう思い浮かびました？",
+                "en_sentence": "Have you all got him in mind already?",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no24"
+            },
+            {
+                "no": 25,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "では、この男性が今週末に買いたい物を考えてください。",
+                "en_sentence": "Now, think of what this man would like to buy this weekend.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no25"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "30秒後にご意見をお伺いします。",
+                "en_sentence": "I'll ask your opinions in 30 seconds.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no26"
+            },
+            {
+                "no": 27,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "では皆さん、今週末彼は何を買うと思いますか？",
+                "en_sentence": "Okay everyone, what do you think he would buy this weekend?",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no27"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "大野さんから時計回りでお答えください。",
+                "en_sentence": "Please answer clockwise from Mamoru.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no28"
+            },
+            {
+                "no": 32,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "まあこのように、従来のターゲット像ですと、皆さん随分と異なる物をあげられました。",
+                "en_sentence": "As you can see, with a traditional target image, each of you have come up with quite a different item.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no32"
+            },
+            {
+                "no": 33,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "そもそも、各自で思い浮かべた「技術職の40代独身男性」像にズレが生じている可能性が高いですね。",
+                "en_sentence": "Most likely, there were gaps between your \"single male engineer in his 40's\" imageries to start with.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no33"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "先程の大野さんの質問にお答えしますと、ペルソナは、具体的詳細によって具現化されます。",
+                "en_sentence": "To answer Mamoru's question earlier, a persona takes shape by setting specific details.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no34"
+            },
+            {
+                "no": 35,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "そしてこの詳細設定によって、イメージの認識違いやブレから生じる今のようなギャップを最小限にできます。",
+                "en_sentence": "And with these detailed settings, we can minimize gaps caused by misunderstanding or blurring of imageries, like the ones you just had.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no35"
+            },
+            {
+                "no": 36,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "また、ペルソナは同じイメージをチーム全体で「見る」事を可能にするので、好みや行動を予測しやすくなるんです。",
+                "en_sentence": "In addition, a persona let all of us \"see\" the same imagery, and it helps us to predict what it would prefer or do.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no36"
+            },
+            {
+                "no": 39,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "では、ここで一例としてサンプルをお見せしましょう。",
+                "en_sentence": "Okay, let me show you a sample here as an example.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no39"
+            },
+            {
+                "no": 40,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "モニターをご覧ください。",
+                "en_sentence": "Please look at the screen.",
+                "spkid": "190315_J011_11_spk0",
+                "uttid": "190315_J011_11_spk0_no40"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J006_08_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "各階責任者の皆さん、研修にお越しいただきありがとうございます。",
+                "en_sentence": "Thank you for coming to this training, floor leaders.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "皆さんにはそれぞれの階の安全管理責任がありますので、緊急時の手順を知っていただきたいと思います。",
+                "en_sentence": "Each of you will be responsible for making sure your floor stays safe, so I expect you to know our emergency procedures.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "質問がありましたら、いつでも挙手してください。",
+                "en_sentence": "Feel free to raise your hands whenever you have a question.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "まず、責任者の皆さんには自分の階の従業員ひとりひとりに赤い防災リュックを配っていただきます。",
+                "en_sentence": "First, each floor leader is going to have to distribute red emergency backpacks to each employee on their floor.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no4"
+            },
+            {
+                "no": 5,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "このリュックには救急セットや3日分の食料と水が入っています。",
+                "en_sentence": "The backpacks contain a first aid kit, as well as food and water for three days.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no5"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "配布の際にはリュックの中の物資に不足がないか皆さんに確認してもらってください。",
+                "en_sentence": "When you hand them out, have everyone make sure that they all contain enough supplies.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no6"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "また、月初めに従業員全員が赤いリュックを持っているかチェックしてください。",
+                "en_sentence": "You should also be checking at the beginning of the month that each employee has their red backpack.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no7"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "リュックについての質問はありますか？",
+                "en_sentence": "Any questions about backpacks?",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no8"
+            },
+            {
+                "no": 9,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "はい、織田さん？",
+                "en_sentence": "Yes, Mr. Oda?",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no9"
+            },
+            {
+                "no": 11,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "この研修の後で、皆さんに最低一箱分のリュックをお渡しします。",
+                "en_sentence": "After the training, I will have each of you get at least one box of backpacks.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no11"
+            },
+            {
+                "no": 12,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "今日出勤している皆さんに配布するようにしてください。",
+                "en_sentence": "Try to distribute them to whoever is here today.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no12"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "数日中にお願いしたいところですが、遅くとも今週末までには全てのリュックの配布を終えてください。",
+                "en_sentence": "I would like all of them to be distributed in the next few days, but at the very latest, by the end of the week.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no13"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "それでは避難手順に話を移しましょう。",
+                "en_sentence": "Now we will move on to evacuation procedures.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no14"
+            },
+            {
+                "no": 15,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "火災の場合は、２ブロック先の公園に全員避難することになっています。",
+                "en_sentence": "In case of a fire, we're planning on having everyone meet at the park two block down the street.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no15"
+            },
+            {
+                "no": 16,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "各階責任者の皆さんには今週末までに避難経路のご確認もお願いします。",
+                "en_sentence": "I want each floor leader to go over evacuation plans by the end of this week as well.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no16"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "階によって使う階段や出口が違う場合もあるので、各階の避難経路を確認してください。",
+                "en_sentence": "Each floor may use different staircases or exits, so please review your floor's evacuation plan.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no17"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "避難経路についてのEメールを皆さん受け取っているはずです。",
+                "en_sentence": "Everyone should've received an email containing the file.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no18"
+            },
+            {
+                "no": 19,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "まだ受け取っていなければお知らせください。",
+                "en_sentence": "Please let me know if you haven't.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no19"
+            },
+            {
+                "no": 20,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "防火についてのご質問はありますか？",
+                "en_sentence": "Any questions about fire safety?",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no20"
+            },
+            {
+                "no": 23,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "良い質問です！",
+                "en_sentence": "Great question!",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no23"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "全員が自分の防災リュックを持っていますよね。",
+                "en_sentence": "You will each have your own emergency backpacks.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no24"
+            },
+            {
+                "no": 25,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "その中には反射材付きのベストや階の数字が書かれた指示板も入っているんです。",
+                "en_sentence": "It will have a reflective vest in it, as well as a sign with your floor number.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no25"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "公園で指示板を掲げれば、自分の階の人数確認ができますよね。",
+                "en_sentence": "You'll hold up your number at the park so you can take a head count of how many people are on your floor.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no26"
+            },
+            {
+                "no": 27,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "他にご質問は？",
+                "en_sentence": "Any other questions?",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no27"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "より安全な職場作りにご協力いただき、誠にありがとうございます！",
+                "en_sentence": "Again, thank you all for making sure we have a safer workspace!",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no28"
+            },
+            {
+                "no": 29,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "各階のトレーニングを終えたら今週末までに必ずご報告ください。",
+                "en_sentence": "I'd like to have checked in with all of you to make sure you finished training your floors by the end of this week.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no29"
+            },
+            {
+                "no": 30,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "忘れずにリュックの箱を持って帰ってください。",
+                "en_sentence": "Make sure to take a box of backpacks when you leave.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no30"
+            },
+            {
+                "no": 31,
+                "ja_speaker": "斎藤さん",
+                "en_speaker": "Mr. Saito",
+                "ja_sentence": "もっと必要なら、この部屋の向かいの倉庫にもありますよ。",
+                "en_sentence": "If you need more, they'll be in the storage closet right across this room.",
+                "spkid": "190315_J006_08_spk0",
+                "uttid": "190315_J006_08_spk0_no31"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J004_20_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "さて、次は、英語プレゼンのコツをご紹介いたします。",
+                "en_sentence": "Now,  I’m going to give you some tips for business presentations in English.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "パワポなどを使ったプレゼンで大事なポイントの一つはアイコンタクトです。",
+                "en_sentence": "One of the most important points in a PowerPoint presentation is eye contact.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "皆さん、だいたい、どこを見てますか？",
+                "en_sentence": "Where do you usually look when you make a presentation?",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no3"
+            },
+            {
+                "no": 5,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "そうですね。",
+                "en_sentence": "Good.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no5"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "後ろからZ字型に目線を動かすといいですよ。",
+                "en_sentence": "You can make your eye contact in a Z formation starting with the person in the back.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no6"
+            },
+            {
+                "no": 9,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "そう、キーパーソンを見極めることは大事です。",
+                "en_sentence": "That’s right, it’s important to find who is a key person in your audience.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no9"
+            },
+            {
+                "no": 10,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "その人を中心に、他の人にも徐々に視線を移していきましょう。",
+                "en_sentence": "You can focus on the key person, then shift your eyes to others.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no10"
+            },
+            {
+                "no": 12,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "そして、スライドは、ポイントごとに箇条書きで簡潔に表現します。",
+                "en_sentence": "Next, each slide should have clear messages in a bullet style.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no12"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "1スライドに５項目くらいが限度です。",
+                "en_sentence": "You should use up to five bullets in a slide.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no13"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "全部書く必要はないのです。",
+                "en_sentence": "You don’t have to write everything you want to point out.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no14"
+            },
+            {
+                "no": 15,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "それを口で説明すればいいのですから。",
+                "en_sentence": "Since you can explain verbally to fill in details.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no15"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "たくさん書いてしまうと、皆、それを読もうとして、プレゼンターの話に注意がいかなくなります。",
+                "en_sentence": "If your slide is full of information, the audience will be distracted and won’t listen to you, trying to read everything first.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no17"
+            },
+            {
+                "no": 19,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "あとは、皆さん、スクリーンに向かって話さず、なるべく聴衆の方を向いて話してますか？",
+                "en_sentence": "Well, do you try to speak to the audience, not facing the screen?",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no19"
+            },
+            {
+                "no": 21,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "それは仕方がないですが、下を向くとやはり声が聞こえにくくなるので。",
+                "en_sentence": "I know, most people do that, but when you look down, your voice can’t be heard clearly.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no21"
+            },
+            {
+                "no": 22,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "立ち位置も重要なポイントです。",
+                "en_sentence": "Where you stand is important, as well.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no22"
+            },
+            {
+                "no": 23,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "どこに立っていますか？",
+                "en_sentence": "Where do you usually stand?",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no23"
+            },
+            {
+                "no": 25,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "常に、パソコンのそばに立たないで、時々位置を変えましょう。",
+                "en_sentence": "You can sometimes change your position, rather than staying by the PC.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no25"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "たまには反対側にも行ってみましょう。",
+                "en_sentence": "For instance, you could move to the other side of the screen.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no26"
+            },
+            {
+                "no": 27,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "聴衆もだんだん飽きてくるので、立ち位置を変えるだけで、注意を引くことができます。",
+                "en_sentence": "The audience gets bored as it goes on, so your movement is good in drawing their attention.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no27"
+            },
+            {
+                "no": 29,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "これは、よくあるケースですね。",
+                "en_sentence": "This is a classic example.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no29"
+            },
+            {
+                "no": 30,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "まず、「そうですねえ」、「えーと」などの垣根ことばを使って、時間を稼ぎます。",
+                "en_sentence": "First, you bide time using hedge words like “Well”, “Let’s see”, etcetera.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no30"
+            },
+            {
+                "no": 31,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "「うーん」と言ったまま、黙ってしまうのはよくありません。",
+                "en_sentence": "Silence after “Hmm” is very bad.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no31"
+            },
+            {
+                "no": 32,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "「それは、いい質問ですね。」というのはよく使えます。",
+                "en_sentence": "“That’s a good question.” is very useful.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no32"
+            },
+            {
+                "no": 33,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "本当に答えられない場合は、今はわからないと正直に答え、「調べて後で連絡する」ということにするのがいいと思います。",
+                "en_sentence": "If you are really stuck, you should say honestly that you can’t answer right now, and say you’ll get back to the person later.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no33"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "知ったかぶりとか、曖昧に答えてしまうと、そこから更につっこまれて、ドツボにはまってしまう恐れがありますので、気をつけて下さい。",
+                "en_sentence": "You shouldn’t bluff or be ambiguous, otherwise you might be grilled and get in further trouble.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no34"
+            },
+            {
+                "no": 36,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "とにかく、何度も練習することとリハーサルが大事です。",
+                "en_sentence": "Anyway, you need to practice and rehearse many times.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no36"
+            },
+            {
+                "no": 37,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "落ち着いて、ゆっくり話してください。",
+                "en_sentence": "Keep calm and try to speak slowly.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no37"
+            },
+            {
+                "no": 38,
+                "ja_speaker": "講師",
+                "en_speaker": "Instrsuctor",
+                "ja_sentence": "では、皆さん、頑張ってください。",
+                "en_sentence": "Good luck, everybody.",
+                "spkid": "190315_J004_20_spk0",
+                "uttid": "190315_J004_20_spk0_no38"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E21_02_spk0",
+        "set": "dev",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Hello, everyone.",
+                "ja_sentence": "皆さん、こんにちは。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no1"
+            },
+            {
+                "no": 2,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "I am glad to see we have a big audience today.",
+                "ja_sentence": "今日はたくさんの方がいらっしゃって嬉しいです。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no2"
+            },
+            {
+                "no": 3,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "So I'm sure you guys are eager to hear more about what I have to say today.",
+                "ja_sentence": "さて、今日私がお話しすることに皆さん大変興味をお持ちだと思うのですが。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no3"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "But before I start, I'd like to thank Government Agency A and Company A for co-organizing today's event.",
+                "ja_sentence": "でも、始める前に、まず政府機関AとA社さんに、今日のイベントを共同開催してくれたことを感謝したいと思います。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no4"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Also, I'd like to thank Mike Mostow for his work in helping the deal materialize.",
+                "ja_sentence": "それから、この協定の実現のためにご協力くださったマイク モストウさんの仕事ぶりにもお礼を言わせてください。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no5"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Mr. Mostow, would like to say something to the audience?",
+                "ja_sentence": "モストウさん、観客の皆さんに何か一言ありますか。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no6"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "We appreciate your hard work Mr. Mostow.",
+                "ja_sentence": "モストウさん、大変なお仕事、ありがとうございました。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no10"
+            },
+            {
+                "no": 13,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Thank you very much Mr. Mostow.",
+                "ja_sentence": "モストウさん、大変ありがとうございました。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no13"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Alright, let's get right into it then.",
+                "ja_sentence": "さて、早速始めましょうか。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no14"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "The CPTPP is a new trade agreement between eleven countries.",
+                "ja_sentence": "CPTPPは11か国間の貿易協定です。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no15"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Of the eleven, seven countries have already officially joined while the remaining four are still in the discussion phase.",
+                "ja_sentence": "その11のうち、7か国が正式に参加していますが、一方残りの4か国はまだ検討中の状態にあります。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no16"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "The seven countries that have signed on are, Mexico, Japan, Canada, Singapore, New Zealand, Australia, and Vietnam.",
+                "ja_sentence": "署名した7か国は、メキシコ、日本、カナダ、シンガポール、ニュージーランド、オーストラリア、ベトナムです。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no17"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "The four remaining are, Brunei, Chile, Malaysia, and Peru.",
+                "ja_sentence": "残りの4か国は、ブルネイ、チリ、マレーシア、ペルーとなっています。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no18"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "So the biggest feature of this trade deal will be the reduction or removal of tariffs on a large number of goods.",
+                "ja_sentence": "この貿易協定の目玉となるのは、多数の製品にかかる関税の引き下げもしくは撤廃です。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "For Canada, one of the biggest benefit is the reduction of tariffs for meat products in to the Asian market.",
+                "ja_sentence": "カナダにとって、大きな利点の一つは、アジア市場への肉製品にかかる関税の引き下げです。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no20"
+            },
+            {
+                "no": 21,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "One of Canada's key market will be Japan and we expect the trade of meat products to increase greatly.",
+                "ja_sentence": "カナダの主要市場の一つが日本なので、肉製品の貿易が大幅に増えることを予測しています。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no21"
+            },
+            {
+                "no": 22,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Key products will be beef and pork.",
+                "ja_sentence": "主要製品は牛肉と豚肉になります。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no22"
+            },
+            {
+                "no": 23,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Now aside from the tariffs, the deal also brings other benefits among the countries.",
+                "ja_sentence": "さて、関税だけでなく、協定は国々の間にその他の利益ももたらします。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no23"
+            },
+            {
+                "no": 24,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "For example, this will open up opportunities for other companies in other countries to bid for government contracts.",
+                "ja_sentence": "例えば、これによって他の国の他の企業が、政府との契約に入札する機会を持つことができます。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no24"
+            },
+            {
+                "no": 25,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Typically, government contracts can only be bid by the local companies but this will change that.",
+                "ja_sentence": "典型的に、政府の契約には、地元の企業だけが入札できるのですが、これによって変わるでしょう。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no25"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "And with the reduction or removal of tariffs, it will allow foreign companies to be more competitive in bidding for government contracts abroad.",
+                "ja_sentence": "そして、関税引き下げもしくは撤廃によって、外国企業が海外での政府契約入札においてより競争力をもつことが出来るようになります。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no26"
+            },
+            {
+                "no": 27,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "So the trade deal is not a simple reduction or removal of tariffs but has other features to promote the prosperity of the countries involved.",
+                "ja_sentence": "つまり、貿易協定は、単なる関税の引き下げや撤廃だけでなく、関係国の発展を促す他の機能も持つのです。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no27"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "I could go on for hours but since we still have a whole day ahead of us, I will stop around here.",
+                "ja_sentence": "何時間でも話すことができますが、まだまだこの先丸々一日ありますので、この辺で止めておきますね。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no28"
+            },
+            {
+                "no": 29,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "So after this, we will have a panel session with the trade commissioners from Government Agency A.",
+                "ja_sentence": "では、この後は、政府機関Aの貿易委員の方々とのパネルセッションになります。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no29"
+            },
+            {
+                "no": 30,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "They will provide their insight on the benefits of the trade deal, and explain some of the government programs that companies could use.",
+                "ja_sentence": "彼らは貿易協定の利点に関する見通しを教えてくれ、企業が利用することのできるいくつかの政府プログラムについて説明してくれます。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no30"
+            },
+            {
+                "no": 31,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "These would be things that exporters could potentially use to expand to a new market.",
+                "ja_sentence": "これらは、輸出業者が新しい市場へ進出するのに利用できる可能性のあるものだと思います。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no31"
+            },
+            {
+                "no": 32,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "The panel session will be held in the room behind me so please head on over after this.",
+                "ja_sentence": "パネルセッションは、私の後ろにある部屋で開かれますので、この後、どうぞそちらに向かってください。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no32"
+            },
+            {
+                "no": 33,
+                "en_speaker": "Mr. Chris Tanner",
+                "ja_speaker": "クリス タナーさん",
+                "en_sentence": "Thank you and I hope everyone learns a lot from today's event.",
+                "ja_sentence": "ありがとうございました、そして、皆さんが今日のイベントで多くを学ばれることを願っています。",
+                "spkid": "190329_E21_02_spk0",
+                "uttid": "190329_E21_02_spk0_no33"
+            }
+        ]
+    }
+]

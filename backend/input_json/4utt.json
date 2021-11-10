@@ -1,0 +1,1892 @@
+[
+    {
+        "task_id": "190329_J06_11_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 21,
+                "ja_speaker": "能勢さん",
+                "en_speaker": "Nose-san",
+                "ja_sentence": "もちろん、指名された取締役がある程度説明する方が誠意は伝わります。",
+                "en_sentence": "I think it will be more sincere if the specified director can explain it to an extent of course.",
+                "spkid": "190329_J06_11_spk3",
+                "uttid": "190329_J06_11_spk3_no21"
+            },
+            {
+                "no": 22,
+                "ja_speaker": "能勢さん",
+                "en_speaker": "Nose-san",
+                "ja_sentence": "しかし、議長が直接答えた方がよい、と判断できる場合は、議長で止めてしまっても構いません。",
+                "en_sentence": "But if you can judge that the chairman should answer directly, you can stop them.",
+                "spkid": "190329_J06_11_spk3",
+                "uttid": "190329_J06_11_spk3_no22"
+            },
+            {
+                "no": 23,
+                "ja_speaker": "能勢さん",
+                "en_speaker": "Nose-san",
+                "ja_sentence": "その場次第です。",
+                "en_sentence": "It will depend on the situation.",
+                "spkid": "190329_J06_11_spk3",
+                "uttid": "190329_J06_11_spk3_no23"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "能勢さん",
+                "en_speaker": "Nose-san",
+                "ja_sentence": "一旦、指名された取締役が回答して、その後に議長から補足する方法もよろしいかと。",
+                "en_sentence": "I think another idea would be to have the specified director answer first then the chairman can provide a follow-up after.",
+                "spkid": "190329_J06_11_spk3",
+                "uttid": "190329_J06_11_spk3_no24"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_J05_16_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "岬さん",
+                "en_speaker": "Misaki-san",
+                "ja_sentence": "さて、本日のミーティングでは、みなさんに良い報告があります。",
+                "en_sentence": "So, I have good new for everyone in today's meeting.",
+                "spkid": "190329_J05_16_spk0",
+                "uttid": "190329_J05_16_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "岬さん",
+                "en_speaker": "Misaki-san",
+                "ja_sentence": "みなさんに頑張って頂いたおかげで、新しいソフトウェアの売り上げが販売予測を既に超えました。",
+                "en_sentence": "Thanks to everyone's hard work, our sales for the new software has already surpassed our sales forecast.",
+                "spkid": "190329_J05_16_spk0",
+                "uttid": "190329_J05_16_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "岬さん",
+                "en_speaker": "Misaki-san",
+                "ja_sentence": "そこで、すばらしいがんばりをしてくれた皆さんに感謝の印として、何かしたいと考えております。",
+                "en_sentence": "Therefore, as a token of appreciation to everyone who put in their great efforts, I'm thinking of doing something for you guys.",
+                "spkid": "190329_J05_16_spk0",
+                "uttid": "190329_J05_16_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "岬さん",
+                "en_speaker": "Misaki-san",
+                "ja_sentence": "ここより先、向江さんお願いします。",
+                "en_sentence": "Mukae-san, I will have you take over from here.",
+                "spkid": "190329_J05_16_spk0",
+                "uttid": "190329_J05_16_spk0_no4"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_J05_07_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "佐々木さん",
+                "en_speaker": "Sasaki-san",
+                "ja_sentence": "皆さん宜しいでしょうか。",
+                "en_sentence": "Is everyone ready?",
+                "spkid": "190329_J05_07_spk0",
+                "uttid": "190329_J05_07_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "佐々木さん",
+                "en_speaker": "Sasaki-san",
+                "ja_sentence": "会議を始めます。",
+                "en_sentence": "We will start the meeting.",
+                "spkid": "190329_J05_07_spk0",
+                "uttid": "190329_J05_07_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "佐々木さん",
+                "en_speaker": "Sasaki-san",
+                "ja_sentence": "本日の課題は、商品Xの販売戦略についてです。",
+                "en_sentence": "Today's topic is in regards to the sales strategy for Product X.",
+                "spkid": "190329_J05_07_spk0",
+                "uttid": "190329_J05_07_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "佐々木さん",
+                "en_speaker": "Sasaki-san",
+                "ja_sentence": "では、野上さん、お願いします。",
+                "en_sentence": "Nogami-san, please go ahead.",
+                "spkid": "190329_J05_07_spk0",
+                "uttid": "190329_J05_07_spk0_no4"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_J04_14_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 12,
+                "ja_speaker": "速水さん",
+                "en_speaker": "Hayami-san",
+                "ja_sentence": "そうすると2泊3日ということですね。",
+                "en_sentence": "Two nights and three days, right?",
+                "spkid": "190329_J04_14_spk3",
+                "uttid": "190329_J04_14_spk3_no12"
+            },
+            {
+                "no": 25,
+                "ja_speaker": "速水さん",
+                "en_speaker": "Hayami-san",
+                "ja_sentence": "承知しました。",
+                "en_sentence": "Yes, sir.",
+                "spkid": "190329_J04_14_spk3",
+                "uttid": "190329_J04_14_spk3_no25"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "速水さん",
+                "en_speaker": "Hayami-san",
+                "ja_sentence": "私聞いたことがあります、豚とかアルコールがダメなんですよね。",
+                "en_sentence": "I have heard about it, pork and alcohol are not permitted.",
+                "spkid": "190329_J04_14_spk3",
+                "uttid": "190329_J04_14_spk3_no34"
+            },
+            {
+                "no": 38,
+                "ja_speaker": "速水さん",
+                "en_speaker": "Hayami-san",
+                "ja_sentence": "わかりました、先にいくつか探しておきます。",
+                "en_sentence": "Yes sir, I will go ahead and find a few.",
+                "spkid": "190329_J04_14_spk3",
+                "uttid": "190329_J04_14_spk3_no38"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J013_03_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 2,
+                "ja_speaker": "田中さん",
+                "en_speaker": "Mr. Tanaka",
+                "ja_sentence": "いいえ、まだです。",
+                "en_sentence": "No, not yet.",
+                "spkid": "190315_J013_03_spk1",
+                "uttid": "190315_J013_03_spk1_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "田中さん",
+                "en_speaker": "Mr. Tanaka",
+                "ja_sentence": "まだデータを分析中でして。",
+                "en_sentence": "I am still analysing the data.",
+                "spkid": "190315_J013_03_spk1",
+                "uttid": "190315_J013_03_spk1_no3"
+            },
+            {
+                "no": 5,
+                "ja_speaker": "田中さん",
+                "en_speaker": "Mr. Tanaka",
+                "ja_sentence": "今週末には完成する予定です。",
+                "en_sentence": "I could have it finished by the end of the week.",
+                "spkid": "190315_J013_03_spk1",
+                "uttid": "190315_J013_03_spk1_no5"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "田中さん",
+                "en_speaker": "Mr. Tanaka",
+                "ja_sentence": "木曜日の夜に残業します。",
+                "en_sentence": "Ok, I will work late on Thursday evening.",
+                "spkid": "190315_J013_03_spk1",
+                "uttid": "190315_J013_03_spk1_no8"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J012_20_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 2,
+                "ja_speaker": "石井さん",
+                "en_speaker": "Ishii-san",
+                "ja_sentence": "それは気が付きませんでした。",
+                "en_sentence": "I didn't notice that.",
+                "spkid": "190315_J012_20_spk1",
+                "uttid": "190315_J012_20_spk1_no2"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "石井さん",
+                "en_speaker": "Ishii-san",
+                "ja_sentence": "サービスをする時は伊藤様を優先した方がいいですね。",
+                "en_sentence": "We should probably prioritize serving Mr. Ito then.",
+                "spkid": "190315_J012_20_spk1",
+                "uttid": "190315_J012_20_spk1_no4"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "石井さん",
+                "en_speaker": "Ishii-san",
+                "ja_sentence": "その事を皆で共有した方がいいでしょうか？",
+                "en_sentence": "Should I share this with everyone else too?",
+                "spkid": "190315_J012_20_spk1",
+                "uttid": "190315_J012_20_spk1_no6"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "石井さん",
+                "en_speaker": "Ishii-san",
+                "ja_sentence": "では後ほど伝えておきます。",
+                "en_sentence": "Okay, I will let them know later.",
+                "spkid": "190315_J012_20_spk1",
+                "uttid": "190315_J012_20_spk1_no8"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J011_18_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 6,
+                "ja_speaker": "杉岡 誠",
+                "en_speaker": "Sugioka Makoto",
+                "ja_sentence": "ああ、それ新人研修の参考にするって、若手社員にやらせたやつですよね？",
+                "en_sentence": "Ah, it's the one that you had junior employees answers to use as a reference for new hire training, right?",
+                "spkid": "190315_J011_18_spk1",
+                "uttid": "190315_J011_18_spk1_no6"
+            },
+            {
+                "no": 11,
+                "ja_speaker": "杉岡 誠",
+                "en_speaker": "Sugioka Makoto",
+                "ja_sentence": "今回の回答率はどのくらいだったんですか？",
+                "en_sentence": "What was the response rate this time?",
+                "spkid": "190315_J011_18_spk1",
+                "uttid": "190315_J011_18_spk1_no11"
+            },
+            {
+                "no": 35,
+                "ja_speaker": "杉岡 誠",
+                "en_speaker": "Sugioka Makoto",
+                "ja_sentence": "申請は各所の責任者判断で宜しいですか？",
+                "en_sentence": "Can we apply with a permission from a person in charge at each section?",
+                "spkid": "190315_J011_18_spk1",
+                "uttid": "190315_J011_18_spk1_no35"
+            },
+            {
+                "no": 37,
+                "ja_speaker": "杉岡 誠",
+                "en_speaker": "Sugioka Makoto",
+                "ja_sentence": "あと、申請フローについてですが...",
+                "en_sentence": "And, about the application procedures....",
+                "spkid": "190315_J011_18_spk1",
+                "uttid": "190315_J011_18_spk1_no37"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J011_15_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 6,
+                "ja_speaker": "佐伯 浩光",
+                "en_speaker": "Saeki Hiromitsu",
+                "ja_sentence": "お言葉ですが、人数が多い部署は15分では足りないでしょう。",
+                "en_sentence": "With all due respect, 15 minutes wouldn't be enough for departments with many attendees.",
+                "spkid": "190315_J011_15_spk1",
+                "uttid": "190315_J011_15_spk1_no6"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "佐伯 浩光",
+                "en_speaker": "Saeki Hiromitsu",
+                "ja_sentence": "プロジェクトリーダー含め、15名ほどですか。",
+                "en_sentence": "About 15, including project leaders.",
+                "spkid": "190315_J011_15_spk1",
+                "uttid": "190315_J011_15_spk1_no8"
+            },
+            {
+                "no": 11,
+                "ja_speaker": "佐伯 浩光",
+                "en_speaker": "Saeki Hiromitsu",
+                "ja_sentence": "それは...",
+                "en_sentence": "Well....",
+                "spkid": "190315_J011_15_spk1",
+                "uttid": "190315_J011_15_spk1_no11"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "佐伯 浩光",
+                "en_speaker": "Saeki Hiromitsu",
+                "ja_sentence": "まあ、当たり前の事ですが、見失いがちですよね。",
+                "en_sentence": "Well, it's a matter of course, but people easily lose track of it.",
+                "spkid": "190315_J011_15_spk1",
+                "uttid": "190315_J011_15_spk1_no28"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J011_15_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 30,
+                "ja_speaker": "高橋 総司",
+                "en_speaker": "Takahashi Soji",
+                "ja_sentence": "いえ、甲本部長、ただ人事部ではどの様に効率化されているか伺っても宜しいでしょうか？",
+                "en_sentence": "Not really, Mizuho, but could you tell us how you keep them efficient in HR?",
+                "spkid": "190315_J011_15_spk3",
+                "uttid": "190315_J011_15_spk3_no30"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "高橋 総司",
+                "en_speaker": "Takahashi Soji",
+                "ja_sentence": "実は海外知財の関係で外国人社員が増えてから、纏めるのに時間がかかりましてね。",
+                "en_sentence": "Actually, it takes time to sum up opinions since we've got more people from other countries to deal with international IP.",
+                "spkid": "190315_J011_15_spk3",
+                "uttid": "190315_J011_15_spk3_no34"
+            },
+            {
+                "no": 38,
+                "ja_speaker": "高橋 総司",
+                "en_speaker": "Takahashi Soji",
+                "ja_sentence": "積極的に発言するって事に関しては問題無いんだけどねぇ。",
+                "en_sentence": "We have no problem when it comes to actively speaking, I guess.",
+                "spkid": "190315_J011_15_spk3",
+                "uttid": "190315_J011_15_spk3_no38"
+            },
+            {
+                "no": 40,
+                "ja_speaker": "高橋 総司",
+                "en_speaker": "Takahashi Soji",
+                "ja_sentence": "あのね、そのルール自体を決めるのに延々かかるんですよ...",
+                "en_sentence": "You know, it would take forever to decide that rule itself....",
+                "spkid": "190315_J011_15_spk3",
+                "uttid": "190315_J011_15_spk3_no40"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J009_04_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "遠藤さん",
+                "en_speaker": "Endo-san",
+                "ja_sentence": "お電話ありがとうございます。",
+                "en_sentence": "Hello, thank you for calling.",
+                "spkid": "190315_J009_04_spk0",
+                "uttid": "190315_J009_04_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "遠藤さん",
+                "en_speaker": "Endo-san",
+                "ja_sentence": "B株式会社です。",
+                "en_sentence": "This is Company B.",
+                "spkid": "190315_J009_04_spk0",
+                "uttid": "190315_J009_04_spk0_no2"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "遠藤さん",
+                "en_speaker": "Endo-san",
+                "ja_sentence": "はい、おつなぎしますので少々お待ちください。",
+                "en_sentence": "Yes, I'll put you through to him, please wait a moment.",
+                "spkid": "190315_J009_04_spk0",
+                "uttid": "190315_J009_04_spk0_no6"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "遠藤さん",
+                "en_speaker": "Endo-san",
+                "ja_sentence": "少々お待ちください。",
+                "en_sentence": "Okay, please wait a moment.",
+                "spkid": "190315_J009_04_spk0",
+                "uttid": "190315_J009_04_spk0_no7"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J006_06_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 15,
+                "ja_speaker": "マーク",
+                "en_speaker": "Mark",
+                "ja_sentence": "みんなが企業チームとして参加するのも良いと思います。",
+                "en_sentence": "I think we should all sign up as a corporate team as well.",
+                "spkid": "190315_J006_06_spk2",
+                "uttid": "190315_J006_06_spk2_no15"
+            },
+            {
+                "no": 16,
+                "ja_speaker": "マーク",
+                "en_speaker": "Mark",
+                "ja_sentence": "そうすれば、チームとしてどれだけのお金を寄付したかが一目瞭然です。",
+                "en_sentence": "That way, people can also see how much money we donate as a team.",
+                "spkid": "190315_J006_06_spk2",
+                "uttid": "190315_J006_06_spk2_no16"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "マーク",
+                "en_speaker": "Mark",
+                "ja_sentence": "社内で募金を立ち上げて、集まった金額を寄付するんです。",
+                "en_sentence": "We could create a fundraiser within the company and then donate that amount.",
+                "spkid": "190315_J006_06_spk2",
+                "uttid": "190315_J006_06_spk2_no17"
+            },
+            {
+                "no": 20,
+                "ja_speaker": "マーク",
+                "en_speaker": "Mark",
+                "ja_sentence": "マラソンはいつですか？",
+                "en_sentence": "When is the marathon?",
+                "spkid": "190315_J006_06_spk2",
+                "uttid": "190315_J006_06_spk2_no20"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J005_05_spk4",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 34,
+                "ja_speaker": "参加者３",
+                "en_speaker": "Atendee3",
+                "ja_sentence": "荷重配荷率って何ですか？",
+                "en_sentence": "What is the weighted distribution?",
+                "spkid": "190315_J005_05_spk4",
+                "uttid": "190315_J005_05_spk4_no34"
+            },
+            {
+                "no": 36,
+                "ja_speaker": "参加者３",
+                "en_speaker": "Atendee3",
+                "ja_sentence": "はい、あれっ、これ個数ベースですね。",
+                "en_sentence": "Uh-huh, oh, these are package sales, aren’t they?",
+                "spkid": "190315_J005_05_spk4",
+                "uttid": "190315_J005_05_spk4_no36"
+            },
+            {
+                "no": 38,
+                "ja_speaker": "参加者３",
+                "en_speaker": "Atendee3",
+                "ja_sentence": "じゃあ、売上金額で知りたい場合は？",
+                "en_sentence": "Ah, what shall we do if we want to look at the value sales?",
+                "spkid": "190315_J005_05_spk4",
+                "uttid": "190315_J005_05_spk4_no38"
+            },
+            {
+                "no": 40,
+                "ja_speaker": "参加者３",
+                "en_speaker": "Atendee3",
+                "ja_sentence": "あっ、別のデータベースなんですね、わかりました。",
+                "en_sentence": "Oh, it’s a different database, that explains it.",
+                "spkid": "190315_J005_05_spk4",
+                "uttid": "190315_J005_05_spk4_no40"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J004_20_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 4,
+                "ja_speaker": "高尾さん",
+                "en_speaker": "Mr. Takao",
+                "ja_sentence": "えーと、人数が多いときには、全体を見回すようにしてますが。",
+                "en_sentence": "Um, I try to look around the whole audience when I have many attendees.",
+                "spkid": "190315_J004_20_spk1",
+                "uttid": "190315_J004_20_spk1_no4"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "高尾さん",
+                "en_speaker": "Mr. Takao",
+                "ja_sentence": "へえ。",
+                "en_sentence": "Huh.",
+                "spkid": "190315_J004_20_spk1",
+                "uttid": "190315_J004_20_spk1_no7"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "高尾さん",
+                "en_speaker": "Mr. Takao",
+                "ja_sentence": "話が飛びますが、難しい質問をされた時にはどうしたらいいですか？",
+                "en_sentence": "Sorry, may I ask, what shall I do if I was asked a difficult question?",
+                "spkid": "190315_J004_20_spk1",
+                "uttid": "190315_J004_20_spk1_no28"
+            },
+            {
+                "no": 35,
+                "ja_speaker": "高尾さん",
+                "en_speaker": "Mr. Takao",
+                "ja_sentence": "なるほど。",
+                "en_sentence": "I see.",
+                "spkid": "190315_J004_20_spk1",
+                "uttid": "190315_J004_20_spk1_no35"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J004_20_spk4",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 16,
+                "ja_speaker": "赤城さん",
+                "en_speaker": "Mr. Akagi",
+                "ja_sentence": "あー、そういえば、大事なことだと思って、1枚にいっぱい書いてました。",
+                "en_sentence": "Oh, yes, I always write a lot as I thought they were all important.",
+                "spkid": "190315_J004_20_spk4",
+                "uttid": "190315_J004_20_spk4_no16"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "赤城さん",
+                "en_speaker": "Mr. Akagi",
+                "ja_sentence": "そうかあ。",
+                "en_sentence": "A-ha.",
+                "spkid": "190315_J004_20_spk4",
+                "uttid": "190315_J004_20_spk4_no18"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "赤城さん",
+                "en_speaker": "Mr. Akagi",
+                "ja_sentence": "えーと、いつも、パソコンのそばか、スクリーンの左端に立ってますが。",
+                "en_sentence": "Um, I stand near my PC or the left-hand side of the screen.",
+                "spkid": "190315_J004_20_spk4",
+                "uttid": "190315_J004_20_spk4_no24"
+            },
+            {
+                "no": 39,
+                "ja_speaker": "赤城さん",
+                "en_speaker": "Mr. Akagi",
+                "ja_sentence": "あー、すごくためになった。",
+                "en_sentence": "Ah, it was a very useful session.",
+                "spkid": "190315_J004_20_spk4",
+                "uttid": "190315_J004_20_spk4_no39"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J004_11_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "高橋さん",
+                "en_speaker": "Takahashi-san",
+                "ja_sentence": "今年の忘年会の参加者は全部で何人でしたっけ？",
+                "en_sentence": "How many people were going to participate in the year-end party this year in all?",
+                "spkid": "190315_J004_11_spk0",
+                "uttid": "190315_J004_11_spk0_no1"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "高橋さん",
+                "en_speaker": "Takahashi-san",
+                "ja_sentence": "食材の手配はもう全部終わっているんだっけ？",
+                "en_sentence": "Were all the arrangements for the food finished?",
+                "spkid": "190315_J004_11_spk0",
+                "uttid": "190315_J004_11_spk0_no3"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "高橋さん",
+                "en_speaker": "Takahashi-san",
+                "ja_sentence": "そしたら、必要な準備はほとんど終わっているね。",
+                "en_sentence": "So that means most of the necessary preparations are done.",
+                "spkid": "190315_J004_11_spk0",
+                "uttid": "190315_J004_11_spk0_no6"
+            },
+            {
+                "no": 9,
+                "ja_speaker": "高橋さん",
+                "en_speaker": "Takahashi-san",
+                "ja_sentence": "忘年会は、何時からスタートするんだっけ？",
+                "en_sentence": "What time was the year-end party scheduled to start?",
+                "spkid": "190315_J004_11_spk0",
+                "uttid": "190315_J004_11_spk0_no9"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J003_08_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 9,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Ms. Aoki",
+                "ja_sentence": "おはようございます、青木です。",
+                "en_sentence": "Morning, it’s Aoki here.",
+                "spkid": "190315_J003_08_spk2",
+                "uttid": "190315_J003_08_spk2_no9"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Ms. Aoki",
+                "ja_sentence": "はい、木曜日にL社の月次報告プレゼンがあり、資料作成中です。",
+                "en_sentence": "Okay, I have a monthly market report presentation at L company on Thursday, so most of my time I will be working on this.",
+                "spkid": "190315_J003_08_spk2",
+                "uttid": "190315_J003_08_spk2_no13"
+            },
+            {
+                "no": 15,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Ms. Aoki",
+                "ja_sentence": "課長に見ていただきたい箇所がありますので、あとで、少しお時間をいただけますか？",
+                "en_sentence": "Actually, I need to ask your advice on the report, so can I talk to you later today?",
+                "spkid": "190315_J003_08_spk2",
+                "uttid": "190315_J003_08_spk2_no15"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Ms. Aoki",
+                "ja_sentence": "はい。",
+                "en_sentence": "Yes.",
+                "spkid": "190315_J003_08_spk2",
+                "uttid": "190315_J003_08_spk2_no18"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J003_08_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 10,
+                "ja_speaker": "杉山さん",
+                "en_speaker": "Ms. Sugiyama",
+                "ja_sentence": "杉山です。",
+                "en_sentence": "Hi, Sugiyama here.",
+                "spkid": "190315_J003_08_spk3",
+                "uttid": "190315_J003_08_spk3_no10"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "杉山さん",
+                "en_speaker": "Ms. Sugiyama",
+                "ja_sentence": "はい、今週はP社向けの隔週英語レポートを送付する予定です。",
+                "en_sentence": "Um, I am supposed to send a bi-weekly market report in English for company P.",
+                "spkid": "190315_J003_08_spk3",
+                "uttid": "190315_J003_08_spk3_no28"
+            },
+            {
+                "no": 29,
+                "ja_speaker": "杉山さん",
+                "en_speaker": "Ms. Sugiyama",
+                "ja_sentence": "あと、最近パソコンがよく固まるので、ITサポートに診てもらおうと思ってます。",
+                "en_sentence": "And, I want to call in someone from IT support as my PC hangs up so often recently.",
+                "spkid": "190315_J003_08_spk3",
+                "uttid": "190315_J003_08_spk3_no29"
+            },
+            {
+                "no": 31,
+                "ja_speaker": "杉山さん",
+                "en_speaker": "Ms. Sugiyama",
+                "ja_sentence": "すみませんが、後で課長に何箇所か英語の確認をお願いしたいのですが。",
+                "en_sentence": "Ah yes, I’d appreciate you checking my English in the report when I am done.",
+                "spkid": "190315_J003_08_spk3",
+                "uttid": "190315_J003_08_spk3_no31"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J002_06_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 5,
+                "ja_speaker": "安藤さん",
+                "en_speaker": "Mr. Ando",
+                "ja_sentence": "僕の知り合いでもそういうのはいないなあ。",
+                "en_sentence": "I don't think any of my friends are either.",
+                "spkid": "190315_J002_06_spk2",
+                "uttid": "190315_J002_06_spk2_no5"
+            },
+            {
+                "no": 10,
+                "ja_speaker": "安藤さん",
+                "en_speaker": "Mr. Ando",
+                "ja_sentence": "本井さんの言うとおりですね。",
+                "en_sentence": "Motoi-san, you're right about that.",
+                "spkid": "190315_J002_06_spk2",
+                "uttid": "190315_J002_06_spk2_no10"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "安藤さん",
+                "en_speaker": "Mr. Ando",
+                "ja_sentence": "僕もそうですね。",
+                "en_sentence": "Neither can I.",
+                "spkid": "190315_J002_06_spk2",
+                "uttid": "190315_J002_06_spk2_no18"
+            },
+            {
+                "no": 23,
+                "ja_speaker": "安藤さん",
+                "en_speaker": "Mr. Ando",
+                "ja_sentence": "いい仲間が見つかるといいですね。",
+                "en_sentence": "I hope we can find someone good.",
+                "spkid": "190315_J002_06_spk2",
+                "uttid": "190315_J002_06_spk2_no23"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J001_13_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 11,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Aoki-san",
+                "ja_sentence": "私も、防犯カメラの設置について賛成です。",
+                "en_sentence": "I'm also in favor of installing a security camera.",
+                "spkid": "190315_J001_13_spk2",
+                "uttid": "190315_J001_13_spk2_no11"
+            },
+            {
+                "no": 12,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Aoki-san",
+                "ja_sentence": "この件が多発したことにより、自転車置き場を見回る回数が増えました。",
+                "en_sentence": "Due to these incidents occurring frequently, I've had to increase the number of times I patrol the bike storage area.",
+                "spkid": "190315_J001_13_spk2",
+                "uttid": "190315_J001_13_spk2_no12"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Aoki-san",
+                "ja_sentence": "ただでさえ雑務に追われて、授業の準備も残業して対応しています。",
+                "en_sentence": "I already have enough work on my plate, and have to prepare my classes during overtime.",
+                "spkid": "190315_J001_13_spk2",
+                "uttid": "190315_J001_13_spk2_no13"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "青木さん",
+                "en_speaker": "Aoki-san",
+                "ja_sentence": "これ以上、他のことに時間がとられるのは厳しいです。",
+                "en_sentence": "It would be hard for my time to be eaten up by anything else.",
+                "spkid": "190315_J001_13_spk2",
+                "uttid": "190315_J001_13_spk2_no14"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J001_10_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 12,
+                "ja_speaker": "野村さん",
+                "en_speaker": "Nomura-san",
+                "ja_sentence": "来週の月曜日？",
+                "en_sentence": "Next Monday?",
+                "spkid": "190315_J001_10_spk2",
+                "uttid": "190315_J001_10_spk2_no12"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "野村さん",
+                "en_speaker": "Nomura-san",
+                "ja_sentence": "何の出張だ？",
+                "en_sentence": "What business trip is that?",
+                "spkid": "190315_J001_10_spk2",
+                "uttid": "190315_J001_10_spk2_no13"
+            },
+            {
+                "no": 15,
+                "ja_speaker": "野村さん",
+                "en_speaker": "Nomura-san",
+                "ja_sentence": "そうか、もう来週だったか、頑張って来いよ。",
+                "en_sentence": "Oh right, that's already next week is it, well, go and soak up some knowledge.",
+                "spkid": "190315_J001_10_spk2",
+                "uttid": "190315_J001_10_spk2_no15"
+            },
+            {
+                "no": 18,
+                "ja_speaker": "野村さん",
+                "en_speaker": "Nomura-san",
+                "ja_sentence": "押したぞ、他に申請する書類はないか？",
+                "en_sentence": "Okay, I've stamped it, do you have any other application documents?",
+                "spkid": "190315_J001_10_spk2",
+                "uttid": "190315_J001_10_spk2_no18"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E06_13_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 14,
+                "en_speaker": "Rebecca",
+                "ja_speaker": "レベッカ",
+                "en_sentence": "Hey, what can I do for you Stan?",
+                "ja_sentence": "どうも、スタン、どうしたの？",
+                "spkid": "190329_E06_13_spk2",
+                "uttid": "190329_E06_13_spk2_no14"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Rebecca",
+                "ja_speaker": "レベッカ",
+                "en_sentence": "Let me go check.",
+                "ja_sentence": "見てみるわね。",
+                "spkid": "190329_E06_13_spk2",
+                "uttid": "190329_E06_13_spk2_no17"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Rebecca",
+                "ja_speaker": "レベッカ",
+                "en_sentence": "Sorry, I didn't see any laptops.",
+                "ja_sentence": "残念ながら、ラップトップはないわね。",
+                "spkid": "190329_E06_13_spk2",
+                "uttid": "190329_E06_13_spk2_no18"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Rebecca",
+                "ja_speaker": "レベッカ",
+                "en_sentence": "Good luck, I hope you find it.",
+                "ja_sentence": "見つかるといいわね。",
+                "spkid": "190329_E06_13_spk2",
+                "uttid": "190329_E06_13_spk2_no20"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E03_08_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 24,
+                "en_speaker": "Daniel",
+                "ja_speaker": "ダニエル",
+                "en_sentence": "So, this is a product that the students have to buy the hardwares?",
+                "ja_sentence": "生徒達はハードウェアを購入しなくてはならないんでしょうか？",
+                "spkid": "190329_E03_08_spk2",
+                "uttid": "190329_E03_08_spk2_no24"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Daniel",
+                "ja_speaker": "ダニエル",
+                "en_sentence": "What presentation program can I use with the Product B system?",
+                "ja_sentence": "製品Bのシステムではどのプレゼンツールを使用することが出来ますか？",
+                "spkid": "190329_E03_08_spk2",
+                "uttid": "190329_E03_08_spk2_no26"
+            },
+            {
+                "no": 27,
+                "en_speaker": "Daniel",
+                "ja_speaker": "ダニエル",
+                "en_sentence": "Can I use a presentation that I have already made?",
+                "ja_sentence": "今すでに持っているプレゼンテーションを使用することはできるんでしょうか？",
+                "spkid": "190329_E03_08_spk2",
+                "uttid": "190329_E03_08_spk2_no27"
+            },
+            {
+                "no": 29,
+                "en_speaker": "Daniel",
+                "ja_speaker": "ダニエル",
+                "en_sentence": "If another professor near me is using a Product B system, will there be interference?",
+                "ja_sentence": "もし他の教授が製品Bのシステムを近くで使用している場合干渉しあったりしませんか？",
+                "spkid": "190329_E03_08_spk2",
+                "uttid": "190329_E03_08_spk2_no29"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E03_03_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 27,
+                "en_speaker": "Johnny",
+                "ja_speaker": "ジョニー",
+                "en_sentence": "Yeah, but what is the price point?",
+                "ja_sentence": "ええ、でも価格はどうでしょう？",
+                "spkid": "190329_E03_03_spk3",
+                "uttid": "190329_E03_03_spk3_no27"
+            },
+            {
+                "no": 37,
+                "en_speaker": "Johnny",
+                "ja_speaker": "ジョニー",
+                "en_sentence": "Well, if they made that big of an increase in revenue, I certainly see value in your system.",
+                "ja_sentence": "なるほど、彼らがそれほど多くの増収をしたんなら、おたくのシステムには確かに価値がありますね。",
+                "spkid": "190329_E03_03_spk3",
+                "uttid": "190329_E03_03_spk3_no37"
+            },
+            {
+                "no": 38,
+                "en_speaker": "Johnny",
+                "ja_speaker": "ジョニー",
+                "en_sentence": "I just hope it works as well for us.",
+                "ja_sentence": "それが我々にとってもうまくいくといいんですが。",
+                "spkid": "190329_E03_03_spk3",
+                "uttid": "190329_E03_03_spk3_no38"
+            },
+            {
+                "no": 39,
+                "en_speaker": "Johnny",
+                "ja_speaker": "ジョニー",
+                "en_sentence": "So, what's our custom pricing?",
+                "ja_sentence": "それで、我が社向けの価格はいくらになりますか？",
+                "spkid": "190329_E03_03_spk3",
+                "uttid": "190329_E03_03_spk3_no39"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E01_17_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 6,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "We can at least list out the current issues in the industry and how Company A can solve it?",
+                "ja_sentence": "少なくとも、業界において現在ある問題点と、それをA社がどう解決できるかっていうのをリストアップはできるよね。",
+                "spkid": "190329_E01_17_spk2",
+                "uttid": "190329_E01_17_spk2_no6"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Also list out who the competitors are.",
+                "ja_sentence": "あと、競合がどこかっていうのも挙げよう。",
+                "spkid": "190329_E01_17_spk2",
+                "uttid": "190329_E01_17_spk2_no7"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Nor are we software specialists that can review their technology.",
+                "ja_sentence": "彼らの技術を評価できるソフトウェアのスペシャリストでもないしね。",
+                "spkid": "190329_E01_17_spk2",
+                "uttid": "190329_E01_17_spk2_no10"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "I thought we recently opened an office in Silicon Valley.",
+                "ja_sentence": "うち、最近シリコンバレーにオフィス開設したと思うんだけど。",
+                "spkid": "190329_E01_17_spk2",
+                "uttid": "190329_E01_17_spk2_no15"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E013_16_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 4,
+                "en_speaker": "Ms. Watts",
+                "ja_speaker": "ワッツさん",
+                "en_sentence": "That's why we have someone like Ms. Adams who is tech savvy.",
+                "ja_sentence": "だからアダムスさんの様にテクノロジーに長けている人が居るんですよ。",
+                "spkid": "190315_E013_16_spk1",
+                "uttid": "190315_E013_16_spk1_no4"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Ms. Watts",
+                "ja_speaker": "ワッツさん",
+                "en_sentence": "She and other young employees are definitely helping us navigate this new form of advertisement.",
+                "ja_sentence": "彼女や若い従業員に助けられながら新しいタイプの宣伝に力を入れていきましょう。",
+                "spkid": "190315_E013_16_spk1",
+                "uttid": "190315_E013_16_spk1_no5"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Ms. Watts",
+                "ja_speaker": "ワッツさん",
+                "en_sentence": "Would you care to elaborate on that?",
+                "ja_sentence": "詳しく教えてもらってもいいですか？",
+                "spkid": "190315_E013_16_spk1",
+                "uttid": "190315_E013_16_spk1_no11"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Ms. Watts",
+                "ja_speaker": "ワッツさん",
+                "en_sentence": "I thought you and Mr. Ross have been in charge of those.",
+                "ja_sentence": "アダムスさんとロスさんで管理してもらっていると思ってました。",
+                "spkid": "190315_E013_16_spk1",
+                "uttid": "190315_E013_16_spk1_no19"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E013_02_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 9,
+                "en_speaker": "Mr. Bosarge",
+                "ja_speaker": "ボサージュさん",
+                "en_sentence": "You know that's a false statement.",
+                "ja_sentence": "それが間違いなのは知っているでしょう？",
+                "spkid": "190315_E013_02_spk3",
+                "uttid": "190315_E013_02_spk3_no9"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Mr. Bosarge",
+                "ja_speaker": "ボサージュさん",
+                "en_sentence": "I heard J's sales have gone up a lot since they started sponsoring several famous vloggers.",
+                "ja_sentence": "J社は有名なビデオブロガーのスポンサーを始めてから、売り上げが上がっていると聞きましたよ。",
+                "spkid": "190315_E013_02_spk3",
+                "uttid": "190315_E013_02_spk3_no17"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Mr. Bosarge",
+                "ja_speaker": "ボサージュさん",
+                "en_sentence": "I think that's what we should do.",
+                "ja_sentence": "そうすべきですね。",
+                "spkid": "190315_E013_02_spk3",
+                "uttid": "190315_E013_02_spk3_no28"
+            },
+            {
+                "no": 29,
+                "en_speaker": "Mr. Bosarge",
+                "ja_speaker": "ボサージュさん",
+                "en_sentence": "If it's ok, can I e-mail them with supporting evidence?",
+                "ja_sentence": "良ければ、私が証拠と一緒にメールしておきますよ。",
+                "spkid": "190315_E013_02_spk3",
+                "uttid": "190315_E013_02_spk3_no29"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E011_11_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 3,
+                "en_speaker": "Ms. Julie Howe",
+                "ja_speaker": "ジュリー ハウさん",
+                "en_sentence": "There might be some maintenance happening to the server.",
+                "ja_sentence": "サーバーメンテナンス中なのかも知れないね。",
+                "spkid": "190315_E011_11_spk1",
+                "uttid": "190315_E011_11_spk1_no3"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Ms. Julie Howe",
+                "ja_speaker": "ジュリー ハウさん",
+                "en_sentence": "Hey, there's an email from tech support.",
+                "ja_sentence": "あら、技術サポートからのメールがあるわよ。",
+                "spkid": "190315_E011_11_spk1",
+                "uttid": "190315_E011_11_spk1_no7"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Ms. Julie Howe",
+                "ja_speaker": "ジュリー ハウさん",
+                "en_sentence": "It says, \"Server maintenance starting at noon for a brief moment. \"",
+                "ja_sentence": "「１２時から短時間サーバーメンテをします。」って書いてある。",
+                "spkid": "190315_E011_11_spk1",
+                "uttid": "190315_E011_11_spk1_no8"
+            },
+            {
+                "no": 9,
+                "en_speaker": "Ms. Julie Howe",
+                "ja_speaker": "ジュリー ハウさん",
+                "en_sentence": "\"Apologies for the inconvenience.\", I guess that explains it.",
+                "ja_sentence": "「ご迷惑かけてすみません」って、これで説明がついたわね。",
+                "spkid": "190315_E011_11_spk1",
+                "uttid": "190315_E011_11_spk1_no9"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E011_11_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 4,
+                "en_speaker": "Mr. Hayashi Ken",
+                "ja_speaker": "林 健さん",
+                "en_sentence": "Are your emails coming through?",
+                "ja_sentence": "メールちゃんと来てる？",
+                "spkid": "190315_E011_11_spk2",
+                "uttid": "190315_E011_11_spk2_no4"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Mr. Hayashi Ken",
+                "ja_speaker": "林 健さん",
+                "en_sentence": "There's definitely something wrong with our system today.",
+                "ja_sentence": "今日、うちのシステム絶対おかしいよね。",
+                "spkid": "190315_E011_11_spk2",
+                "uttid": "190315_E011_11_spk2_no5"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Mr. Hayashi Ken",
+                "ja_speaker": "林 健さん",
+                "en_sentence": "I'd better make some offline copies so I can keep working.",
+                "ja_sentence": "仕事を続けられるようにオフラインのコピーを作っておいたほうがよさそうだな。",
+                "spkid": "190315_E011_11_spk2",
+                "uttid": "190315_E011_11_spk2_no11"
+            },
+            {
+                "no": 12,
+                "en_speaker": "Mr. Hayashi Ken",
+                "ja_speaker": "林 健さん",
+                "en_sentence": "Or should we all go get some lunch?",
+                "ja_sentence": "それとも、皆でランチに行っちゃおうか？",
+                "spkid": "190315_E011_11_spk2",
+                "uttid": "190315_E011_11_spk2_no12"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E011_10_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Ms. Julia Kramer",
+                "ja_speaker": "ジュリア クレーマーさん",
+                "en_sentence": "Angela, Chris, do you want to go out for a quick drink after work tonight?",
+                "ja_sentence": "アンジェラさん、クリスさん、今日仕事の後でちょっと飲みに行きませんか？",
+                "spkid": "190315_E011_10_spk0",
+                "uttid": "190315_E011_10_spk0_no1"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Ms. Julia Kramer",
+                "ja_speaker": "ジュリア クレーマーさん",
+                "en_sentence": "Great, what are you working on Chris?",
+                "ja_sentence": "よかった、クリスさん、今何をやっているの？",
+                "spkid": "190315_E011_10_spk0",
+                "uttid": "190315_E011_10_spk0_no5"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Ms. Julia Kramer",
+                "ja_speaker": "ジュリア クレーマーさん",
+                "en_sentence": "Seems like it's all happening.",
+                "ja_sentence": "すべてうまくいきそうね。",
+                "spkid": "190315_E011_10_spk0",
+                "uttid": "190315_E011_10_spk0_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Ms. Julia Kramer",
+                "ja_speaker": "ジュリア クレーマーさん",
+                "en_sentence": "See you both around five o'clock!",
+                "ja_sentence": "じゃ、二人とも５時に！",
+                "spkid": "190315_E011_10_spk0",
+                "uttid": "190315_E011_10_spk0_no20"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E011_02_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 2,
+                "en_speaker": "Mr. Tom Weismann",
+                "ja_speaker": "トム ワイスマンさん",
+                "en_sentence": "Sure, what's up, Peter?",
+                "ja_sentence": "もちろん、ピーターさん、何ですか？",
+                "spkid": "190315_E011_02_spk1",
+                "uttid": "190315_E011_02_spk1_no2"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Mr. Tom Weismann",
+                "ja_speaker": "トム ワイスマンさん",
+                "en_sentence": "Yes, I was there last year, but this year I'm tied up with my project and Julie's going from our group instead.",
+                "ja_sentence": "ええ、去年は行きましたが、今年はプロジェクトに縛られているので、うちのグループからはジュリーが行くことになっています。",
+                "spkid": "190315_E011_02_spk1",
+                "uttid": "190315_E011_02_spk1_no5"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Mr. Tom Weismann",
+                "ja_speaker": "トム ワイスマンさん",
+                "en_sentence": "I can take a look for you when you're done.",
+                "ja_sentence": "終わったら見てあげますよ。",
+                "spkid": "190315_E011_02_spk1",
+                "uttid": "190315_E011_02_spk1_no8"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Mr. Tom Weismann",
+                "ja_speaker": "トム ワイスマンさん",
+                "en_sentence": "No problem, I will look out for your email and get back to you.",
+                "ja_sentence": "いいえ、あなたのメールに気を付けておきますから、後で連絡しますね。",
+                "spkid": "190315_E011_02_spk1",
+                "uttid": "190315_E011_02_spk1_no11"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E009_10_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 6,
+                "en_speaker": "Won Bin",
+                "ja_speaker": "ウォン ビン",
+                "en_sentence": "Excuse me can I ask questions?",
+                "ja_sentence": "すみません、質問いいですか？",
+                "spkid": "190315_E009_10_spk2",
+                "uttid": "190315_E009_10_spk2_no6"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Won Bin",
+                "ja_speaker": "ウォン ビン",
+                "en_sentence": "Is it just the economy?",
+                "ja_sentence": "景気のせいだけですか？",
+                "spkid": "190315_E009_10_spk2",
+                "uttid": "190315_E009_10_spk2_no8"
+            },
+            {
+                "no": 9,
+                "en_speaker": "Won Bin",
+                "ja_speaker": "ウォン ビン",
+                "en_sentence": "I mean, if it's just the economy we are all in the same boat, all companies across the field.",
+                "ja_sentence": "つまり、景気だけなら周りの皆も同じ状況ですよね、業界の会社全てが。",
+                "spkid": "190315_E009_10_spk2",
+                "uttid": "190315_E009_10_spk2_no9"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Won Bin",
+                "ja_speaker": "ウォン ビン",
+                "en_sentence": "Can't you just hire people?",
+                "ja_sentence": "もっと人を雇えないんですか？",
+                "spkid": "190315_E009_10_spk2",
+                "uttid": "190315_E009_10_spk2_no14"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E009_10_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 17,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "If it's the economy, and all the economists are projecting slow to no recovery, couldn't you take that into consideration with your projections?",
+                "ja_sentence": "景気のせいであれば、すべての経済学者たちが回復が遅いか皆無と予測しているはずで、それを予測に反映させることは出来なかったのですか？",
+                "spkid": "190315_E009_10_spk3",
+                "uttid": "190315_E009_10_spk3_no17"
+            },
+            {
+                "no": 33,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "IPO is all well and good, but shouldn't we be looking more at the issues on hand?",
+                "ja_sentence": "株式公開はいいことづくしのようですが、もう少し手元にある課題を見る必要がないでしょうか？",
+                "spkid": "190315_E009_10_spk3",
+                "uttid": "190315_E009_10_spk3_no33"
+            },
+            {
+                "no": 34,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "I still find our new fiscal year goal a tad bit optimistic.",
+                "ja_sentence": "私には、新年度の目標がまだ少し楽観的過ぎるように思えるのです。",
+                "spkid": "190315_E009_10_spk3",
+                "uttid": "190315_E009_10_spk3_no34"
+            },
+            {
+                "no": 35,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "How are sales going to go up with us losing so many retail customers per month?",
+                "ja_sentence": "毎月たくさんの小売客を失っているのに、どうやって売上を伸ばせばよいのでしょう。",
+                "spkid": "190315_E009_10_spk3",
+                "uttid": "190315_E009_10_spk3_no35"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E009_09_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 16,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "So they all know we are taking over?",
+                "ja_sentence": "では、皆、僕たちが引き継ぐことは知ってるんだよね？",
+                "spkid": "190315_E009_09_spk3",
+                "uttid": "190315_E009_09_spk3_no16"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "No stones left unturned as usual, huh?",
+                "ja_sentence": "いつもどおり、すべて片づけてくれたってことだね。",
+                "spkid": "190315_E009_09_spk3",
+                "uttid": "190315_E009_09_spk3_no18"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "Kate is gone and now you.",
+                "ja_sentence": "ケイトがいなくなって、今度は君か。",
+                "spkid": "190315_E009_09_spk3",
+                "uttid": "190315_E009_09_spk3_no20"
+            },
+            {
+                "no": 21,
+                "en_speaker": "Solomon",
+                "ja_speaker": "ソロモン",
+                "en_sentence": "We are really going to miss you.",
+                "ja_sentence": "皆、本当に寂しくなるよ。",
+                "spkid": "190315_E009_09_spk3",
+                "uttid": "190315_E009_09_spk3_no21"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E009_06_spk3",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 32,
+                "en_speaker": "Taichi",
+                "ja_speaker": "太一",
+                "en_sentence": "Hey, what are you guys doing with my desk?",
+                "ja_sentence": "おお、僕の机で何やってるんですか？",
+                "spkid": "190315_E009_06_spk3",
+                "uttid": "190315_E009_06_spk3_no32"
+            },
+            {
+                "no": 36,
+                "en_speaker": "Taichi",
+                "ja_speaker": "太一",
+                "en_sentence": "Oh, those.",
+                "ja_sentence": "あ、これ。",
+                "spkid": "190315_E009_06_spk3",
+                "uttid": "190315_E009_06_spk3_no36"
+            },
+            {
+                "no": 37,
+                "en_speaker": "Taichi",
+                "ja_speaker": "太一",
+                "en_sentence": "Yeah, I was going to throw them away, but life kind of got in the way.",
+                "ja_sentence": "うん、捨てようと思ってたんだけど、バタバタしちゃって。",
+                "spkid": "190315_E009_06_spk3",
+                "uttid": "190315_E009_06_spk3_no37"
+            },
+            {
+                "no": 39,
+                "en_speaker": "Taichi",
+                "ja_speaker": "太一",
+                "en_sentence": "Well, I get hungry, you know, with going out on sales calls all day, but then I get called away while I'm eating.",
+                "ja_sentence": "えっと、うーん、一日中営業訪問でお腹空いちゃって、食べてるときに呼ばれるんだよな。",
+                "spkid": "190315_E009_06_spk3",
+                "uttid": "190315_E009_06_spk3_no39"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E003_17_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 7,
+                "en_speaker": "Mr. Ben Sherman",
+                "ja_speaker": "ベン シャーマン",
+                "en_sentence": "This is a pretty long list.",
+                "ja_sentence": "かなり長いリストだね。",
+                "spkid": "190315_E003_17_spk2",
+                "uttid": "190315_E003_17_spk2_no7"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Mr. Ben Sherman",
+                "ja_speaker": "ベン シャーマン",
+                "en_sentence": "So are most companies here small?",
+                "ja_sentence": "じゃあ、このリストの企業のほとんどは小規模ということかい？",
+                "spkid": "190315_E003_17_spk2",
+                "uttid": "190315_E003_17_spk2_no10"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Mr. Ben Sherman",
+                "ja_speaker": "ベン シャーマン",
+                "en_sentence": "How about we focus on just Washington.",
+                "ja_sentence": "ワシントンだけに絞るのはどうだい？",
+                "spkid": "190315_E003_17_spk2",
+                "uttid": "190315_E003_17_spk2_no16"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Mr. Ben Sherman",
+                "ja_speaker": "ベン シャーマン",
+                "en_sentence": "Well we have an office there so maybe they can help us meet some of the companies.",
+                "ja_sentence": "そこにはうちの会社のオフィスがあるから、彼らがいくつかの企業と会う手助けをしてくれるかもしれない。",
+                "spkid": "190315_E003_17_spk2",
+                "uttid": "190315_E003_17_spk2_no18"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E001_04_spk2",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 14,
+                "en_speaker": "Ms. Elaine Young",
+                "ja_speaker": "エレン ヤングさん",
+                "en_sentence": "Hi I'm Elaine.",
+                "ja_sentence": "こんにちは、エレンです。",
+                "spkid": "190315_E001_04_spk2",
+                "uttid": "190315_E001_04_spk2_no14"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Ms. Elaine Young",
+                "ja_speaker": "エレン ヤングさん",
+                "en_sentence": "I look forward to working with you Sam.",
+                "ja_sentence": "サム、あなたと仕事をするのを楽しみにしています。",
+                "spkid": "190315_E001_04_spk2",
+                "uttid": "190315_E001_04_spk2_no15"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Ms. Elaine Young",
+                "ja_speaker": "エレン ヤングさん",
+                "en_sentence": "There's a lot of things you have to learn.",
+                "ja_sentence": "覚えることがたくさんありますよ。",
+                "spkid": "190315_E001_04_spk2",
+                "uttid": "190315_E001_04_spk2_no26"
+            },
+            {
+                "no": 27,
+                "en_speaker": "Ms. Elaine Young",
+                "ja_speaker": "エレン ヤングさん",
+                "en_sentence": "So make sure to take notes!",
+                "ja_sentence": "きちんとノートに書き留めてね。",
+                "spkid": "190315_E001_04_spk2",
+                "uttid": "190315_E001_04_spk2_no27"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E04_01_spk1",
+        "set": "dev",
+        "conversation": [
+            {
+                "no": 2,
+                "en_speaker": "Ms. Joanne Yu",
+                "ja_speaker": "ジョアン ユーさん",
+                "en_sentence": "Can I get your name please?",
+                "ja_sentence": "お名前を伺えますか？",
+                "spkid": "190329_E04_01_spk1",
+                "uttid": "190329_E04_01_spk1_no2"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Ms. Joanne Yu",
+                "ja_speaker": "ジョアン ユーさん",
+                "en_sentence": "Can I also get your order number?",
+                "ja_sentence": "注文番号も伺っていいですか？",
+                "spkid": "190329_E04_01_spk1",
+                "uttid": "190329_E04_01_spk1_no4"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Ms. Joanne Yu",
+                "ja_speaker": "ジョアン ユーさん",
+                "en_sentence": "Okay, yes we have the bags ready for you.",
+                "ja_sentence": "はい、バッグはご用意できております。",
+                "spkid": "190329_E04_01_spk1",
+                "uttid": "190329_E04_01_spk1_no6"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Ms. Joanne Yu",
+                "ja_speaker": "ジョアン ユーさん",
+                "en_sentence": "I'll have Greg take care of the rest for you.",
+                "ja_sentence": "あとはグレッグがご対応させていただきます。",
+                "spkid": "190329_E04_01_spk1",
+                "uttid": "190329_E04_01_spk1_no7"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E15_07_spk2",
+        "set": "dev",
+        "conversation": [
+            {
+                "no": 15,
+                "en_speaker": "Felix",
+                "ja_speaker": "フェリックス",
+                "en_sentence": "Okay.",
+                "ja_sentence": "分かりました。",
+                "spkid": "190329_E15_07_spk2",
+                "uttid": "190329_E15_07_spk2_no15"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Felix",
+                "ja_speaker": "フェリックス",
+                "en_sentence": "Yes, I don't mind.",
+                "ja_sentence": "ええ、僕は構わないですよ。",
+                "spkid": "190329_E15_07_spk2",
+                "uttid": "190329_E15_07_spk2_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Felix",
+                "ja_speaker": "フェリックス",
+                "en_sentence": "Just submit your ideas to me, and I will compile it together with my ideas.",
+                "ja_sentence": "アイデアを僕に渡してくれたら、僕のアイデアと一緒にまとめておくよ。",
+                "spkid": "190329_E15_07_spk2",
+                "uttid": "190329_E15_07_spk2_no20"
+            },
+            {
+                "no": 25,
+                "en_speaker": "Felix",
+                "ja_speaker": "フェリックス",
+                "en_sentence": "See you.",
+                "ja_sentence": "失礼します。",
+                "spkid": "190329_E15_07_spk2",
+                "uttid": "190329_E15_07_spk2_no25"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E15_17_spk1",
+        "set": "dev",
+        "conversation": [
+            {
+                "no": 2,
+                "en_speaker": "Edi",
+                "ja_speaker": "エディ",
+                "en_sentence": "Good afternoon.",
+                "ja_sentence": "こんにちは。",
+                "spkid": "190329_E15_17_spk1",
+                "uttid": "190329_E15_17_spk1_no2"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Edi",
+                "ja_speaker": "エディ",
+                "en_sentence": "Sure, where are you from?",
+                "ja_sentence": "はい、どちらの方ですか？",
+                "spkid": "190329_E15_17_spk1",
+                "uttid": "190329_E15_17_spk1_no4"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Edi",
+                "ja_speaker": "エディ",
+                "en_sentence": "Have you made an appointment with her?",
+                "ja_sentence": "ダイアナとはお約束していらっしゃいますか？",
+                "spkid": "190329_E15_17_spk1",
+                "uttid": "190329_E15_17_spk1_no6"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Edi",
+                "ja_speaker": "エディ",
+                "en_sentence": "Okay, please wait a moment.",
+                "ja_sentence": "わかりました、少々お待ちください。",
+                "spkid": "190329_E15_17_spk1",
+                "uttid": "190329_E15_17_spk1_no8"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E22_15_spk2",
+        "set": "dev",
+        "conversation": [
+            {
+                "no": 21,
+                "en_speaker": "Intern",
+                "ja_speaker": "インターン",
+                "en_sentence": "Good morning sir.",
+                "ja_sentence": "おはようございます。",
+                "spkid": "190329_E22_15_spk2",
+                "uttid": "190329_E22_15_spk2_no21"
+            },
+            {
+                "no": 22,
+                "en_speaker": "Intern",
+                "ja_speaker": "インターン",
+                "en_sentence": "I made...",
+                "ja_sentence": "えー、やっておきましたのは…",
+                "spkid": "190329_E22_15_spk2",
+                "uttid": "190329_E22_15_spk2_no22"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Intern",
+                "ja_speaker": "インターン",
+                "en_sentence": "I didn't ignore them, but there were so many files that didn't fit there.",
+                "ja_sentence": "無視はしませんでしたけど、入りきらないファイルがたくさんありました。",
+                "spkid": "190329_E22_15_spk2",
+                "uttid": "190329_E22_15_spk2_no28"
+            },
+            {
+                "no": 32,
+                "en_speaker": "Intern",
+                "ja_speaker": "インターン",
+                "en_sentence": "Sorry sir, I will keep that in my mind.",
+                "ja_sentence": "すみません、覚えておきます。",
+                "spkid": "190329_E22_15_spk2",
+                "uttid": "190329_E22_15_spk2_no32"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_J10_05_spk3",
+        "set": "dev",
+        "conversation": [
+            {
+                "no": 11,
+                "ja_speaker": "村田さん",
+                "en_speaker": "Murata-san",
+                "ja_sentence": "私も小宮さんの意見に賛成です。",
+                "en_sentence": "I agree with Komiya-san's idea.",
+                "spkid": "190329_J10_05_spk3",
+                "uttid": "190329_J10_05_spk3_no11"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "村田さん",
+                "en_speaker": "Murata-san",
+                "ja_sentence": "私もまずは現地に住んでいる日本人をターゲットにしてみてはどうかと思います。",
+                "en_sentence": "I think we should first target Japanese people living locally as well.",
+                "spkid": "190329_J10_05_spk3",
+                "uttid": "190329_J10_05_spk3_no13"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "村田さん",
+                "en_speaker": "Murata-san",
+                "ja_sentence": "狭い国なので、日本人がよく行くスーパーに協力してもらって販売するのが一番現実的かと思います。",
+                "en_sentence": "It's a small country so I think if we can get supermarkets where Japanese people go often to cooperate with us and sell through there will be the most realistic.",
+                "spkid": "190329_J10_05_spk3",
+                "uttid": "190329_J10_05_spk3_no14"
+            },
+            {
+                "no": 21,
+                "ja_speaker": "村田さん",
+                "en_speaker": "Murata-san",
+                "ja_sentence": "それはいい考えですね、私も賛成です。",
+                "en_sentence": "That's a good idea, I'm in favor of that.",
+                "spkid": "190329_J10_05_spk3",
+                "uttid": "190329_J10_05_spk3_no21"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_J10_05_spk4",
+        "set": "dev",
+        "conversation": [
+            {
+                "no": 15,
+                "ja_speaker": "小林さん",
+                "en_speaker": "Kobayashi-san",
+                "ja_sentence": "佐藤部長、質問です。",
+                "en_sentence": "Sato-san, I have a question.",
+                "spkid": "190329_J10_05_spk4",
+                "uttid": "190329_J10_05_spk4_no15"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "小林さん",
+                "en_speaker": "Kobayashi-san",
+                "ja_sentence": "このチームはまだただの有志の集まりで正式なチームではないと思うのですが、予算はありますか？",
+                "en_sentence": "This team is still formed with volunteers and is not an official team but do we have a budget?",
+                "spkid": "190329_J10_05_spk4",
+                "uttid": "190329_J10_05_spk4_no17"
+            },
+            {
+                "no": 19,
+                "ja_speaker": "小林さん",
+                "en_speaker": "Kobayashi-san",
+                "ja_sentence": "でしたら、実際に自分たちがシンガポールに行って、現地調査を兼ねたサンプル配布を行うことは可能でしょうか？",
+                "en_sentence": "If that is the case, will it be possible for us to go to Singapore and do field research as well as distributing samples?",
+                "spkid": "190329_J10_05_spk4",
+                "uttid": "190329_J10_05_spk4_no19"
+            },
+            {
+                "no": 20,
+                "ja_speaker": "小林さん",
+                "en_speaker": "Kobayashi-san",
+                "ja_sentence": "現地でどの様なものが売れているのか、今後の参考にしたいですし、日本人以外にもサンプルを直接配ることで現地の生の声が聞いてみたいです。",
+                "en_sentence": "I'd like to learn about what kind of things are sold locally for future reference, and listen to the actual comments of locals by distributing samples directly to non-Japanese people.",
+                "spkid": "190329_J10_05_spk4",
+                "uttid": "190329_J10_05_spk4_no20"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_J006_09_spk3",
+        "set": "test",
+        "conversation": [
+            {
+                "no": 23,
+                "ja_speaker": "ジョハンナ ブライアント",
+                "en_speaker": "Johanna Bryant",
+                "ja_sentence": "ありがとうございます。",
+                "en_sentence": "Thank you.",
+                "spkid": "190315_J006_09_spk3",
+                "uttid": "190315_J006_09_spk3_no23"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "ジョハンナ ブライアント",
+                "en_speaker": "Johanna Bryant",
+                "ja_sentence": "Sタイムズ紙のジョハンナ ブライアントです。",
+                "en_sentence": "I'm Johanna Bryant from S times.",
+                "spkid": "190315_J006_09_spk3",
+                "uttid": "190315_J006_09_spk3_no24"
+            },
+            {
+                "no": 25,
+                "ja_speaker": "ジョハンナ ブライアント",
+                "en_speaker": "Johanna Bryant",
+                "ja_sentence": "プレゼンによりますと、この製品は学校、官公庁、ショッピングモールに適しているとのことでした。",
+                "en_sentence": "In your presentation, you said this is suitable for schools, government offices, and shopping malls.",
+                "spkid": "190315_J006_09_spk3",
+                "uttid": "190315_J006_09_spk3_no25"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "ジョハンナ ブライアント",
+                "en_speaker": "Johanna Bryant",
+                "ja_sentence": "一般の方々にも販売する予定はありますか？",
+                "en_sentence": "Do you have plans to make it available for the general public too?",
+                "spkid": "190315_J006_09_spk3",
+                "uttid": "190315_J006_09_spk3_no26"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E06_01_spk2",
+        "set": "test",
+        "conversation": [
+            {
+                "no": 10,
+                "en_speaker": "Cindy",
+                "ja_speaker": "シンディ",
+                "en_sentence": "I always get the chicken.",
+                "ja_sentence": "私はいつもチキンのやつを頼むわ。",
+                "spkid": "190329_E06_01_spk2",
+                "uttid": "190329_E06_01_spk2_no10"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Cindy",
+                "ja_speaker": "シンディ",
+                "en_sentence": "How about you Bob?",
+                "ja_sentence": "ボブ、あなたは？",
+                "spkid": "190329_E06_01_spk2",
+                "uttid": "190329_E06_01_spk2_no11"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Cindy",
+                "ja_speaker": "シンディ",
+                "en_sentence": "I don't like it.",
+                "ja_sentence": "私は好きじゃないなあ。",
+                "spkid": "190329_E06_01_spk2",
+                "uttid": "190329_E06_01_spk2_no15"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Cindy",
+                "ja_speaker": "シンディ",
+                "en_sentence": "Do you eat spicy food in Japan?",
+                "ja_sentence": "日本では辛い物を食べるの？",
+                "spkid": "190329_E06_01_spk2",
+                "uttid": "190329_E06_01_spk2_no16"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_J20_13_spk2",
+        "set": "test",
+        "conversation": [
+            {
+                "no": 4,
+                "ja_speaker": "川上さん",
+                "en_speaker": "Kawakami-san",
+                "ja_sentence": "本当ですか、ちょうど2階のテナントが空いてるんですよ。",
+                "en_sentence": "Is that true, there is a vacant space on the second floor.",
+                "spkid": "190329_J20_13_spk2",
+                "uttid": "190329_J20_13_spk2_no4"
+            },
+            {
+                "no": 5,
+                "ja_speaker": "川上さん",
+                "en_speaker": "Kawakami-san",
+                "ja_sentence": "ついでなのでご覧になっていただけませんか？",
+                "en_sentence": "Since you are already here, would you like to take a tour?",
+                "spkid": "190329_J20_13_spk2",
+                "uttid": "190329_J20_13_spk2_no5"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "川上さん",
+                "en_speaker": "Kawakami-san",
+                "ja_sentence": "ちょうどテナント管理部のものが2階にいると思います。",
+                "en_sentence": "I think the management happens to be on the second floor right now.",
+                "spkid": "190329_J20_13_spk2",
+                "uttid": "190329_J20_13_spk2_no6"
+            },
+            {
+                "no": 11,
+                "ja_speaker": "川上さん",
+                "en_speaker": "Kawakami-san",
+                "ja_sentence": "こちら弊社テナント管理部の桑田です。",
+                "en_sentence": "This is Mr. Kuwata from our tenant managing department.",
+                "spkid": "190329_J20_13_spk2",
+                "uttid": "190329_J20_13_spk2_no11"
+            }
+        ]
+    }
+]

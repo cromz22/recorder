@@ -10,6 +10,7 @@
 	python3 -m venv venv  # used python3.9.7 for development
 	. venv/bin/activate
 	pip install fastapi "uvicorn[standard]"
+	bash mkdir.sh  # make directories to save audio files
 	```
 
 - frontend

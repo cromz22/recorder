@@ -1,0 +1,278 @@
+[
+    {
+        "task_id": "190315_J011_18_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "人事部研修にご参加いただきありがとうございます。",
+                "en_sentence": "Thank you for joining us for HR training.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "本日の主な議題は、こちら。",
+                "en_sentence": "Here is today's main topic.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "人材育成・中間研修プログラムについてお話しします。",
+                "en_sentence": "We'll talk about human resource development and continuous training program.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "昨年末より社内環境改善プロジェクトが進行中なのはご存じかと思いますが、今月も全社で様々な取組みを行っております。",
+                "en_sentence": "Since the end of last year, as you know we've been running a project to improve our work environment, and we're working on various things throughout the company this month as well.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no4"
+            },
+            {
+                "no": 5,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "その一環として、今回はスキル自己診断アンケートを行いました。",
+                "en_sentence": "As a part of the project, we conducted a skill self-assessment survey.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no5"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "ええ、前回は入社３年前後の社員にお願いしました。",
+                "en_sentence": "Yes, we asked employees who had been with us for about three years last time.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no7"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "そして予想外に大きな反響が返ってまいりました。",
+                "en_sentence": "There was an unexpectedly big response then.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no8"
+            },
+            {
+                "no": 9,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "その為、今回のアンケート調査は全社員を対象に実施したものです。",
+                "en_sentence": "Therefore, a questionnaire survey this time has been conducted with the entire company.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no9"
+            },
+            {
+                "no": 10,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "こちらのグラフをご覧ください。",
+                "en_sentence": "Please take a look at this graph.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no10"
+            },
+            {
+                "no": 12,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "全社員の半数強といったところです。",
+                "en_sentence": "A little over half of the entire company.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no12"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "さて、「現職に必要なスキルが不足している」と感じている社員が多い事が判ります。",
+                "en_sentence": "Now, as you can see, a lot of employees feel they \"lack some skills necessary for the current role.\"",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no13"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "この結果を受け、こちら、「人材育成プログラム」として今年度後半に向けて予算が組まれる運びとなりました。",
+                "en_sentence": "On receiving the results, we are going to budget  \"Human Resource Nurturing Program\" for the latter half of the fiscal year.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no14"
+            },
+            {
+                "no": 15,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "新たな人材確保が難しい中、既存社員の育成と定着率を上げる事を主な目的とします。",
+                "en_sentence": "As we're facing the challenging situation in terms of securing new talents, our main goal is to nurture existing employees and increase their retention rate.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no15"
+            },
+            {
+                "no": 16,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "このプログラムに伴い、来月からの研修は人事が一括管理する事となりました。",
+                "en_sentence": "Along with the program, HR is going to be in charge of all the trainings from next month.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no16"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "本日の管理職研修では、新しい研修管理システムのご紹介と承認申請方法を確認していきます。",
+                "en_sentence": "In this manager training today, we'll show you our new training management system and go over application procedures for approval.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no17"
+            },
+            {
+                "no": 21,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "7月からは研修費用が別予算から下りる事となります。",
+                "en_sentence": "From July, you'd get training expenses from a separate budget.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no21"
+            },
+            {
+                "no": 22,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "が、研修自体は各部署主導です。",
+                "en_sentence": "But training itself is mainly conducted by each department.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no22"
+            },
+            {
+                "no": 24,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "基本的にはそうです。",
+                "en_sentence": "Basically, yes.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no24"
+            },
+            {
+                "no": 25,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "ただし、今但馬さんが仰られた通り、これまで各部門主導で数々の研修を実施してきました。",
+                "en_sentence": "However, as Yu just mentioned, we have had numerous trainings conducted by departments up to now.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no25"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "にも関わらず、自分の役割に必要なスキルに不安を感じる社員がかなり多い。",
+                "en_sentence": "In spite of that, there are so many employees who do not feel confident with necessary skills in their roles.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no26"
+            },
+            {
+                "no": 27,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "既存の研修方法では期待された成果が出ていないという事は、我々は時間と予算を無駄に費やしてきたわけです。",
+                "en_sentence": "The current training method has not given us desirable results, which means that we have spent our time and money inefficiently.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no27"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "ですので、人事で承認された研修のみ実施されます。",
+                "en_sentence": "Therefore, only those trainings that are approved by the HR will be held.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no28"
+            },
+            {
+                "no": 30,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "また、各部署に外部から入る人材育成関連の情報は、全て一度人事に集める事とします。",
+                "en_sentence": "Add to that, all the HRD-related information, which each department receives from outside, will at one time be collected by HR.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no30"
+            },
+            {
+                "no": 31,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "外部情報と社内研修の要望を人事で精査、集約して研修リストにします。",
+                "en_sentence": "HR will examine these information and requests for in-house trainings, then put together a list of training.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no31"
+            },
+            {
+                "no": 32,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "このリストは研修管理システムからアクセス、全社で活用できる様になります。",
+                "en_sentence": "This list will be available in the training management system, so the entire company will be able to make use of it.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no32"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "はい、申請書もシステムを通して受け付けます。",
+                "en_sentence": "Yes, application will be accepted through the system, too.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no34"
+            },
+            {
+                "no": 36,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "参加者が20人を超える研修の場合は部門長の承認が必要です。",
+                "en_sentence": "You will need approval by department head for trainings with over 20 participants.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no36"
+            },
+            {
+                "no": 38,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "申し訳ありません、杉岡さん。",
+                "en_sentence": "I'm awfully sorry, Makoto.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no38"
+            },
+            {
+                "no": 39,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "先ずはこの管理システムの説明をさせてください。",
+                "en_sentence": "Let me explain the management system first.",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no39"
+            },
+            {
+                "no": 40,
+                "ja_speaker": "津村 真冬",
+                "en_speaker": "Tsumura Mafuyu",
+                "ja_sentence": "ご質問はその後でも宜しいでしょうか？",
+                "en_sentence": "Would it be okay if I take your questions after that?",
+                "spkid": "190315_J011_18_spk0",
+                "uttid": "190315_J011_18_spk0_no40"
+            }
+        ]
+    }
+]

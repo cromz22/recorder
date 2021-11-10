@@ -1,0 +1,287 @@
+[
+    {
+        "task_id": "190329_E03_06_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Good morning, we're going to continue with the rest of our emergency training here at Tech Company A this week.",
+                "ja_sentence": "おはようございます、今週はテックA社での防災訓練の続きをします。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no1"
+            },
+            {
+                "no": 2,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Today, we are going to go over what to do in the case of a fire.",
+                "ja_sentence": "本日は火事が起きた際の対応についてです。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no2"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "In the event of a fire, pull the alarm and call 911.",
+                "ja_sentence": "火災が発生した場合、警報を鳴らして911に電話をしてください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no6"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Only use a fire extinguisher if you have been trained or there is no other way of escape.",
+                "ja_sentence": "避難ルートが無い場合以外は、訓練を受けたことがある人のみが消火器を使用するようにしてください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no7"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If you cannot control the fire within 30 seconds, abandon your efforts, close the door, and evacuate.",
+                "ja_sentence": "30秒以内に火を制御する事が出来なかった時は、あきらめてドアを閉めて、避難してください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no8"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Evacuate the building immediately!",
+                "ja_sentence": "すぐに建物から避難してください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no10"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Do not investigate the source of the emergency.",
+                "ja_sentence": "火の元は探さないでください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no11"
+            },
+            {
+                "no": 12,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Walk, don't run, to the nearest exit.",
+                "ja_sentence": "走らないで、歩いて最寄りの避難出口へ行ってください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no12"
+            },
+            {
+                "no": 13,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Use stairs, not elevators.",
+                "ja_sentence": "エレベーターではなく階段を使用してください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no13"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If you are unable to evacuate, call 911 and report your location.",
+                "ja_sentence": "避難することが出来ない場合は、911に電話をして、あなたが居る場所を伝えてください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no14"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "As you make your way out, encourage those you encounter to exit.",
+                "ja_sentence": "外へ避難する際に他の人に遭遇したら、外へ出るように声をかけてください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no15"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Follow instructions of identified emergency personnel.",
+                "ja_sentence": "救急隊員の指示に従ってください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no16"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Wait for instructions before returning to your building after an evacuation.",
+                "ja_sentence": "避難した後は建物に戻る前に指示を待ってください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no17"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Any questions so far?",
+                "ja_sentence": "ここまでで質問はありますか？",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no18"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Yes, you in the back.",
+                "ja_sentence": "はい、後ろのあなた。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "What's your question?",
+                "ja_sentence": "質問をどうぞ。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no20"
+            },
+            {
+                "no": 22,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If the building has a designated area of rescue, the person should be moved to this area.",
+                "ja_sentence": "建物内に指定された救助エリアがある場合は、そこに連れて行く必要があります。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no22"
+            },
+            {
+                "no": 23,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If the building does not have a designated area of rescue, the person should be moved to a room that is far from danger.",
+                "ja_sentence": "建物に指定された救助エリアがない場合、その人を危険から離れた部屋に連れて行く必要があります。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no23"
+            },
+            {
+                "no": 24,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Do not attempt to move or carry the person downstairs unless there is imminent danger of injury or death.",
+                "ja_sentence": "差し迫った怪我または死亡の危険がある場合を除き、階下に運んで行ったりはしないでください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no24"
+            },
+            {
+                "no": 25,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Call 911 and leave the person there with the phone.",
+                "ja_sentence": "911に電話をして、その方が電話を持っているのを確認してそこへ残して行ってください。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no25"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "I will now answer any questions you may have on fire and evacuation.",
+                "ja_sentence": "火災と避難に関する質問でしたら、なんでも答えますよ。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no26"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If you're confident you can move the person, by all means you should.",
+                "ja_sentence": "その人を運べる自信があるなら、ぜひそうして欲しいところですが。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no28"
+            },
+            {
+                "no": 29,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "However in the case that is physically impossible to move the person, this is the last resort.",
+                "ja_sentence": "それが物理的に不可能な場合はそれが最後の手段です。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no29"
+            },
+            {
+                "no": 31,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "You can do it online.",
+                "ja_sentence": "オンラインで出来ますよ。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no31"
+            },
+            {
+                "no": 32,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "The most important thing is to recognize what kind of fire it is.",
+                "ja_sentence": "最も大切なことは火災の種類を認識することです。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no32"
+            },
+            {
+                "no": 33,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Since we work in an office environment, the two most likely fires would be class A or class C.",
+                "ja_sentence": "オフィスで働く私達にとって、良くある火災の種類はAクラスかCクラスになります。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no33"
+            },
+            {
+                "no": 35,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Class A fires are fires in ordinary combustibles such as wood, paper, cloth, trash, and plastics.",
+                "ja_sentence": "Aクラスの火災は、木材、紙、布、ゴミ、プラスチックなどの通常の可燃物の火災です。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no35"
+            },
+            {
+                "no": 36,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Class C fires are fires involving energized electrical equipment such as motors, transformers, and appliances.",
+                "ja_sentence": "Cクラスの火災は、モーター、変圧器、および家電などの通電している電気機器を含む火災です。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no36"
+            },
+            {
+                "no": 37,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Some type of fire extinguishing agents can be used on more than one class of fire.",
+                "ja_sentence": "あるタイプの消火剤は複数のクラスの火災に対応しています。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no37"
+            },
+            {
+                "no": 38,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Others have warnings where it would be dangerous for the operator to use a particular fire extinguisher agent.",
+                "ja_sentence": "そうでないものにはその消火剤を使うと危険な場所について警告が書いてあります。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no38"
+            },
+            {
+                "no": 40,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "There are several types of fire extinguishers that use different agents such as water and foam, dry chemicals, or wet chemicals.",
+                "ja_sentence": "水と泡、乾いた化学物質、湿った化学物質など消火器によって様々なタイプの消火剤が使用されています。",
+                "spkid": "190329_E03_06_spk0",
+                "uttid": "190329_E03_06_spk0_no40"
+            }
+        ]
+    }
+]

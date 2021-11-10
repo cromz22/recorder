@@ -1,0 +1,314 @@
+[
+    {
+        "task_id": "190315_E010_07_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "So today, I will be talking about Japan's new policy for wood products.",
+                "ja_sentence": "本日は、木工製品に対する日本の新政策についてお話しいたします。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no1"
+            },
+            {
+                "no": 2,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Historically, Japan is a major exporter of wood products from around the world.",
+                "ja_sentence": "歴史的に、日本は世界各国から仕入れた木工製品の主要な輸出国です。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no2"
+            },
+            {
+                "no": 3,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Japan sources a lot of their wood from countries like Canada, Malaysia, and Sweden.",
+                "ja_sentence": "日本はカナダ、マレーシア、スウェーデンなどの国々から木材を調達しています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no3"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "But in recent years, the Japanese government has been promoting the use of domestic species like Japanese sugi and hinoki.",
+                "ja_sentence": "しかし、近年、日本政府は杉や檜などの国産種の利用を推進しています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no4"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "In order to promote the domestic species, the government set up a program where you can earn points based on how much domestic wood you use in a new home.",
+                "ja_sentence": "国産種の推進のために、政府は、新築住宅に使用する国産木材の量を基にポイントが得られるプログラムを立ち上げました。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no5"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Yes, go ahead.",
+                "ja_sentence": "はい、どうぞ。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no7"
+            },
+            {
+                "no": 9,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "You can use those points for things like appliances, and gift cards.",
+                "ja_sentence": "ポイントは電気製品やギフトカードと交換できます。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no9"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Some home builders in Japan have used this to their advantage by aggressively promoting houses made with Japanese species.",
+                "ja_sentence": "国産木材でできた住宅を積極的に宣伝することで、このポイント制度を都合よく利用してきた日本の住宅建築業者もあります。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no10"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Yes Boyd?",
+                "ja_sentence": "はい、ボイドさん？",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no11"
+            },
+            {
+                "no": 13,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "I think one of the large home builders is promoting a house made with eighty two percent domestic species.",
+                "ja_sentence": "大手住宅建築業者の一社は、82パーセントが国産木材で作られた家を宣伝しています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no13"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "So with this new trend of using domestic species in Japan, companies in Japan have started to seek new opportunities for it abroad.",
+                "ja_sentence": "国内での、この国産種利用の新しい流行とともに、日本企業は海外にもビジネスチャンスを探し始めました。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no14"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "One of the markets that they have ventured to includes Korea.",
+                "ja_sentence": "彼らが進出を試みた市場のひとつは韓国です。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no15"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Korean companies have been purchasing hinoki for furniture and for bathtubs.",
+                "ja_sentence": "韓国企業は、家具やバスタブ用に檜を購入しています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no16"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "China is another market that Japanese companies have been exploring.",
+                "ja_sentence": "中国は、日本企業が探っているもう一つの市場です。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no17"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Currently, Japan exports logs to China where it will be sawn to lumber.",
+                "ja_sentence": "現在、日本は丸太を中国に輸出し、そこで材木に加工しています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no18"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "The lumber will then be exported elsewhere, like to the United States.",
+                "ja_sentence": "そして、材木はアメリカなどの他国へ輸出されます。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Recently, Japanese lumber has started to establish itself in the US market.",
+                "ja_sentence": "最近、アメリカでは日本産材木の市場ができています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no20"
+            },
+            {
+                "no": 21,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "This is actually not used for houses as new wood species will have to be tested and certified before being used as a construction material.",
+                "ja_sentence": "ただ、新種は建築用として使用される前に試験と認証を受ける必要があるため、こうした材木は住宅用としては利用されていません。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no21"
+            },
+            {
+                "no": 22,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Japanese sugi has been used for fencing in the US market.",
+                "ja_sentence": "日本杉はアメリカ市場ではフェンス用として使用されているのです。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no22"
+            },
+            {
+                "no": 23,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "You have a question, Karim?",
+                "ja_sentence": "カリーム、何か質問がありますか？",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no23"
+            },
+            {
+                "no": 25,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "A lot of the Japanese sugi for the US market is actually going to Texas.",
+                "ja_sentence": "アメリカ向けの日本杉は実はほとんどテキサスへ出荷されています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no25"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Homes in Texas are being built at a record rate and the laws in Texas requires you to have fencing around your home.",
+                "ja_sentence": "テキサス州での住宅は記録的なスピードで建設されていて、テキサス州法では、家の周りにフェンスをつけなくてはいけません。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no26"
+            },
+            {
+                "no": 27,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "So naturally, the demand for fencing is big over there.",
+                "ja_sentence": "ですから自然と、同州でのフェンスの需要が多くなっているわけです。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no27"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Most of the wooden fence used in the US is made of a species called Western Red Cedar.",
+                "ja_sentence": "アメリカで使用されている木製フェンスのほとんどはベイスギと呼ばれる種で作られています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no28"
+            },
+            {
+                "no": 29,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "But as the housing starts in the US is growing rapidly, there is actually a shortage of Western Red Cedar in the market.",
+                "ja_sentence": "しかし、アメリカでの住宅建設が急速に増えているため、実は市場ではベイスギ不足がおきています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no29"
+            },
+            {
+                "no": 30,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Therefore, the Japanese sugi was able to act as an alternative.",
+                "ja_sentence": "そこで、日本杉が代替品となったのです。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no30"
+            },
+            {
+                "no": 31,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Even though it is not as durable, the price is cheaper so people have been using the Japanese sugi over the Western Red Cedar.",
+                "ja_sentence": "日本杉はベイスギほど耐久性はありませんが、価格が安いため、ベイスギの代わりに日本杉を使っています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no31"
+            },
+            {
+                "no": 32,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "The Japanese sugi coming to the US comes from two sources.",
+                "ja_sentence": "日本杉は２つのルートでアメリカに出荷されています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no32"
+            },
+            {
+                "no": 33,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "One is directly from Japan.",
+                "ja_sentence": "ひとつは日本から直接。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no33"
+            },
+            {
+                "no": 34,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "And the other is from China.",
+                "ja_sentence": "そして、もうひとつは中国からです。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no34"
+            },
+            {
+                "no": 35,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "So I mentioned earlier that Japan exports logs to China right?",
+                "ja_sentence": "先ほども申し上げましたが、日本は丸太を中国に輸出していますね。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no35"
+            },
+            {
+                "no": 36,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "The logs are sawn into lumber in China, then exported to the US.",
+                "ja_sentence": "丸太は中国で材木に加工され、アメリカに輸出されます。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no36"
+            },
+            {
+                "no": 37,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "However, there have been complaints from users that the ones from China are not as precisely cut as the ones coming from Japan.",
+                "ja_sentence": "ですが、中国から輸出された材木は日本からのものほど正確にカットされていないという苦情がユーザーから出ています。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no37"
+            },
+            {
+                "no": 38,
+                "en_speaker": "Mr. Sam Lee",
+                "ja_speaker": "サム リーさん",
+                "en_sentence": "Alright, let's take a quick break and we'll continue again in five minutes.",
+                "ja_sentence": "さて、ここで少し休憩にして、5分後に再開しましょう。",
+                "spkid": "190315_E010_07_spk0",
+                "uttid": "190315_E010_07_spk0_no38"
+            }
+        ]
+    }
+]

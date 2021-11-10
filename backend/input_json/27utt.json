@@ -1,0 +1,500 @@
+[
+    {
+        "task_id": "190315_E013_04_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "Thank you for coming on short notice.",
+                "ja_sentence": "急だったのに来てくれて有難う。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no1"
+            },
+            {
+                "no": 3,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "Well, this has been on my mind for quite a while.",
+                "ja_sentence": "実はずっと考えていた事があるんだ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no3"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I have been wanting to take some of my work burden off.",
+                "ja_sentence": "仕事量を少し減らしたいなとずっと思ってたんだよ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no4"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "No, not yet.",
+                "ja_sentence": "そうじゃない。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no6"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I am talking about a merger.",
+                "ja_sentence": "合併について言ってるんだ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no7"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I would not mind sharing some managing responsibilities.",
+                "ja_sentence": "経営責任を共用するのも悪くないなと思うんだ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no8"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "Well, I feel like work is all I have been doing for the last 18 years.",
+                "ja_sentence": "この18年間、ずっと仕事しかしてない気分なんだ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no10"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I have missed so many of my kids' milestones and events.",
+                "ja_sentence": "我が子の成長やイベントもいつも見逃してきたんだよ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no11"
+            },
+            {
+                "no": 12,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I haven't visited my parents for 5 years.",
+                "ja_sentence": "実家には５年も帰省してないし。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no12"
+            },
+            {
+                "no": 13,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "Then my best friend got sick and passed away 6 months ago.",
+                "ja_sentence": "６ヶ月前に親友が病気で亡くなってね。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no13"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "It dawned on me that I need to get my priorities straight in life.",
+                "ja_sentence": "それで、人生で何が大切か優先順位を付けるべきだと気付いたんだ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no14"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "Oh, I completely understand that.",
+                "ja_sentence": "それ位知っているよ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no16"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "That's why I want to merge with Company S.",
+                "ja_sentence": "だからS社と合併しようと考えているんだよ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no17"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "We have been talking about it for a few months over dinners.",
+                "ja_sentence": "ここ数ヶ月、夕食を共にする際に話をしてきてるんだ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "But we haven't had an official talk yet.",
+                "ja_sentence": "でもまだ公式な話はしてない。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no20"
+            },
+            {
+                "no": 21,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I wanted your expert opinion first.",
+                "ja_sentence": "君のプロの意見を聞きたくてね。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no21"
+            },
+            {
+                "no": 23,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "Well, I know they are much bigger than us.",
+                "ja_sentence": "うちより大分規模が大きいのは知っているよ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no23"
+            },
+            {
+                "no": 24,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "And they are expanding their business overseas too.",
+                "ja_sentence": "それと、海外進出している事も。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no24"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I am confident this merger is going to benefit my company.",
+                "ja_sentence": "この合併はうちに利益をもたらしてくれると信じている。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no26"
+            },
+            {
+                "no": 27,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I spent the last 18 years working my tail off day and night.",
+                "ja_sentence": "私は過去１８年間、朝から晩まで必死に働いてきた。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no27"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "My company has been my life.",
+                "ja_sentence": "この会社は私の人生なんだよ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no28"
+            },
+            {
+                "no": 29,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I would not just merge with any company available.",
+                "ja_sentence": "合併可能な会社ならどこでも良いわけじゃない。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no29"
+            },
+            {
+                "no": 30,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "I carefully thought out and decided on Company S.",
+                "ja_sentence": "じっくり考慮して決めたのがS社なんだ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no30"
+            },
+            {
+                "no": 33,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "You are always my right-hand man!",
+                "ja_sentence": "君はそうやっていつも助けてくれるね！",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no33"
+            },
+            {
+                "no": 35,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "Actually I have not told her yet.",
+                "ja_sentence": "実はまだ彼女には伝えてないんだよ。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no35"
+            },
+            {
+                "no": 36,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "This is going to make her happy.",
+                "ja_sentence": "でも喜ぶはず。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no36"
+            },
+            {
+                "no": 37,
+                "en_speaker": "Thomas Walter",
+                "ja_speaker": "トーマス ウォルター",
+                "en_sentence": "She has always complained I put my family on the back burner.",
+                "ja_sentence": "私が家族の事を後回しにしているといつも文句を言ってるから。",
+                "spkid": "190315_E013_04_spk0",
+                "uttid": "190315_E013_04_spk0_no37"
+            }
+        ]
+    },
+    {
+        "task_id": "190315_E012_20_spk1",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 2,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "We're glad to have you on board Jackie.",
+                "ja_sentence": "あなたを迎えられて私達もとても嬉しいです。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no2"
+            },
+            {
+                "no": 3,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Your enthusiasm is a great match for our team.",
+                "ja_sentence": "あなたはこのチームにとてもぴったりの熱意のある人です。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no3"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "So today, we'll be stocking the store.",
+                "ja_sentence": "さて今日はお店でストック作業をします。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no4"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "First we need to get all the clothes on the shelves.",
+                "ja_sentence": "まず、棚にすべての服を上げる必要があります。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no5"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Then we're going to have to put tags on everything.",
+                "ja_sentence": "それから、全部にタグを付けなければなりません。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no6"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "We need to scan the barcodes that are sewn in the products.",
+                "ja_sentence": "商品に縫い付けられているバーコードをスキャンしなければなりません。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no8"
+            },
+            {
+                "no": 9,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "After that, we will attach the appropriate tag with the corresponding pricing.",
+                "ja_sentence": "その後、対応する価格に合っているタグを付けます。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no9"
+            },
+            {
+                "no": 12,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "They're used to encode information in a visual pattern readable by this machine I have in my hand.",
+                "ja_sentence": "視覚的なパターンで情報をコード化して今私が持っているこの機械で読むことが出来るんですよ。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no12"
+            },
+            {
+                "no": 13,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "The most common, the UPC, is linear and made of two parts, the barcode and the 12-digit number",
+                "ja_sentence": "最も一般的なUPCは線形で、2つの部分、バーコードと12桁の数字で構成されています",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no13"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "The first six numbers are the manufacturer’s identification.",
+                "ja_sentence": "最初の6つの数字は製造元の識別番号です。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no14"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "A barcode scanner scans the black and white parts by illuminating the code with a red light.",
+                "ja_sentence": "バーコードスキャナーは、コードを赤色光で照らすことによって黒と白の部分をスキャンします。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no15"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "An analog signal is sent to the decoder.",
+                "ja_sentence": "アナログ信号がデコーダに送信されます。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no16"
+            },
+            {
+                "no": 17,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "The decoder interprets that signal, validates the barcode using the check digit, and converts it into text.",
+                "ja_sentence": "デコーダがその信号を解釈し、チェックディジットを使用してバーコードを検証し、それをテキストに変換します。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no17"
+            },
+            {
+                "no": 18,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "That is how we can easily track our inventory, and what people are buying.",
+                "ja_sentence": "そうやって私達の在庫や、お客様が何を購入しているかを簡単に追跡することが出来るのです。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no18"
+            },
+            {
+                "no": 21,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "I was always curious how they worked, so I just looked it up on the internet one day.",
+                "ja_sentence": "どういう仕組みになっているのかずっと興味があったので、ある日インターネットで調べたんです。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no21"
+            },
+            {
+                "no": 22,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "You're really fast at putting those jackets on the hangers.",
+                "ja_sentence": "あなたはジャケットをハンガーにかけるのが本当に速いですね。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no22"
+            },
+            {
+                "no": 23,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "When you're finished with the jackets, please fold all of the jeans.",
+                "ja_sentence": "ジャケットが終わったら、ジーンズを全部たたんでください。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no23"
+            },
+            {
+                "no": 24,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Make sure to separate men's and women's.",
+                "ja_sentence": "必ず男性用と女性用を分けてください。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no24"
+            },
+            {
+                "no": 25,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "All of the men's items will go on the left side of the store, and the women's will go on the right.",
+                "ja_sentence": "男性用の商品は全部店の左側にあり、女性用の商品は右側にあります。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no25"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Have you ever worked at a store before it has opened?",
+                "ja_sentence": "開店前の店で働いたことはありますか？",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no26"
+            },
+            {
+                "no": 31,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Hopefully they will love it.",
+                "ja_sentence": "気に入るといいですね。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no31"
+            },
+            {
+                "no": 32,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "We opened a Retail Apparel Store A in Seattle last year.",
+                "ja_sentence": "昨年シアトルに小売アパレルストアAをオープンしました。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no32"
+            },
+            {
+                "no": 33,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "It was a lot of hard work, but it paid off.",
+                "ja_sentence": "大変な作業でしたが、その甲斐はありました。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no33"
+            },
+            {
+                "no": 34,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Our Seattle location made the most revenue in 2018.",
+                "ja_sentence": "2018年にはシアトル店が最も収益を上げました。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no34"
+            },
+            {
+                "no": 38,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Well, I definitely recommend that you learn situational leadership.",
+                "ja_sentence": "そうですね、状況的リーダーシップを学ぶことを絶対にお勧めします。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no38"
+            },
+            {
+                "no": 39,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "It's figuring out how to manage each employee.",
+                "ja_sentence": "各従業員を管理する方法を説明していますから。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no39"
+            },
+            {
+                "no": 40,
+                "en_speaker": "Candace",
+                "ja_speaker": "キャンディス",
+                "en_sentence": "Also, you really need to get to know your employees well.",
+                "ja_sentence": "また、従業員をよく知ることは本当に大事です。",
+                "spkid": "190315_E012_20_spk1",
+                "uttid": "190315_E012_20_spk1_no40"
+            }
+        ]
+    }
+]

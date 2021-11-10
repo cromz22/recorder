@@ -1,0 +1,608 @@
+[
+    {
+        "task_id": "190315_J011_09_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "皆さま、こんにちは、カスタマーエクスペリエンス企画課へようこそ。",
+                "en_sentence": "Hello, everyone, welcome to the Customer Experience Promotion Division.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no1"
+            },
+            {
+                "no": 2,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "第一回隔月合同勉強会にご参加いただきありがとうございます。",
+                "en_sentence": "I really appreciate you all for attending our first bimonthly joint workshop.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no2"
+            },
+            {
+                "no": 3,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "この会の進行役を務めさせていただきます、マクマランです。",
+                "en_sentence": "I'm Kyle and I'll be facilitating this meeting.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no3"
+            },
+            {
+                "no": 4,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "皆さまのご期待に添えるよう努力してまいります。",
+                "en_sentence": "I hope that I can meet the expectations you all have on me.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no4"
+            },
+            {
+                "no": 5,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "本日は関連各部門からお一人ずつお集まりいただいております。",
+                "en_sentence": "We have one participant from each relevant department today.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no5"
+            },
+            {
+                "no": 6,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "暫定的ではございますが、このメンバーで隔月こちらに集まっていただきます。",
+                "en_sentence": "Though it's provisional, these members will gather here, once every two months.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no6"
+            },
+            {
+                "no": 7,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "皆さまにはこのワークショップを通して、カスタマーエクスペリエンスについて理解を深めていただきます。",
+                "en_sentence": "Through the workshops, you will get a better understanding of customer experience.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no7"
+            },
+            {
+                "no": 8,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "同時に、新たなマーケティング・アプローチに関して協議してまいります。",
+                "en_sentence": "At the same time, we'll talk about new marketing approaches together.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no8"
+            },
+            {
+                "no": 9,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "この会を部門間での意見交換の場にしていきましょう。",
+                "en_sentence": "Let's make this gathering a place where we can have interdivisional discussions.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no9"
+            },
+            {
+                "no": 10,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "また、各自このワークショップから得られるものがあれば幸いです。",
+                "en_sentence": "And I hope each of you will find something out of the workshops.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no10"
+            },
+            {
+                "no": 11,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "皆さま、どうぞよろしくお願いいたします。",
+                "en_sentence": "I'm looking forward to working with you all!",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no11"
+            },
+            {
+                "no": 13,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "お心配り、ありがとうございます。",
+                "en_sentence": "Thank you for your thoughtfulness.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no13"
+            },
+            {
+                "no": 14,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "お久しぶりですね、海棠部長。",
+                "en_sentence": "It's good to see you again, Kiichi.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no14"
+            },
+            {
+                "no": 16,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "カスタマーエクスペリエンスは略して「CX」ともいわれます。",
+                "en_sentence": "Customer Experience is also called \"CX\" for short.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no16"
+            },
+            {
+                "no": 17,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ですので、「シーエックス企画」、もしくは「CX」と呼んでいただいても結構です。",
+                "en_sentence": "So you can call us \"CX Promotion,\" or \"CX\" if you like.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no17"
+            },
+            {
+                "no": 21,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "はい、大野さん、遅れる旨伺っております。",
+                "en_sentence": "Yes, Mamoru, I've received your message that you were going to be late.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no21"
+            },
+            {
+                "no": 22,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "どうぞお入りください。",
+                "en_sentence": "Please come on in.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no22"
+            },
+            {
+                "no": 23,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "あちらのお席へどうぞ。",
+                "en_sentence": "Go ahead and have a seat over there, please.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no23"
+            },
+            {
+                "no": 26,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "では再開いたします。",
+                "en_sentence": "Okay, let's get back to where we were at.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no26"
+            },
+            {
+                "no": 27,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "まず、簡単に私共CX企画課の説明をさせていただきます。",
+                "en_sentence": "Now, first of all, I'll tell you about our division briefly.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no27"
+            },
+            {
+                "no": 28,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "CX企画課は旧広告宣伝課です。",
+                "en_sentence": "The CX Promotion Division is the former Advertising Division.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no28"
+            },
+            {
+                "no": 29,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "改名してマーケティング部門の一課として新たに設置されました。",
+                "en_sentence": "It's renamed and set up as a new unit under the Marketing Department.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no29"
+            },
+            {
+                "no": 30,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ただし、CX企画課は旧広告宣伝課に広報と事業企画部、IT推進室の一部を再編したものです。",
+                "en_sentence": "However, CX Promotion Division is established by restructuring some parts of the PR, Business Planning Department and IT Promotion Office.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no30"
+            },
+            {
+                "no": 31,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "そのため、我々は全く新しい課であるとお考えください。",
+                "en_sentence": "Therefore, please consider us as a completely new one.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no31"
+            },
+            {
+                "no": 32,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "この課の目的は２つです。",
+                "en_sentence": "There are two purposes of this division.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no32"
+            },
+            {
+                "no": 33,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "顧客体験を可視化する事で我社全体で顧客理解を深める事。",
+                "en_sentence": "To visualize our customers' experiences, in order to provide the entire company in-depth understanding of the customers.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no33"
+            },
+            {
+                "no": 34,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "そして、顧客目線のマーケティング戦略を打ち出す事。",
+                "en_sentence": "And to map out customer-centric marketing strategies.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no34"
+            },
+            {
+                "no": 35,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "これらのゴールを達成すべく設置されました。",
+                "en_sentence": "We are here to achieve these goals.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no35"
+            },
+            {
+                "no": 36,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ご静聴ありがとうございました。",
+                "en_sentence": "Thank you very much for listening.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no36"
+            },
+            {
+                "no": 37,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ここからは時間の関係上、詳細を割愛させていただきます。",
+                "en_sentence": "Let me skip the details from here due to time constraints.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no37"
+            },
+            {
+                "no": 38,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "只今ご説明しました概略の詳細内容については、皆さまに届いております資料に記載されております。",
+                "en_sentence": "More information of what I've just roughly explained is in the document you've already received.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no38"
+            },
+            {
+                "no": 39,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "先週お送りした添付「カスタマーエクスペリエンス企画部について」です。",
+                "en_sentence": "It's an attached file sent last week called \"About the Customer Experience Promotion Division.\"",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no39"
+            },
+            {
+                "no": 40,
+                "ja_speaker": "マクマラン 海瑠",
+                "en_speaker": "McMalan Kyle",
+                "ja_sentence": "ご興味のある方はそちらのPDF資料をご参照ください。",
+                "en_sentence": "Please refer to the PDF file If you're interested.",
+                "spkid": "190315_J011_09_spk0",
+                "uttid": "190315_J011_09_spk0_no40"
+            }
+        ]
+    },
+    {
+        "task_id": "190329_E03_02_spk0",
+        "set": "train",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Good morning everyone.",
+                "ja_sentence": "皆さん、おはようございます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no1"
+            },
+            {
+                "no": 2,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "I'd like to thank all of you for taking time out of your busy schedules today.",
+                "ja_sentence": "本日は、お忙しい中、時間を割いていただきありがとうございます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no2"
+            },
+            {
+                "no": 3,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Today's assembly is to outline emergency procedure for an active shooter situation here at Tech Company A.",
+                "ja_sentence": "本日の集会は、射撃犯が現れた際のテックA社での緊急手順の概要についてです。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no3"
+            },
+            {
+                "no": 4,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "In the event of an emergency, always call 911.",
+                "ja_sentence": "緊急の場合は、必ず911に電話してください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no4"
+            },
+            {
+                "no": 5,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If a hostile intruder or active shooter is outside your building, get inside a room that can be locked.",
+                "ja_sentence": "敵意のある侵入者または射撃犯があなたの建物の外にいる場合は、施錠できる部屋の中に入ってください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no5"
+            },
+            {
+                "no": 6,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Close and lock all windows.",
+                "ja_sentence": "すべての窓を閉めてロックします。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no6"
+            },
+            {
+                "no": 7,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Turn off the lights.",
+                "ja_sentence": "消灯します。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no7"
+            },
+            {
+                "no": 8,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Get everyone down on the floor so no one is visible from outside of the room.",
+                "ja_sentence": "誰も部屋の外から見えないように、全員を床に座らせます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no8"
+            },
+            {
+                "no": 9,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Call 911 and answer the dispatcher's questions.",
+                "ja_sentence": "911に電話してオペレーターの質問に答えます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no9"
+            },
+            {
+                "no": 10,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Do not answer the attacker if they begin to talk to you or make demands.",
+                "ja_sentence": "犯人があなたに話しかけたり要求したりして来た場合は、何も答えないでください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no10"
+            },
+            {
+                "no": 11,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Stay in place until the police arrives.",
+                "ja_sentence": "警察が到着するまでその場に留まってください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no11"
+            },
+            {
+                "no": 12,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Yes, you up front with your hand up, did you have a question?",
+                "ja_sentence": "はい、１番前で手を上げている方、何か質問ですか？",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no12"
+            },
+            {
+                "no": 14,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "The specific situation and location matters.",
+                "ja_sentence": "状況と場所によって対応は違ってきます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no14"
+            },
+            {
+                "no": 15,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "In this case, since the shooter is outside, the first place he is going to be are the doors.",
+                "ja_sentence": "この場合、射撃犯は外にいるので、彼が最初に現れる場所はドアです。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no15"
+            },
+            {
+                "no": 16,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "The most important thing is to remember to either run, hide or fight.",
+                "ja_sentence": "最も重要なことは、逃げる、隠れる、戦うことを忘れないことです。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no16"
+            },
+            {
+                "no": 19,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Unfortunately, it could.",
+                "ja_sentence": "残念ながら、可能性はあります。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no19"
+            },
+            {
+                "no": 20,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If a shooter is inside, the first thing you should do is exit if it is safe.",
+                "ja_sentence": "射撃犯が中にいるならば、まず最初に安全を確認して外へ出てください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no20"
+            },
+            {
+                "no": 21,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Notify anyone you may encounter that they should exit the building immediately.",
+                "ja_sentence": "もしも誰かに遭遇した場合は直ちに建物を出るべきであることを知らせてください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no21"
+            },
+            {
+                "no": 22,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Call 911 and answer the dispatcher's questions.",
+                "ja_sentence": "911に電話してオペレーターの質問に答えます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no22"
+            },
+            {
+                "no": 23,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If exiting the building is not possible, hide in a room with a lock and door if one is available.",
+                "ja_sentence": "建物から出ることが不可能な場合は、鍵とドアがある部屋があればそこに隠れます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no23"
+            },
+            {
+                "no": 25,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Police officers responding to an active shooter situation proceed immediately to the area in which shots were last heard.",
+                "ja_sentence": "射撃犯に対応している警察官は、まず射撃が最後に聞こえたエリアに進みます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no25"
+            },
+            {
+                "no": 26,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Their purpose is to stop the shooting as quickly as possible.",
+                "ja_sentence": "彼らの目的はできるだけ早く射撃を止めることです。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no26"
+            },
+            {
+                "no": 27,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "The first officers to arrive will not stop to aid injured people.",
+                "ja_sentence": "最初に到着した警察官が負傷者を救助するために立ち止まることはありません。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no27"
+            },
+            {
+                "no": 28,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Rescue teams composed of other officers and emergency medical personnel will follow after areas have been secured.",
+                "ja_sentence": "エリアの安全が確保された後、他の警察官と救急医療要員で構成される救助隊が後へ続きます。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no28"
+            },
+            {
+                "no": 29,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Understand that the police will be treating all those they encounter as possible suspects.",
+                "ja_sentence": "警察は彼らが遭遇するすべての人を被疑者として扱いますからそれを理解しておく事。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no29"
+            },
+            {
+                "no": 30,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "You must remain calm.",
+                "ja_sentence": "落ち着いて行動してください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no30"
+            },
+            {
+                "no": 31,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Do as the officers tell you.",
+                "ja_sentence": "警察官の指示に従ってください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no31"
+            },
+            {
+                "no": 32,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Put down bags or packages you may be carrying.",
+                "ja_sentence": "もしもバッグやパッケージを持っていたら置いてください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no32"
+            },
+            {
+                "no": 33,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Keep your hands up and visible at all times.",
+                "ja_sentence": "常に手を挙げて目に見えるようにしてください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no33"
+            },
+            {
+                "no": 34,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "If you know where the active shooter is, tell the officers.",
+                "ja_sentence": "射撃犯がどこにいるか知っていたら、警察官に伝えてください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no34"
+            },
+            {
+                "no": 35,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Once out of harm's way, remain at whatever assembly point authorities designate.",
+                "ja_sentence": "危険から逃れたら、当局の指定するいずれかの集会場所に留まってください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no35"
+            },
+            {
+                "no": 36,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Do not leave until you have been interviewed and released.",
+                "ja_sentence": "取り調べを受けて釈放されるまで立ち去らないでください。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no36"
+            },
+            {
+                "no": 39,
+                "en_speaker": "Stan",
+                "ja_speaker": "スタン",
+                "en_sentence": "Everything is on our website on the emergency info page.",
+                "ja_sentence": "私たちのウェブサイトの緊急情報ページに全部あります。",
+                "spkid": "190329_E03_02_spk0",
+                "uttid": "190329_E03_02_spk0_no39"
+            }
+        ]
+    }
+]
