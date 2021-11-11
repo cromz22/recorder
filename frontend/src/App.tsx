@@ -24,11 +24,7 @@ const NoMatch = () => {
 
 const App = () => {
   return (
-    <Router
-      basename={
-        process.env.NODE_ENV === "development" ? "" : process.env.PUBLIC_URL
-      }
-    >
+    <Router>
       <Switch>
         <Route exact path="/finished/:lang/:nutt/:taskId">
           <Finished />

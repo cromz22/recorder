@@ -6,7 +6,9 @@ import json
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "localhost:3000"]
+with open("app/config.json") as f:
+    origins = json.load(f)["origins"]
+
 
 app.add_middleware(
     CORSMiddleware,

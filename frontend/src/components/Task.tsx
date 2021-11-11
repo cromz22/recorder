@@ -6,6 +6,7 @@ import Form from "react-bootstrap/Form";
 import RecordTable from "./RecordTable";
 import Description from "./Description";
 import { inputJsonType, inputUtteranceType, outputJsonType } from "./Types";
+import configJson from "../config.json";
 
 const Task = () => {
   const [agreed, setAgreed] = useState(false);
@@ -13,8 +14,9 @@ const Task = () => {
   const { lang, nutt, taskId } =
     useParams<{ lang: string; nutt: string; taskId: string }>();
 
-  const getJsonUrl = "http://localhost:8000/get-input-json";
-  const saveAudioUrl = "http://localhost:8000/save-audio";
+  const backendUrl = configJson["backendUrl"];
+  const getJsonUrl = `${backendUrl}/get-input-json`;
+  const saveAudioUrl = `${backendUrl}/save-audio`;
 
   const initialInputJson: inputJsonType = {
     task_id: "",
